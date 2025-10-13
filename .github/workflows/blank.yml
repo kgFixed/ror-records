@@ -32,18 +32,35 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo "📁 Structure du repository:"
-          find . -name "*.json" -type f | head -20
-          
+          echo "📁 Fichiers JSON par version (premiers affichés):"
           echo ""
-          echo "📊 Statistiques:"
-          echo "Total fichiers JSON: $(find . -name "*.json" -type f | wc -l)"
           
-          echo ""
-          echo "🔍 Détails par version:"
-          for version in $(find . -maxdepth 1 -name "v*" -type d | sort); do
-            if [ -d "$version" ]; then
-              count=$(find "$version" -name "*.json" -type f | wc -l)
-              echo "  $version: $count fichiers JSON"
+          for version in $(ls -d v* 2>/dev/null | sort -V); do
+            echo "🎯 $version:"
+            echo "────────────────────────────────────"
+            
+            files=("$version"/*.json)
+            total_files=${#files[@]}
+            
+            if [ $total_files -eq 0 ]; then
+              echo "  ❌ Aucun fichier JSON"
+            else
+              echo "  📊 Total: $total_files fichiers"
+              echo ""
+              
+              # Afficher seulement les 10 premiers fichiers
+              for i in "${!files[@]}"; do
+                if [ $i -lt 10 ]; then
+                  filename=$(basename "${files[$i]}")
+                  echo "  📄 $filename"
+                fi
+              done
+              
+              if [ $total_files -gt 10 ]; then
+                echo "  ... et $(($total_files - 10)) autres fichiers"
+              fi
             fi
+            
+            echo ""
+            echo ""
           done
