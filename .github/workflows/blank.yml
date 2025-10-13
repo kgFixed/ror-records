@@ -32,18 +32,15 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo "📁 Fichiers JSON par version avec dates:"
+          echo "📁 Fichiers JSON par version:"
           echo ""
           
           for version in $(ls -d v* 2>/dev/null | sort -V); do
-            echo "🎯 $version:"
-            echo "────────────────────────────────────"
+            # Date de modification du dossier
+            version_date=$(stat -c %y "$version" 2>/dev/null | cut -d' ' -f1 || echo "?")
             
-            # Récupérer la date de création du dossier
-            if [ -d "$version" ]; then
-              creation_date=$(stat -c %y "$version" | cut -d' ' -f1 2>/dev/null || echo "Date inconnue")
-              echo "  📅 Création: $creation_date"
-            fi
+            echo "🎯 $version (📅 $version_date):"
+            echo "────────────────────────────────────"
             
             files=("$version"/*.json)
             total_files=${#files[@]}
@@ -54,7 +51,6 @@ jobs:
               echo "  📊 Total: $total_files fichiers"
               echo ""
               
-              # Afficher seulement les 10 premiers fichiers
               for i in "${!files[@]}"; do
                 if [ $i -lt 10 ]; then
                   filename=$(basename "${files[$i]}")
@@ -67,6 +63,5 @@ jobs:
               fi
             fi
             
-            echo ""
             echo ""
           done
