@@ -26,29 +26,13 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a set of commands using the runners shell
-      - name: Debug v1.56 specifically
+      - name: Get dates JQ FORCE
         run: |
-          echo "🔍 DEBUG SPECIFIQUE pour v1.56"
-          echo "==============================="
-          
-          version="v1.57"
-          
-          # 1. Test de l'URL exacte
-          echo "1. URL testée:"
-          echo "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version"
-          echo ""
-          
-          # 2. Requête complète avec tous les headers
-          echo "2. Réponse complète:"
-          curl -i -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version"
-          echo ""
-          
-          # 3. Juste le body
-          echo "3. Body seulement:"
-          curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version"
-          echo ""
-          
-          # 4. Test avec un user-agent
-          echo "4. Avec User-Agent:"
-          curl -s -H "User-Agent: MyApp" "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version"
-          echo ""
+          for v in v1.56 v1.57 v1.58 v1.59; do
+            echo -n "$v: "
+            response=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$v")
+            
+            # Force jq à extraire created_at coûte que coûte
+            date=$(echo "$response" | jq -r '.created_at? // .created_at // "NOT_FOUND"')
+            echo "$date"
+          done
