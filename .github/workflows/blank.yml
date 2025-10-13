@@ -85,16 +85,19 @@ jobs:
           cat json/releases.json
       
       - name: Commit and push releases.json
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          echo "🚀 Commit et push du fichier releases.json..."
+          echo "🚀 Commit et push avec PAT..."
           
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          git add json/releases.json
-          git status
+          # Configurer l'URL avec le token
+          git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
           
-          # Committer seulement s'il y a des changements
+          git add json/releases.json
+          
           if git diff --staged --quiet; then
             echo "⏭️  Aucun changement à commiter"
           else
