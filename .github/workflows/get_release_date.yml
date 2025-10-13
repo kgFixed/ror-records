@@ -26,15 +26,8 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a set of commands using the runners shell
-      - name: Get release dates
+      - name: Get dates
         run: |
-          echo "📅 Récupération des dates de création par release..."
-          echo ""
-          
-          for version in $(ls -d v* 2>/dev/null | sort -V); do
-            # Appel API direct
-            response=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version")
-            created_at=$(echo "$response" | jq -r '.created_at // "NON_TROUVÉ"')
-            
-            echo "$version: $created_at"
+          for v in $(ls -d v* | sort -V); do
+            curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$v" | jq -r ". | \"$v: \(.created_at)\""
           done
