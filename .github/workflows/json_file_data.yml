@@ -13,26 +13,56 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  check-diff:
+    name: 🔍 Vérification des différences
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    outputs:
+      has_changes: ${{ steps.check.outputs.has_changes }}
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
-      # - name: Run a one-line script
-      #   run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Generate releases info from UPDATES only
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Check for differences
+        id: check
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          echo "🔍 Vérification des différences..."
+          
+          sudo apt-get update && sudo apt-get install -y jq
+          mkdir -p json
+          
+          if [ ! -f "json/releases.json" ]; then
+            echo "📄 Aucun fichier existant - changements nécessaires"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          # Vérification rapide du nombre de versions
+          local_versions=$(ls -d v* 2>/dev/null | wc -l)
+          existing_versions=$(jq 'length' json/releases.json 2>/dev/null || echo "0")
+          
+          if [ "$local_versions" -ne "$existing_versions" ]; then
+            echo "🔄 Différence détectée: $local_versions vs $existing_versions versions"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "✅ Aucune différence détectée"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+  generate-releases:
+    name: 📁 Génération des releases
+    needs: check-diff
+    if: needs.check-diff.outputs.has_changes == 'true'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Generate releases JSON
         run: |
           echo "📁 Génération du JSON basé sur ror-updates uniquement..."
           
@@ -111,3 +141,12 @@ jobs:
             git push
             echo "✅ Fichier json/releases.json commité et poussé"
           fi
+
+  no-changes:
+    name: ⏭️ Aucun changement
+    needs: check-diff
+    if: needs.check-diff.outputs.has_changes == 'false'
+    runs-on: ubuntu-latest
+    steps:
+      - name: No changes message
+        run: echo "✅ Aucune différence - Pas d'action nécessaire"
