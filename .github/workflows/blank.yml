@@ -30,33 +30,49 @@ jobs:
       #   run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: Generate releases info JSON
+      - name: Generate complete releases info JSON
         run: |
-          echo "📁 Génération du JSON des releases (version sécurisée)..."
+          echo "📁 Génération du JSON complet des releases..."
           
           sudo apt-get update && sudo apt-get install -y jq
           
           echo '{}' > releases_info.json
           
           for version in $(ls -d v* 2>/dev/null | sort -V); do
-            echo "🔹 Traitement de $version"
+            echo "🎯 Traitement de $version..."
             
-            # Récupération sécurisée de la date
-            release_date=""
-            if release_info=$(curl -s -f "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version" 2>/dev/null); then
-              release_date=$(echo "$release_info" | jq -r '.created_at // empty' 2>/dev/null)
-            fi
+            # Version SIMPLIFIÉE et CORRECTE
+            release_info=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version")
+            release_date=$(echo "$release_info" | jq -r '.created_at' 2>/dev/null)
             
-            # Compter les fichiers JSON
-            count=0
+            # Debug pour voir ce qui est récupéré
+            echo "  🔹 API raw: $(echo "$release_info" | jq -r '.created_at' 2>/dev/null)"
+            echo "  🔹 release_date: $release_date"
+            
+            # Récupérer tous les noms de fichiers JSON
+            ror_ids=()
             if [ -d "$version" ]; then
-              count=$(find "$version" -name "*.json" -type f | wc -l)
+              for file in "$version"/*.json; do
+                if [ -f "$file" ]; then
+                  ror_id=$(basename "$file" .json)
+                  ror_ids+=("$ror_id")
+                fi
+              done
             fi
             
-            # Mise à jour simple du JSON
-            jq --arg v "$version" --arg d "$release_date" --argjson c "$count" \
-               '.[$v] = {created_at: $d, count: $c}' releases_info.json > temp.json && mv temp.json releases_info.json
+            # Mettre à jour le JSON - version robuste
+            jq --arg version "$version" \
+               --arg date "$release_date" \
+               --argjson ids "$(printf '%s\n' "${ror_ids[@]}" | jq -R . | jq -s .)" \
+               '.[$version] = {
+                 created_at: $date,
+                 ror_ids: $ids,
+                 count: ($ids | length)
+               }' releases_info.json > temp.json && mv temp.json releases_info.json
+            
+            echo "  ✅ $version traité"
           done
           
-          echo "✅ Fichier généré avec succès!"
-          cat releases_info.json
+          echo ""
+          echo "📊 Vérification du résultat:"
+          jq '.[] | select(.created_at == null) | "Version sans date: \(.count) fichiers"' releases_info.json
