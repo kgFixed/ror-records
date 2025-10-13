@@ -41,6 +41,7 @@ jobs:
           # Créer le dossier json s'il n'existe pas
           mkdir -p json
           echo '{}' > json/releases.json
+          echo '{}' > temp_all_releases.json
           
           processed=0
           skipped=0
@@ -69,13 +70,14 @@ jobs:
                --arg d "$release_date" \
                --argjson i "$(printf '%s\n' "${ror_ids[@]}" | jq -R . | jq -s .)" \
                '.[$v] = {created_at: $d, ror_ids: $i, count: ($i | length)}' \
-               json/releases.json > temp.json && mv temp.json json/releases.json
+               temp_all_releases.json > temp_single.json && mv temp_single.json temp_all_releases.json
             
             echo "  ✅ $version: ${#ror_ids[@]} fichiers"
             processed=$((processed + 1))
           done
 
-          jq 'to_entries | sort_by(.value.created_at) | from_entries' temp_all_releases.json > json/releases.json
+          # Lire le fichier temporaire et écrire dans le fichier final
+          jq 'to_entries | sort_by(.value.created_at) | reverse | from_entries' temp_all_releases.json > json/releases.json
           
           # echo ""
           # echo "📊 Résumé:"
