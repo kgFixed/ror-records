@@ -35,21 +35,29 @@ jobs:
           echo "📁 Fichiers JSON par version avec dates des releases:"
           echo ""
           
+          # Installer jq pour parser le JSON
           sudo apt-get update && sudo apt-get install -y jq
           
-          # Récupérer toutes les releases en une seule requête
-          all_releases=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases")
+          # Récupérer toutes les releases
+          releases_json=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases")
           
           for version in $(ls -d v* 2>/dev/null | sort -V); do
             echo "🎯 $version:"
             echo "────────────────────────────────────"
             
-            # Chercher la release dans la liste
-            release_date=$(echo "$all_releases" | jq -r ".[] | select(.tag_name == \"$version\") | .created_at" 2>/dev/null)
+            # Utiliser jq pour extraire la date de façon précise
+            release_date=$(echo "$releases_json" | jq -r ".[] | select(.tag_name == \"$version\") | .created_at" 2>/dev/null)
             
             if [ -n "$release_date" ] && [ "$release_date" != "null" ]; then
               formatted_date=$(echo "$release_date" | cut -d'T' -f1)
               echo "  📅 Date de release: $formatted_date"
+              
+              # Récupérer aussi la date de publication si disponible
+              published_at=$(echo "$releases_json" | jq -r ".[] | select(.tag_name == \"$version\") | .published_at" 2>/dev/null)
+              if [ -n "$published_at" ] && [ "$published_at" != "null" ]; then
+                pub_date=$(echo "$published_at" | cut -d'T' -f1)
+                echo "  🚀 Date de publication: $pub_date"
+              fi
             else
               echo "  📅 Date: Release non trouvée"
             fi
