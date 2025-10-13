@@ -36,53 +36,69 @@ jobs:
           
           sudo apt-get update && sudo apt-get install -y jq
           
-          echo '{}' > releases_info.json
+          # Créer le dossier json s'il n'existe pas
+          mkdir -p json
+          echo '{}' > json/releases.json
           
-          # Ne traiter que les versions qui existent dans ror-updates ET dans notre repo local
+          processed=0
+          skipped=0
+          
           for version in $(ls -d v* 2>/dev/null | sort -V); do
-            # Tester si cette version existe dans ror-updates via l'API spécifique
             echo "🔍 Vérification de $version..."
             api_response=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version")
             
-            # Vérifier si la version existe (pas de message "Not Found")
-            if echo "$api_response" | jq -e '.message' > /dev/null 2>&1; then
-              error_message=$(echo "$api_response" | jq -r '.message')
-              if [ "$error_message" = "Not Found" ]; then
-                echo "⏭️  Skipping $version (absente de ror-updates)"
-                continue
-              fi
+            if echo "$api_response" | jq -e '.message == "Not Found"' > /dev/null 2>&1; then
+              echo "⏭️  Skipping $version (absente de ror-updates)"
+              skipped=$((skipped + 1))
+              continue
             fi
             
-            # Si on arrive ici, la version existe dans ror-updates
-            echo "🎯 Traitement de $version (présente dans ror-updates)..."
-            
-            # Récupérer la date depuis la réponse API
+            echo "🎯 Traitement de $version..."
             release_date=$(echo "$api_response" | jq -r '.created_at')
             
-            # Récupérer les IDs ROR
             ror_ids=()
             if [ -d "$version" ] && [ "$(ls -A "$version"/*.json 2>/dev/null)" ]; then
               for file in "$version"/*.json; do
-                if [ -f "$file" ]; then
-                  ror_id=$(basename "$file" .json)
-                  ror_ids+=("$ror_id")
-                fi
+                [ -f "$file" ] && ror_ids+=("$(basename "$file" .json)")
               done
             fi
             
-            # Mettre à jour le JSON
-            jq --arg version "$version" \
-               --arg date "$release_date" \
-               --argjson ids "$(printf '%s\n' "${ror_ids[@]}" | jq -R . | jq -s .)" \
-               '.[$version] = {
-                 created_at: $date,
-                 ror_ids: $ids,
-                 count: ($ids | length)
-               }' releases_info.json > temp.json && mv temp.json releases_info.json
+            jq --arg v "$version" \
+               --arg d "$release_date" \
+               --argjson i "$(printf '%s\n' "${ror_ids[@]}" | jq -R . | jq -s .)" \
+               '.[$v] = {created_at: $d, ror_ids: $i, count: ($i | length)}' \
+               json/releases.json > temp.json && mv temp.json json/releases.json
             
-            echo "  ✅ $version: ${#ror_ids[@]} fichiers, date: $release_date"
+            echo "  ✅ $version: ${#ror_ids[@]} fichiers"
+            processed=$((processed + 1))
           done
           
           echo ""
-          echo "📊 Résumé final (uniquement les releases de ror-updates):"
-          jq 'to_entries | map("\(.key): \(.value.count) fichiers") | .[]' releases_info.json
+          echo "📊 Résumé:"
+          echo "  - ✅ Traitées: $processed versions"
+          echo "  - ⏭️  Ignorées: $skipped versions"
+          echo "  - 📁 Fichier: json/releases.json"
+          
+          # Afficher le contenu du fichier généré
+          echo ""
+          echo "📄 Contenu de json/releases.json:"
+          cat json/releases.json
+      
+      - name: Commit and push releases.json
+        run: |
+          echo "🚀 Commit et push du fichier releases.json..."
+          
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          git add json/releases.json
+          git status
+          
+          # Committer seulement s'il y a des changements
+          if git diff --staged --quiet; then
+            echo "⏭️  Aucun changement à commiter"
+          else
+            git commit -m "Update releases.json with ROR versions data"
+            git push
+            echo "✅ Fichier json/releases.json commité et poussé"
+          fi
