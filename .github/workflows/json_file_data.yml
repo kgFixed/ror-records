@@ -39,12 +39,34 @@ jobs:
             exit 0
           fi
           
-          # Vérification rapide du nombre de versions
-          local_versions=$(ls -d v* 2>/dev/null | wc -l)
-          existing_versions=$(jq 'length' json/releases.json 2>/dev/null || echo "0")
+          # Compter les versions VALIDES (sans les 404)
+          echo "🔄 Comptage des versions valides via l'API..."
+          valid_versions_count=0
           
-          if [ "$local_versions" -ne "$existing_versions" ]; then
-            echo "🔄 Différence détectée: $local_versions vs $existing_versions versions"
+          for version in $(ls -d v* 2>/dev/null); do
+            # Tester si la version existe dans l'API
+            http_code=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: token $GH_TOKEN" \
+                            "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version")
+            
+            if [ "$http_code" -eq 200 ]; then
+              valid_versions_count=$((valid_versions_count + 1))
+            elif [ "$http_code" -eq 404 ]; then
+              echo "  ⏭️  $version: 404 - Exclue du comptage"
+            else
+              echo "  ⚠️  $version: HTTP $http_code - Inclue par défaut"
+              valid_versions_count=$((valid_versions_count + 1))
+            fi
+          done
+          
+          # Compter les versions dans le fichier existant
+          existing_versions_count=$(jq 'length' json/releases.json 2>/dev/null || echo "0")
+          
+          echo "📊 Comparaison:"
+          echo "  - Versions valides (API): $valid_versions_count"
+          echo "  - Versions dans le fichier: $existing_versions_count"
+          
+          if [ "$valid_versions_count" -ne "$existing_versions_count" ]; then
+            echo "🔄 Différence détectée"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           else
             echo "✅ Aucune différence détectée"
