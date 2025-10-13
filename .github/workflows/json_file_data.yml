@@ -45,7 +45,7 @@ jobs:
           processed=0
           skipped=0
           
-          for version in $(ls -d v* 2>/dev/null | sort -V); do
+          for version in $(ls -d v* 2>/dev/null); do
             echo "🔍 Vérification de $version..."
            api_response=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version")
             
