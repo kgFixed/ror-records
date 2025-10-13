@@ -74,17 +74,19 @@ jobs:
             echo "  ✅ $version: ${#ror_ids[@]} fichiers"
             processed=$((processed + 1))
           done
+
+          jq 'to_entries | sort_by(.value.created_at) | from_entries' temp_all_releases.json > json/releases.json
           
-          echo ""
-          echo "📊 Résumé:"
-          echo "  - ✅ Traitées: $processed versions"
-          echo "  - ⏭️  Ignorées: $skipped versions"
-          echo "  - 📁 Fichier: json/releases.json"
+          # echo ""
+          # echo "📊 Résumé:"
+          # echo "  - ✅ Traitées: $processed versions"
+          # echo "  - ⏭️  Ignorées: $skipped versions"
+          # echo "  - 📁 Fichier: json/releases.json"
           
-          # Afficher le contenu du fichier généré
-          echo ""
-          echo "📄 Contenu de json/releases.json:"
-          cat json/releases.json
+          # # Afficher le contenu du fichier généré
+          # echo ""
+          # echo "📄 Contenu de json/releases.json:"
+          # cat json/releases.json
       
       - name: Commit and push releases.json
         env:
