@@ -35,33 +35,24 @@ jobs:
           echo "📁 Fichiers JSON par version avec dates des releases:"
           echo ""
           
+          # Installer jq pour parser le JSON
           sudo apt-get update && sudo apt-get install -y jq
           
           for version in $(ls -d v* 2>/dev/null | sort -V); do
             echo "🎯 $version:"
             echo "────────────────────────────────────"
             
-            # Utiliser l'API spécifique avec gestion d'erreur
-            api_url="https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version"
-            release_info=$(curl -s -f "$api_url")
+            # Utiliser l'API spécifique pour chaque release
+            release_info=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version")
             
-            if [ $? -eq 0 ] && [ -n "$release_info" ]; then
-              release_date=$(echo "$release_info" | jq -r '.created_at' 2>/dev/null)
-              
-              if [ -n "$release_date" ] && [ "$release_date" != "null" ]; then
-                formatted_date=$(echo "$release_date" | cut -d'T' -f1)
-                echo "  📅 Date de release: $formatted_date"
-                
-                published_at=$(echo "$release_info" | jq -r '.published_at' 2>/dev/null)
-                if [ -n "$published_at" ] && [ "$published_at" != "null" ]; then
-                  pub_date=$(echo "$published_at" | cut -d'T' -f1)
-                  echo "  🚀 Date de publication: $pub_date"
-                fi
-              else
-                echo "  📅 Date: Champ created_at non trouvé dans la réponse"
-              fi
+            # Utiliser jq pour extraire la date de création
+            release_date=$(echo "$release_info" | jq -r '.created_at' 2>/dev/null)
+            
+            if [ -n "$release_date" ] && [ "$release_date" != "null" ]; then
+              formatted_date=$(echo "$release_date" | cut -d'T' -f1)
+              echo "  📅 Date de création: $formatted_date"
             else
-              echo "  📅 Date: Release non trouvée (erreur 404 ou autre)"
+              echo "  📅 Date: Release non trouvée"
             fi
             
             files=("$version"/*.json)
