@@ -26,11 +26,24 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      # - name: Run a one-line script
+      #   run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo "📁 Structure du repository:"
+          find . -name "*.json" -type f | head -20
+          
+          echo ""
+          echo "📊 Statistiques:"
+          echo "Total fichiers JSON: $(find . -name "*.json" -type f | wc -l)"
+          
+          echo ""
+          echo "🔍 Détails par version:"
+          for version in $(find . -maxdepth 1 -name "v*" -type d | sort); do
+            if [ -d "$version" ]; then
+              count=$(find "$version" -name "*.json" -type f | wc -l)
+              echo "  $version: $count fichiers JSON"
+            fi
+          done
