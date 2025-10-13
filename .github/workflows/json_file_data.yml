@@ -31,6 +31,8 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Generate releases info from UPDATES only
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           echo "📁 Génération du JSON basé sur ror-updates uniquement..."
           
@@ -45,7 +47,7 @@ jobs:
           
           for version in $(ls -d v* 2>/dev/null | sort -V); do
             echo "🔍 Vérification de $version..."
-            api_response=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version")
+           api_response=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version")
             
             if echo "$api_response" | jq -e '.message == "Not Found"' > /dev/null 2>&1; then
               echo "⏭️  Skipping $version (absente de ror-updates)"
