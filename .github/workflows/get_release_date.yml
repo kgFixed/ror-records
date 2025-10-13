@@ -26,39 +26,29 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a set of commands using the runners shell
-      - name: Test only problematic versions
+      - name: Get dates with token and rate limit check
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          echo "🎯 TEST DES VERSIONS PROBLÉMATIQUES SEULEMENT"
-          echo "============================================"
+          echo "🔑 AVEC TOKEN + VÉRIFICATION RATE LIMIT"
+          echo "======================================"
           
-          problematic_versions="v1.56 v1.57 v1.58 v1.59 v1.60 v1.61 v1.62 v1.63 v1.64 v1.65"
+          # Vérifier le rate limit AVEC token
+          echo "📊 Rate limit avec token:"
+          curl -s -H "Authorization: token $GH_TOKEN" \
+               https://api.github.com/rate_limit | jq '.resources.core'
+          echo ""
           
-          for v in $problematic_versions; do
-            echo -n "🔍 $v: "
+          # Récupération avec token
+          for v in $(ls -d v* | sort -V); do
+            echo -n "🎯 $v: "
             
-            # Vérifier d'abord si le dossier existe
-            if [ ! -d "$v" ]; then
-              echo "❌ DOSSIER LOCAL MANQUANT"
-              continue
-            fi
+            response=$(curl -s -H "Authorization: token $GH_TOKEN" \
+                              "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$v")
             
-            # Requête API
-            response=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$v")
+            date=$(echo "$response" | jq -r '.created_at // "NOT_FOUND"')
+            echo "$date"
             
-            # Debug de la réponse
-            if [ -z "$response" ]; then
-              echo "❌ RÉPONSE VIDE"
-            elif echo "$response" | grep -q "API rate limit"; then
-              echo "❌ RATE LIMIT DÉPASSÉ"
-            elif echo "$response" | grep -q "Not Found"; then
-              echo "❌ NOT FOUND"
-            else
-              date=$(echo "$response" | jq -r '.created_at // "NO_DATE"')
-              if [ "$date" = "NO_DATE" ]; then
-                echo "❌ CHAMP CREATED_AT MANQUANT"
-                echo "   Réponse: $response"
-              else
-                echo "✅ $date"
-              fi
-            fi
+            # Petit délai pour être gentil avec l'API
+            sleep 0.2
           done
