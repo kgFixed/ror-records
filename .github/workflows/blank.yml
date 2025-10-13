@@ -36,52 +36,51 @@ jobs:
           
           sudo apt-get update && sudo apt-get install -y jq
           
-          # Récupérer UNIQUEMENT les releases de ror-updates
-          echo "🔄 Récupération des releases depuis ror-updates..."
-          updates_releases=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases" || echo "[]")
-          
-          # Extraire la liste des tags disponibles dans updates
-          available_tags=$(echo "$updates_releases" | jq -r '.[].tag_name' | sort -V)
-          
-          echo "📊 Releases disponibles dans ror-updates:"
-          echo "$available_tags"
-          
           echo '{}' > releases_info.json
           
           # Ne traiter que les versions qui existent dans ror-updates ET dans notre repo local
           for version in $(ls -d v* 2>/dev/null | sort -V); do
-            # Vérifier si cette version existe dans ror-updates
-            if echo "$available_tags" | grep -q "^$version$"; then
-              echo "🎯 Traitement de $version (présente dans ror-updates)..."
-              
-              # Récupérer la date depuis ror-updates
-              release_date=$(echo "$updates_releases" | jq -r ".[] | select(.tag_name == \"$version\") | .created_at")
-              
-              # Récupérer les IDs ROR
-              ror_ids=()
-              if [ -d "$version" ] && [ "$(ls -A "$version"/*.json 2>/dev/null)" ]; then
-                for file in "$version"/*.json; do
-                  if [ -f "$file" ]; then
-                    ror_id=$(basename "$file" .json)
-                    ror_ids+=("$ror_id")
-                  fi
-                done
+            # Tester si cette version existe dans ror-updates via l'API spécifique
+            echo "🔍 Vérification de $version..."
+            api_response=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version")
+            
+            # Vérifier si la version existe (pas de message "Not Found")
+            if echo "$api_response" | jq -e '.message' > /dev/null 2>&1; then
+              error_message=$(echo "$api_response" | jq -r '.message')
+              if [ "$error_message" = "Not Found" ]; then
+                echo "⏭️  Skipping $version (absente de ror-updates)"
+                continue
               fi
-              
-              # Mettre à jour le JSON
-              jq --arg version "$version" \
-                 --arg date "$release_date" \
-                 --argjson ids "$(printf '%s\n' "${ror_ids[@]}" | jq -R . | jq -s .)" \
-                 '.[$version] = {
-                   created_at: $date,
-                   ror_ids: $ids,
-                   count: ($ids | length)
-                 }' releases_info.json > temp.json && mv temp.json releases_info.json
-              
-              echo "  ✅ $version: ${#ror_ids[@]} fichiers"
-            else
-              echo "⏭️  Skipping $version (absente de ror-updates)"
             fi
+            
+            # Si on arrive ici, la version existe dans ror-updates
+            echo "🎯 Traitement de $version (présente dans ror-updates)..."
+            
+            # Récupérer la date depuis la réponse API
+            release_date=$(echo "$api_response" | jq -r '.created_at')
+            
+            # Récupérer les IDs ROR
+            ror_ids=()
+            if [ -d "$version" ] && [ "$(ls -A "$version"/*.json 2>/dev/null)" ]; then
+              for file in "$version"/*.json; do
+                if [ -f "$file" ]; then
+                  ror_id=$(basename "$file" .json)
+                  ror_ids+=("$ror_id")
+                fi
+              done
+            fi
+            
+            # Mettre à jour le JSON
+            jq --arg version "$version" \
+               --arg date "$release_date" \
+               --argjson ids "$(printf '%s\n' "${ror_ids[@]}" | jq -R . | jq -s .)" \
+               '.[$version] = {
+                 created_at: $date,
+                 ror_ids: $ids,
+                 count: ($ids | length)
+               }' releases_info.json > temp.json && mv temp.json releases_info.json
+            
+            echo "  ✅ $version: ${#ror_ids[@]} fichiers, date: $release_date"
           done
           
           echo ""
