@@ -30,33 +30,60 @@ jobs:
       #   run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: Generate complete releases info JSON
+      - name: Generate releases info from UPDATES only
         run: |
-          echo "📁 Génération du JSON complet..."
+          echo "📁 Génération du JSON basé sur ror-updates uniquement..."
           
           sudo apt-get update && sudo apt-get install -y jq
           
+          # Récupérer UNIQUEMENT les releases de ror-updates
+          echo "🔄 Récupération des releases depuis ror-updates..."
+          updates_releases=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases" || echo "[]")
+          
+          # Extraire la liste des tags disponibles dans updates
+          available_tags=$(echo "$updates_releases" | jq -r '.[].tag_name' | sort -V)
+          
+          echo "📊 Releases disponibles dans ror-updates:"
+          echo "$available_tags"
+          
           echo '{}' > releases_info.json
           
+          # Ne traiter que les versions qui existent dans ror-updates ET dans notre repo local
           for version in $(ls -d v* 2>/dev/null | sort -V); do
-            echo "🔹 $version"
-            
-            # Méthode ultra-simple
-            release_date=$(curl -s "https://api.github.com/repos/ror-community/ror-updates/releases/tags/$version" | jq -r '.created_at')
-            
-            # Récupérer les IDs
-            ror_ids=()
-            for file in "$version"/*.json; do
-              [ -f "$file" ] && ror_ids+=("$(basename "$file" .json)")
-            done
-            
-            # Mise à jour JSON
-            jq --arg v "$version" \
-               --arg d "$release_date" \
-               --argjson i "$(printf '%s\n' "${ror_ids[@]}" | jq -R . | jq -s .)" \
-               '.[$v] = {created_at: $d, ror_ids: $i, count: ($i | length)}' \
-               releases_info.json > temp.json && mv temp.json releases_info.json
+            # Vérifier si cette version existe dans ror-updates
+            if echo "$available_tags" | grep -q "^$version$"; then
+              echo "🎯 Traitement de $version (présente dans ror-updates)..."
+              
+              # Récupérer la date depuis ror-updates
+              release_date=$(echo "$updates_releases" | jq -r ".[] | select(.tag_name == \"$version\") | .created_at")
+              
+              # Récupérer les IDs ROR
+              ror_ids=()
+              if [ -d "$version" ] && [ "$(ls -A "$version"/*.json 2>/dev/null)" ]; then
+                for file in "$version"/*.json; do
+                  if [ -f "$file" ]; then
+                    ror_id=$(basename "$file" .json)
+                    ror_ids+=("$ror_id")
+                  fi
+                done
+              fi
+              
+              # Mettre à jour le JSON
+              jq --arg version "$version" \
+                 --arg date "$release_date" \
+                 --argjson ids "$(printf '%s\n' "${ror_ids[@]}" | jq -R . | jq -s .)" \
+                 '.[$version] = {
+                   created_at: $date,
+                   ror_ids: $ids,
+                   count: ($ids | length)
+                 }' releases_info.json > temp.json && mv temp.json releases_info.json
+              
+              echo "  ✅ $version: ${#ror_ids[@]} fichiers"
+            else
+              echo "⏭️  Skipping $version (absente de ror-updates)"
+            fi
           done
           
-          echo "✅ Terminé!"
-          cat releases_info.json
+          echo ""
+          echo "📊 Résumé final (uniquement les releases de ror-updates):"
+          jq 'to_entries | map("\(.key): \(.value.count) fichiers") | .[]' releases_info.json
