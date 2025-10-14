@@ -30,7 +30,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install jsonschema requests pathlib2 tempfile
+          pip install jsonschema requests pathlib2
       
       - name: Install Requirements
         run: |
