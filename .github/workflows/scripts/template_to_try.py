@@ -32,9 +32,9 @@ def process_ror_file(json_path, output_dir):
         #     )
         #     return
             
-        except Exception as e:
-            print(f"Template failure {template_name}: {str(e)}")
-            continue
+        # except Exception as e:
+        #     print(f"Template failure {template_name}: {str(e)}")
+        #     continue
     
     raise ValueError(f"No valid template found for the file: {json_path}")
 
@@ -50,6 +50,7 @@ def process_from_url(json_url, output_dir):
 
 # Example with a json that does not correspond to any version
 # process_ror_file(Path(__file__).parent.parent / "ror_releases/v1.6/023rffy11.json", Path(__file__).parent.parent / "test")
+
 
 
 
