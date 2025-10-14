@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
-from sema.subyt import Subyt
 
 def list_specific_release(release_name):
     release_path = Path(release_name)
@@ -22,9 +21,6 @@ def list_specific_release(release_name):
     for json_file in sorted(json_files):
         file_size = json_file.stat().st_size
         print(f"📄 {json_file.name} ({file_size} bytes)")
-
-# def transform_json_to_ttl(tag_name):
-    
 
 if __name__ == "__main__":
     # Vous pouvez changer le nom de la release ici
