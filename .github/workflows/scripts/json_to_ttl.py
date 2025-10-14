@@ -25,8 +25,8 @@ if __name__ == "__main__":
     
     if urls:
         print(f"🔗 URLs des fichiers JSON pour {release_name}:")
-        for url in urls:
-            print(url)
-        print(f"\n📊 Total: {len(urls)} URLs")
+        # for url in urls:
+        print(url)
+        # print(f"\n📊 Total: {len(urls)} URLs")
     else:
         print(f"❌ Aucun fichier trouvé dans {release_name}")
