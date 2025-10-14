@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
+from sema.subyt import Subyt
 
 def list_specific_release(release_name):
     release_path = Path(release_name)
