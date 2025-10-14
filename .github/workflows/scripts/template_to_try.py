@@ -1,3 +1,4 @@
+import requests
 from pathlib import Path
 from detect_version_json import detect_ror_version
 from create_rdf_file import json_to_individual_rdf
@@ -41,4 +42,5 @@ def process_from_url(json_url, output_dir):
 
 # Example with a json that does not correspond to any version
 # process_ror_file(Path(__file__).parent.parent / "ror_releases/v1.6/023rffy11.json", Path(__file__).parent.parent / "test")
+
 
