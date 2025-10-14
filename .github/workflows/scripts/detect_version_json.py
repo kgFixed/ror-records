@@ -3,7 +3,7 @@ from pathlib import Path
 from jsonschema import validate, ValidationError
 
 def load_schema(version):
-    schema_path = Path(__file__).parent.parent / "json_schema" / f"ror_schema{version}.json"
+    schema_path = f".github/workflows/json_schema/ror_schema{version}.json"
     with open(schema_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
@@ -64,3 +64,4 @@ def detect_ror_version(json_file_path):
 #         version = detect_ror_version(test_file)
 #         if version:
 #             print(f"Detected version : {version}")
+
