@@ -23,6 +23,9 @@ def list_specific_release(release_name):
         file_size = json_file.stat().st_size
         print(f"📄 {json_file.name} ({file_size} bytes)")
 
+# def transform_json_to_ttl(tag_name):
+    
+
 if __name__ == "__main__":
     # Vous pouvez changer le nom de la release ici
     list_specific_release("v1.56")
