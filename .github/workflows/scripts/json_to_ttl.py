@@ -18,15 +18,15 @@ def get_json_raw_urls(release_name):
     
     return urls[0]
 
-if __name__ == "__main__":
-    release_name = "v1.56"  # Changez la version ici
+# if __name__ == "__main__":
+#     release_name = "v1.56"  # Changez la version ici
     
-    urls = get_json_raw_urls(release_name)
+#     urls = get_json_raw_urls(release_name)
     
-    if urls:
-        print(f"🔗 URLs des fichiers JSON pour {release_name}:")
-        # for url in urls:
-        print(urls)
-        # print(f"\n📊 Total: {len(urls)} URLs")
-    else:
-        print(f"❌ Aucun fichier trouvé dans {release_name}")
+#     if urls:
+#         print(f"🔗 URLs des fichiers JSON pour {release_name}:")
+#         # for url in urls:
+#         print(urls)
+#         # print(f"\n📊 Total: {len(urls)} URLs")
+#     else:
+#         print(f"❌ Aucun fichier trouvé dans {release_name}")
