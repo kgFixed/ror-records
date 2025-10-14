@@ -25,19 +25,19 @@ def process_ror_file(json_path, output_dir):
         path_used_template = Path(".github/workflows/template") / template_name
         print(path_used_template)
         
-        # try:
-        #     json_to_individual_rdf(
-        #         json_path=json_path,
-        #         template_path=str(path_used_template),
-        #         output_dir=output_dir
-        #     )
-        #     return
+        try:
+            json_to_individual_rdf(
+                json_path=json_path,
+                template_path=str(path_used_template),
+                output_dir=output_dir
+            )
+            return
             
-        # except Exception as e:
-        #     print(f"Template failure {template_name}: {str(e)}")
-        #     continue
+        except Exception as e:
+            print(f"Template failure {template_name}: {str(e)}")
+            continue
     
-    # raise ValueError(f"No valid template found for the file: {json_path}")
+    raise ValueError(f"No valid template found for the file: {json_path}")
 
 def process_from_url(json_url, output_dir):
     response = requests.get(json_url)
@@ -57,6 +57,7 @@ def process_from_url(json_url, output_dir):
 
 # Example with a json that does not correspond to any version
 # process_ror_file(Path(__file__).parent.parent / "ror_releases/v1.6/023rffy11.json", Path(__file__).parent.parent / "test")
+
 
 
 
