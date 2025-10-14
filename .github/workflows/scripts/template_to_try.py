@@ -20,12 +20,13 @@ def process_ror_file(json_path, output_dir):
         templates_to_try = [f"template_{version}.ttl"]
     
     for template_name in templates_to_try:
-        path_used_template = f".github/workflows/template/{template_name}"
+        # path_used_template = f".github/workflows/template/{template_name}"
+        path_used_template = Path(".github/workflows/templates") / template_name
         
         try:
             json_to_individual_rdf(
                 json_path=json_path,
-                template_path=path_used_template,
+                template_path=str(path_used_template),
                 output_dir=output_dir
             )
             return
@@ -48,6 +49,7 @@ def process_from_url(json_url, output_dir):
 
 # Example with a json that does not correspond to any version
 # process_ror_file(Path(__file__).parent.parent / "ror_releases/v1.6/023rffy11.json", Path(__file__).parent.parent / "test")
+
 
 
 
