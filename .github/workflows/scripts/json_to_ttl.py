@@ -2,26 +2,31 @@
 
 from pathlib import Path
 
-def list_specific_release(release_name):
+def get_json_raw_urls(release_name):
+    """Retourne uniquement les URLs raw des fichiers JSON"""
+    
     release_path = Path(release_name)
     if not release_path.exists():
-        print(f"❌ Le dossier {release_name} n'existe pas")
-        return
+        return []
     
     json_files = list(release_path.glob("*.json"))
-    
-    if not json_files:
-        print(f"❌ Aucun fichier JSON trouvé dans {release_name}")
-        return
-    
-    print(f"📁 RELEASE: {release_name}")
-    print(f"📊 {len(json_files)} fichiers trouvés")
-    print("-" * 40)
+    urls = []
     
     for json_file in sorted(json_files):
-        file_size = json_file.stat().st_size
-        print(f"📄 {json_file.name} ({file_size} bytes)")
+        raw_url = f"https://raw.githubusercontent.com/kgFixed/ror-records/main/{release_name}/{json_file.name}"
+        urls.append(raw_url)
+    
+    return urls[0]
 
 if __name__ == "__main__":
-    # Vous pouvez changer le nom de la release ici
-    list_specific_release("v1.56")
+    release_name = "v1.56"  # Changez la version ici
+    
+    urls = get_json_raw_urls(release_name)
+    
+    if urls:
+        print(f"🔗 URLs des fichiers JSON pour {release_name}:")
+        for url in urls:
+            print(url)
+        print(f"\n📊 Total: {len(urls)} URLs")
+    else:
+        print(f"❌ Aucun fichier trouvé dans {release_name}")
