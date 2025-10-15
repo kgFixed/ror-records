@@ -6,7 +6,7 @@ if __name__ == "__main__":
   # variables
   output_dir = "store_ror.org/"
 
-  urls = get_json_raw_url(release_name) 
+  urls = get_json_raw_urls(release_name) 
   release_name, urls = next(iter(urls.items()))
   print(release_name)
   print(urls)
