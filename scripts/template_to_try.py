@@ -22,7 +22,7 @@ def process_ror_file(json_path, output_dir):
     
     for template_name in templates_to_try:
         # path_used_template = f".github/workflows/template/{template_name}"
-        path_used_template = Path(".github/workflows/template") / template_name
+        path_used_template = Path("template") / template_name
         # print(path_used_template)
         
         try:
