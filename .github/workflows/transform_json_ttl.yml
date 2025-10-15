@@ -51,22 +51,21 @@ jobs:
           cd store_ror.org
           git pull origin main 
           
-
       # - name: Run Python script
       #   run: |
       #     python scripts/main.py
 
-      # - name: Check for changes
-      #   id: git-check
-      #   run: |
-      #     git status
-      #     echo "changed=$(git status --porcelain | wc -l)" >> $GITHUB_OUTPUT
+      - name: Check for changes
+        id: git-check
+        run: |
+          git status
+          echo "changed=$(git status --porcelain | wc -l)" >> $GITHUB_OUTPUT
   
-      # - name: Commit and push if changes
-      #   if: steps.git-check.outputs.changed > 0
-      #   run: |
-      #     git config --local user.email "action@github.com"
-      #     git config --local user.name "GitHub Action"
-      #     git add .
-      #     git commit -m "Auto-generated TTL files $(date +'%Y-%m-%d')"
-      #     git push
+      - name: Commit and push if changes
+        if: steps.git-check.outputs.changed > 0
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Auto-generated TTL files $(date +'%Y-%m-%d')"
+          git push
