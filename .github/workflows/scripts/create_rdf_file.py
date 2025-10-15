@@ -41,8 +41,8 @@ def json_to_individual_rdf(json_path, template_path, output_dir):
                     # Afficher un aperçu du contenu
                     content = expected_ttl.read_text()[:200] + "..." if expected_ttl.stat().st_size > 200 else expected_ttl.read_text()
                     print(f"   Aperçu: {content}")
-    else:
-        print(f"❌ ÉCHEC: Fichier TTL non généré: {expected_ttl}")
+                else:
+                    print(f"❌ ÉCHEC: Fichier TTL non généré: {expected_ttl}")
             
             finally:
                 Path(tmp_path).unlink()
@@ -61,6 +61,7 @@ def json_to_individual_rdf(json_path, template_path, output_dir):
 #     template_path= Path(__file__).parent.parent / "template/template_1_0.ttl",
 #     output_dir= Path(__file__).parent.parent / "to_push"
 # )
+
 
 
 
