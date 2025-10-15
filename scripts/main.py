@@ -6,6 +6,7 @@ if __name__ == "__main__":
   # variables
   output_dir = "store_ror.org/"
   
-  urls = get_json_raw_urls() 
+  release_name, urls = next(iter(urls_dict.items()))
+  print(release_name)
   print(urls)
   # process_from_url(urls, output_dir)
