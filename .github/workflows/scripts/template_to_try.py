@@ -44,6 +44,7 @@ def process_from_url(json_url, output_dir):
     response.raise_for_status()
     json_data = response.json()
     temp_filename = "temp_ror_data.json"
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
     temp_path = Path(output_dir) / temp_filename
     
     try:
@@ -57,6 +58,7 @@ def process_from_url(json_url, output_dir):
 
 # Example with a json that does not correspond to any version
 # process_ror_file(Path(__file__).parent.parent / "ror_releases/v1.6/023rffy11.json", Path(__file__).parent.parent / "test")
+
 
 
 
