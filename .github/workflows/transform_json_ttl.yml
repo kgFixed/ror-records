@@ -50,10 +50,6 @@ jobs:
         run: |
           cd store_ror.org
           git pull origin main 
-          
-      # - name: Run Python script
-      #   run: |
-      #     python scripts/main.py
 
       - name: Check for changes
         id: git-check
@@ -69,3 +65,27 @@ jobs:
           git add .
           git commit -m "Auto-generated TTL files $(date +'%Y-%m-%d')"
           git push
+
+      - name: Run Python script
+        run: |
+          python scripts/main.py
+
+      - name: Check generated files
+        run: |
+          echo "Fichiers dans store_ror.org:"
+          ls -la store_ror.org/*.ttl | head -10
+          echo "Nombre de fichiers TTL:"
+          ls store_ror.org/*.ttl 2>/dev/null | wc -l || echo "0"
+  
+      - name: Push to store_ror.org
+        run: |
+          cd store_ror.org
+          git add .
+          git commit -m "Auto-update TTL files - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes"
+          git pull --rebase origin main  # Double sécurité
+          git push
+  
+      - name: Cleanup
+        run: |
+          rm -rf store_ror.org
+          echo "✅ Nettoyage terminé"
