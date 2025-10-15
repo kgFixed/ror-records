@@ -26,10 +26,10 @@ def json_to_individual_rdf(json_path, template_path, output_dir):
             
             try:
                 Subyt(
-                    template_name=Path(template_path).name,
+                    template_name=str(Path(template_path).name),
                     template_folder=str(Path(template_path).parent),
                     extra_sources={"qres": str(Path(tmp_path).resolve())},
-                    sink=str(output_dir / f"{ror_id}.ttl"),
+                    sink=str(Path(output_dir) / f"{ror_id}.ttl"),
                     overwrite_sink=True,
                     conditional=False
                 ).process()
@@ -49,6 +49,7 @@ def json_to_individual_rdf(json_path, template_path, output_dir):
 #     template_path= Path(__file__).parent.parent / "template/template_1_0.ttl",
 #     output_dir= Path(__file__).parent.parent / "to_push"
 # )
+
 
 
 
