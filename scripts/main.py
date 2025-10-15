@@ -8,6 +8,4 @@ if __name__ == "__main__":
 
   urls = get_json_raw_urls() 
   release_name, urls = next(iter(urls.items()))
-  print(release_name)
-  print(urls)
-  # process_from_url(urls, output_dir)
+  process_from_url(urls, Path(output_dir) / release_name)
