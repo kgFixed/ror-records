@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
+import requests
 
 # renvoie la liste des urls pour une release
 def get_json_raw_url(release_name):
