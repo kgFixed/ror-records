@@ -7,4 +7,4 @@ if __name__ == "__main__":
   output_dir = "store_ror.org/"
   
   urls = get_json_raw_urls() 
-  process_from_url(urls, output_dir)
+  # process_from_url(urls, output_dir)
