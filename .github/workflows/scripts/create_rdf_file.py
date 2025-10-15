@@ -33,8 +33,10 @@ def json_to_individual_rdf(json_path, template_path, output_dir):
                     overwrite_sink=True,
                     conditional=False
                 ).process()
+                print("Validé")
             finally:
                 Path(tmp_path).unlink()
+                print("Pas validé")
 
 # Example of use for 2.1
 # json_to_individual_rdf( 
@@ -49,6 +51,7 @@ def json_to_individual_rdf(json_path, template_path, output_dir):
 #     template_path= Path(__file__).parent.parent / "template/template_1_0.ttl",
 #     output_dir= Path(__file__).parent.parent / "to_push"
 # )
+
 
 
 
