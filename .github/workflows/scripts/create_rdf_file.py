@@ -11,7 +11,7 @@ def json_to_individual_rdf(json_path, template_path, output_dir):
     print(json_path)
     print(template_path)
     print(output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
     
     with open(json_path, encoding='utf-8') as f:
         data = json.load(f)
@@ -49,4 +49,5 @@ def json_to_individual_rdf(json_path, template_path, output_dir):
 #     template_path= Path(__file__).parent.parent / "template/template_1_0.ttl",
 #     output_dir= Path(__file__).parent.parent / "to_push"
 # )
+
 
