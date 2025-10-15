@@ -32,7 +32,7 @@ def get_json_raw_urls():
     tag_name_latest = data.get("tag_name", [])
     urls = get_json_raw_url(tag_name_latest)
 
-    return urls
+    return {tag_name_latest: urls}
 
 # if __name__ == "__main__":
 #     release_name = "v1.56"  # Changez la version ici
