@@ -4,7 +4,7 @@ from json_to_ttl import get_json_raw_urls
 if __name__ == "__main__":
 
   # variables
-  release_name = "v1.56" 
+  release_name = "latest" 
   output_dir = "output/"
   
   urls = get_json_raw_urls(release_name) 
