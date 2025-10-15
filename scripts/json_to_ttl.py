@@ -2,7 +2,8 @@
 
 from pathlib import Path
 
-def get_json_raw_urls(release_name):
+# renvoie la liste des urls pour une release
+def get_json_raw_url(release_name):
     """Retourne uniquement les URLs raw des fichiers JSON"""
     
     release_path = Path(release_name)
@@ -16,7 +17,21 @@ def get_json_raw_urls(release_name):
         raw_url = f"https://raw.githubusercontent.com/kgFixed/ror-records/main/{release_name}/{json_file.name}"
         urls.append(raw_url)
     
-    return urls[0]
+    return urls
+
+# cherche dernière release
+def get_json_raw_urls(release_name):
+    url = f"https://api.github.com/repos/ror-community/ror-updates/releases/{release_name}"
+    response = requests.get(url)
+
+    if response.status_code != 200:
+        print(f"Erreur lors de la récupération des données: {response.status_code}")
+        return []
+    data = response.json()
+    tag_name_latest = data.get("tag_name", [])
+    urls = get_json_raw_url(tag_name_latest)
+
+    return urls
 
 # if __name__ == "__main__":
 #     release_name = "v1.56"  # Changez la version ici
