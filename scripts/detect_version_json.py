@@ -3,7 +3,7 @@ from pathlib import Path
 from jsonschema import validate, ValidationError
 
 def load_schema(version):
-    schema_path = f".github/workflows/json_schema/ror_schema{version}.json"
+    schema_path = f"json_schema/ror_schema{version}.json"
     with open(schema_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
