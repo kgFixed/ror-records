@@ -21,8 +21,8 @@ def get_json_raw_url(release_name):
     return urls
 
 # cherche dernière release
-def get_json_raw_urls(release_name):
-    url = f"https://api.github.com/repos/ror-community/ror-updates/releases/{release_name}"
+def get_json_raw_urls():
+    url = f"https://api.github.com/repos/ror-community/ror-updates/releases/latest"
     response = requests.get(url)
 
     if response.status_code != 200:
