@@ -5,7 +5,7 @@ if __name__ == "__main__":
 
   # variables
   release_name = "v1.56" 
-  output_dir = ".github/output/"
+  output_dir = "output/"
   
   urls = get_json_raw_urls(release_name) 
   process_from_url(urls, output_dir)
