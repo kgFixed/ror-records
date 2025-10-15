@@ -17,9 +17,6 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    # permissions:
-    #   contents: write
-    #   actions: write
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -42,21 +39,34 @@ jobs:
         run: |
           pip install -r .github/workflows/requirements.txt
 
-      - name: Run Python script
+      - name: Clone store_ror.org
         run: |
-          python scripts/main.py
-
-      - name: Check for changes
-        id: git-check
-        run: |
-          git status
-          echo "changed=$(git status --porcelain | wc -l)" >> $GITHUB_OUTPUT
+          git clone https://${{ secrets.PAT_TOKEN }}@github.com/kgFixed/store_ror.org.git
+          cd store_ror.org
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
   
-      - name: Commit and push if changes
-        if: steps.git-check.outputs.changed > 0
+      - name: Pull latest changes from store_ror
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Auto-generated TTL files $(date +'%Y-%m-%d')"
-          git push
+          cd store_ror.org
+          git pull origin main 
+          
+
+      # - name: Run Python script
+      #   run: |
+      #     python scripts/main.py
+
+      # - name: Check for changes
+      #   id: git-check
+      #   run: |
+      #     git status
+      #     echo "changed=$(git status --porcelain | wc -l)" >> $GITHUB_OUTPUT
+  
+      # - name: Commit and push if changes
+      #   if: steps.git-check.outputs.changed > 0
+      #   run: |
+      #     git config --local user.email "action@github.com"
+      #     git config --local user.name "GitHub Action"
+      #     git add .
+      #     git commit -m "Auto-generated TTL files $(date +'%Y-%m-%d')"
+      #     git push
