@@ -44,7 +44,7 @@ jobs:
 
       - name: Run Python script
         run: |
-          python .github/workflows/scripts/main.py
+          python scripts/main.py
 
       - name: Check for changes
         id: git-check
