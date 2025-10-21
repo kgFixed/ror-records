@@ -15,7 +15,7 @@ on:
 
 jobs:
   check-diff:
-    name: 🔍 Vérification des différences
+    name: 🔍 Check for differences
     runs-on: ubuntu-latest
     outputs:
       has_changes: ${{ steps.check.outputs.has_changes }}
