@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/001gmya32> a org:Organization ;
+    rdfs:label 'John Carroll University'^^xsd:string ;
+    schema:name 'John Carroll University'^^xsd:string ;
+    schema:foundingDate "'1886'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Education'^^xsd:string ; 
+    org:abbreviation 'JCU'^^xsd:string ;
+    schema:url <http://sites.jcu.edu/> ; 
+    owl:sameAs <http://en.wikipedia.org/wiki/John_Carroll_University> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-81.53735,41.49783]}" ;
+            schema:addressLocality 'University Heights'^^xsd:string ;
+            schema:addressCountry "US" ;
+            owl:sameAs <http://sws.geonames.org/5174830/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000122955682> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q1666981> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

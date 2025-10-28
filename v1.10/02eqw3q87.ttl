@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/02eqw3q87> a org:Organization ;
+    rdfs:label 'Taipei City Government'^^xsd:string ;
+    schema:name 'Taipei City Government'^^xsd:string ;
+    schema:foundingDate "'1945'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Government'^^xsd:string ; 
+    org:abbreviation 'TCG'^^xsd:string ;
+    org:alternativeName 'Táiběi Shì Zhèngfǔ'^^xsd:string ;
+    schema:url <http://english.gov.taipei/> ; 
+    owl:sameAs <https://en.wikipedia.org/wiki/Taipei_City_Government> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[121.53185,25.04776]}" ;
+            schema:addressLocality 'Taipei'^^xsd:string ;
+            schema:addressCountry "TW" ;
+            owl:sameAs <http://sws.geonames.org/1668341/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000406342044> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q9105560> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .
