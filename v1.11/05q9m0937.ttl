@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/05q9m0937> a org:Organization ;
+    rdfs:label 'University of Klagenfurt'^^xsd:string ;
+    schema:name 'University of Klagenfurt'^^xsd:string ;
+    schema:foundingDate "'1970'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Education'^^xsd:string ; 
+    org:abbreviation 'AAU'^^xsd:string ;
+    org:alternativeName 'Alpen-Adria-Universität Klagenfurt'^^xsd:string ;
+    schema:url <http://www.uni-klu.ac.at/main/inhalt/1.htm> ; 
+    owl:sameAs <http://en.wikipedia.org/wiki/Alpen-Adria-Universit%25C3%25A4t_Klagenfurt> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[14.30528,46.62472]}" ;
+            schema:addressLocality 'Klagenfurt'^^xsd:string ;
+            schema:addressCountry "AT" ;
+            owl:sameAs <http://sws.geonames.org/2774326/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000121963349> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q690639> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

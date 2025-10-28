@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/05shr3z13> a org:Organization ;
+    rdfs:label 'Tula State University'^^xsd:string ;
+    schema:name 'Tula State University'^^xsd:string ;
+    schema:foundingDate "'1930'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Education'^^xsd:string ; 
+    org:abbreviation 'TSU'^^xsd:string ;
+    org:alternativeName 'Tula State Technical University'^^xsd:string ;
+    schema:url <http://tsu.tula.ru/> ; 
+    owl:sameAs <http://en.wikipedia.org/wiki/Tula_State_University#External_links> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[37.61822,54.19609]}" ;
+            schema:addressLocality 'Tula'^^xsd:string ;
+            schema:addressCountry "RU" ;
+            owl:sameAs <http://sws.geonames.org/480562/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000096976075> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q1511650> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/04jgeq066> a org:Organization ;
+    rdfs:label 'Korea Disease Control and Prevention Agency'^^xsd:string ;
+    schema:name 'Korea Disease Control and Prevention Agency'^^xsd:string ;
+    schema:foundingDate "'2003'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Government'^^xsd:string ; 
+    org:abbreviation 'KDCA'^^xsd:string ;
+    org:alternativeName 'Korea Centers for Disease Control and Prevention'^^xsd:string ;
+    schema:url <http://www.kdca.go.kr/index.es?sid=a3> ; 
+    owl:sameAs <https://en.wikipedia.org/wiki/Korea_Disease_Control_and_Prevention_Agency> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[127.48972,36.63722]}" ;
+            schema:addressLocality 'Cheongju-si'^^xsd:string ;
+            schema:addressCountry "KR" ;
+            owl:sameAs <http://sws.geonames.org/1845604/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://www.wikidata.org/entity/Q12618419> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .
