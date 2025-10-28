@@ -1,0 +1,26 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/04bswr545> a org:Organization ;
+    rdfs:label 'Hospital of Stomatology, Sun Yat-sen University'^^xsd:string ;
+    schema:name 'Hospital of Stomatology, Sun Yat-sen University'^^xsd:string ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Healthcare'^^xsd:string ; 
+    schema:url <https://www.zdkqyy.com> ; 
+    owl:sameAs <https://zh.wikipedia.org/wiki/%25E4%25B8%25AD%25E5%25B1%25B1%25E5%25A4%25A7%25E5%25AD%25A6%25E9%2599%2584%25E5%25B1%259E%25E5%258F%25A3%25E8%2585%2594%25E5%258C%25BB%25E9%2599%25A2> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[113.25,23.11667]}" ;
+            schema:addressLocality 'Guangzhou'^^xsd:string ;
+            schema:addressCountry "CN" ;
+            owl:sameAs <http://sws.geonames.org/1809858/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://www.wikidata.org/entity/Q109918358> ;
+    .
