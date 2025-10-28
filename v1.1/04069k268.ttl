@@ -1,0 +1,26 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/04069k268> a org:Organization ;
+    rdfs:label 'ERN ReCONNET'^^xsd:string ;
+    schema:name 'ERN ReCONNET'^^xsd:string ;
+    schema:foundingDate "'2017'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Healthcare'^^xsd:string ; 
+    org:alternativeName 'European Reference Network on Rare and Complex Connective Tissue and Musculoskeletal Diseases'^^xsd:string ;
+    schema:url <https://reconnet.ern-net.eu> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[10.4036,43.70853]}" ;
+            schema:addressLocality 'Pisa'^^xsd:string ;
+            schema:addressCountry "IT" ;
+            owl:sameAs <http://sws.geonames.org/3170647/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    .

@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/003f21n80> a org:Organization ;
+    rdfs:label 'Institute of Geosciences'^^xsd:string ;
+    schema:name 'Institute of Geosciences'^^xsd:string ;
+    schema:foundingDate "'1968'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Education'^^xsd:string ; 
+    org:abbreviation 'IGEO'^^xsd:string ;
+    org:alternativeName 'Institute of Geosciences, Water and Environment'^^xsd:string ;
+    schema:url <https://www.geo.edu.al> ; 
+    owl:sameAs <https://sq.wikipedia.org/wiki/Instituti_i_Gjeoshkencave%252C_Energjise%252C_Ujit_dhe_Mjedisit> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[19.81889,41.3275]}" ;
+            schema:addressLocality 'Tirana'^^xsd:string ;
+            schema:addressCountry "AL" ;
+            owl:sameAs <http://sws.geonames.org/3183875/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://www.wikidata.org/entity/Q25567328> ;
+    .

@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/0560hrn40> a org:Organization ;
+    rdfs:label 'Poplar Creek Public Library District'^^xsd:string ;
+    schema:name 'Poplar Creek Public Library District'^^xsd:string ;
+    schema:foundingDate "'1966'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Archive'^^xsd:string ; 
+    schema:url <https://pclib.org/> ; 
+    owl:sameAs <https://en.wikipedia.org/wiki/Poplar_Creek_Public_Library_District> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-88.17841,42.02558]}" ;
+            schema:addressLocality 'Streamwood'^^xsd:string ;
+            schema:addressCountry "US" ;
+            owl:sameAs <http://sws.geonames.org/4912691/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000406012635> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q17064683> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .
