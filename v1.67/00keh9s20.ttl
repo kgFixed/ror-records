@@ -1,0 +1,50 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00keh9s20> a org:Organization ;
+    rdfs:label ''^^xsd:string ;
+    schema:name ''^^xsd:string ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created "2025-06-24"^^xsd:date ;
+    dct:modified "2025-06-24"^^xsd:date ;
+    org:abbreviation 'CNR IRET'^^xsd:string; 
+    org:alternativeName 'CNR Istituto di Ricerca sugli Ecosistemi Terrestri'^^xsd:string ; 
+    org:abbreviation 'IRET'^^xsd:string; 
+    org:alternativeName 'Istituto di Ricerca sugli Ecosistemi Terrestri'^^xsd:string ; 
+    org:alternativeName 'National Research Council - Research Institute on Terrestrial Ecosystem'^^xsd:string ; 
+    org:alternativeName 'Research Institute on Terrestrial Ecosystem'^^xsd:string ; 
+    org:alternativeName 'Research Institute on Terrestrial Ecosystem of the Italian National Research Council'^^xsd:string ; 
+    schema:url <http://iret.cnr.it> ; 
+    schema:mainEntityOfPage <https://www.iret.cnr.it> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/04zaypm56> ;
+        rdfs:label 'National Research Council'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[12.10331,42.68099]}" ;
+            schema:address [
+                schema:addressLocality "Porano" ;
+                schema:addressCountry "IT" ;
+                schema:addressRegion "Umbria" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Italy" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3170166> ;
+        ] ; 
+    .
