@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/01pynjp12",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Algiers 3"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Algiers 3 University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2009'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na0ee37ca45f147d6a1809ef9821748ccb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.univ-alger3.dz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Algiers 3"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.472451.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000446549795"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://univ-alger3.dz"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0ee37ca45f147d6a1809ef9821748ccb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[3.08746,36.73225]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2507480"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na0ee37ca45f147d6a1809ef9821748ccb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0ee37ca45f147d6a1809ef9821748ccb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na0ee37ca45f147d6a1809ef9821748ccb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Algiers"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Algiers"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0ee37ca45f147d6a1809ef9821748ccb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na0ee37ca45f147d6a1809ef9821748ccb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Algeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0ee37ca45f147d6a1809ef9821748ccb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "@id": "https://ror.org/03wb1xh22",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tianjin Municipal Science and Technology Commission"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6993b61463ac4cd9928b878f126b6513b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.tstc.gov.cn/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tianjin Municipal Science and Technology Commission"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100010041"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.454877.d"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6993b61463ac4cd9928b878f126b6513b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[117.20565,39.11766]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/8413242"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6993b61463ac4cd9928b878f126b6513b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6993b61463ac4cd9928b878f126b6513b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6993b61463ac4cd9928b878f126b6513b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Xiaobailou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tianjin"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6993b61463ac4cd9928b878f126b6513b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6993b61463ac4cd9928b878f126b6513b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6993b61463ac4cd9928b878f126b6513b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

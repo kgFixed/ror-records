@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/00vj45j81",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Azienda ULSS 9 TREVISO"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8c3bd0e2de9240b1b28f48cabe1eb9efb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.aulss2.veneto.it"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.476151.0"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://aulss2.veneto.it"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8c3bd0e2de9240b1b28f48cabe1eb9efb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[12.2416,45.66673]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3165201"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8c3bd0e2de9240b1b28f48cabe1eb9efb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8c3bd0e2de9240b1b28f48cabe1eb9efb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8c3bd0e2de9240b1b28f48cabe1eb9efb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Treviso"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Veneto"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8c3bd0e2de9240b1b28f48cabe1eb9efb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8c3bd0e2de9240b1b28f48cabe1eb9efb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Italy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8c3bd0e2de9240b1b28f48cabe1eb9efb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

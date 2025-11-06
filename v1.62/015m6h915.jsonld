@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/015m6h915",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Erbil_Polytechnic_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EPU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1996'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0377d274813f405286d8f048bbd09effb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://epu.edu.iq"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://epu.edu.iq"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0377d274813f405286d8f048bbd09effb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[44.00943,36.19117]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/95446"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0377d274813f405286d8f048bbd09effb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0377d274813f405286d8f048bbd09effb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0377d274813f405286d8f048bbd09effb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IQ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Erbil"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Erbil"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0377d274813f405286d8f048bbd09effb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0377d274813f405286d8f048bbd09effb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iraq"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0377d274813f405286d8f048bbd09effb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

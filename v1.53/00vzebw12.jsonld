@@ -1,0 +1,186 @@
+[
+  {
+    "@id": "https://ror.org/00vzebw12",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-13"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-14"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/NFC_Institute_of_Engineering_and_Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NFC IET"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NFC Institute of Engineering and Technology, Multan"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Fertilizer Corporation Institute of Engineering and Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n042013cf18284aae903682fcbb7f2f64b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n042013cf18284aae903682fcbb7f2f64b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://nfciet.edu.pk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000404474748"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nfciet.edu.pk"
+      }
+    ]
+  },
+  {
+    "@id": "_:n042013cf18284aae903682fcbb7f2f64b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Fertilizer Corporation (Pakistan)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04fysrj11"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n042013cf18284aae903682fcbb7f2f64b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[71.47824,30.19679]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1169825"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n042013cf18284aae903682fcbb7f2f64b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n042013cf18284aae903682fcbb7f2f64b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n042013cf18284aae903682fcbb7f2f64b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Multan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n042013cf18284aae903682fcbb7f2f64b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n042013cf18284aae903682fcbb7f2f64b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Pakistan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n042013cf18284aae903682fcbb7f2f64b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

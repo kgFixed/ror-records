@@ -1,0 +1,178 @@
+[
+  {
+    "@id": "https://ror.org/03m5ehy13",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Higher Education and Scientific Research"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Ministry_of_Higher_Education_and_Scientific_Research_(Iraq)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MOHESR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nb5a696cb54344d488715f737f365d810b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb5a696cb54344d488715f737f365d810b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.en.mohesr.gov.iq/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Higher Education and Scientific Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100007335"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.468102.9"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb5a696cb54344d488715f737f365d810b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scientific Research Commission"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/032g3x293"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb5a696cb54344d488715f737f365d810b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[44.40088,33.34058]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/98182"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb5a696cb54344d488715f737f365d810b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb5a696cb54344d488715f737f365d810b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb5a696cb54344d488715f737f365d810b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IQ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Baghdad"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Baghdad"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb5a696cb54344d488715f737f365d810b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb5a696cb54344d488715f737f365d810b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iraq"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb5a696cb54344d488715f737f365d810b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

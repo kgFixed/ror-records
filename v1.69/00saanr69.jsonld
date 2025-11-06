@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/00saanr69",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Sulaymaniyah"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1992'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6e6593e0447a4d9eaabdbbaa8507a093b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://univsul.edu.iq"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100007640"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.440843.f"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6e6593e0447a4d9eaabdbbaa8507a093b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[45.4329,35.56496]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/98463"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6e6593e0447a4d9eaabdbbaa8507a093b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6e6593e0447a4d9eaabdbbaa8507a093b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6e6593e0447a4d9eaabdbbaa8507a093b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IQ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sulaymaniyah"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Sulaymaniyah"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6e6593e0447a4d9eaabdbbaa8507a093b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6e6593e0447a4d9eaabdbbaa8507a093b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iraq"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6e6593e0447a4d9eaabdbbaa8507a093b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

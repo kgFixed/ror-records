@@ -1,0 +1,219 @@
+[
+  {
+    "@id": "https://ror.org/01hyg6578",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Czech Academy of Sciences, Institute of Philosophy"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FLÚ AV ČR"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Czech Acad Sci, Inst Philosophy"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Philosophy CAS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Philosophy of the Czech Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb1"
+      },
+      {
+        "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1990'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.flu.cas.cz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Czech Academy of Sciences, Institute of Philosophy"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.447862.b"
+      },
+      {
+        "@id": "http://isni.org/isni/000000040397437X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://flu.cas.cz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Czech Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/053avzc18"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Digital Research Infrastructure for Language Technologies, Arts and Humanities"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00dd4fz34"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[14.42076,50.08804]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3067696"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Prague"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Prague"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Czechia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc8d9e7fdc3456dbccfda8e14638aeeb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

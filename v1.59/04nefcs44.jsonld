@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/04nefcs44",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NCM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1999'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nec3a726afecc4d929154b96d475251efb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ncm.edu.np"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000460662380"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ncm.edu.np"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec3a726afecc4d929154b96d475251efb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[85.30257,27.67684]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/7113952"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nec3a726afecc4d929154b96d475251efb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec3a726afecc4d929154b96d475251efb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nec3a726afecc4d929154b96d475251efb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dhobighat"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bagmati Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec3a726afecc4d929154b96d475251efb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nec3a726afecc4d929154b96d475251efb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nepal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec3a726afecc4d929154b96d475251efb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

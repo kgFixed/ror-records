@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/05j7gyw58",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://fr.wikipedia.org/wiki/Universit%25C3%25A9_des_sciences_et_de_technologie_d%2527Ati"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "USTA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2008'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n82b9fb5ce74e44ce8e9b456bd163076eb1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n82b9fb5ce74e44ce8e9b456bd163076eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[18.3393,13.2138]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2436400"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n82b9fb5ce74e44ce8e9b456bd163076eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82b9fb5ce74e44ce8e9b456bd163076eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n82b9fb5ce74e44ce8e9b456bd163076eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TD"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ati"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Batha"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82b9fb5ce74e44ce8e9b456bd163076eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n82b9fb5ce74e44ce8e9b456bd163076eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Chad"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82b9fb5ce74e44ce8e9b456bd163076eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

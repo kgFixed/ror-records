@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/04d5ay023",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4d5d1ec98cf042389ecc293b95852f6cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.pref.tokushima.lg.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://pref.tokushima.lg.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4d5d1ec98cf042389ecc293b95852f6cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[134.56667,34.06667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1850158"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4d5d1ec98cf042389ecc293b95852f6cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4d5d1ec98cf042389ecc293b95852f6cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4d5d1ec98cf042389ecc293b95852f6cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tokushima"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tokushima"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4d5d1ec98cf042389ecc293b95852f6cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4d5d1ec98cf042389ecc293b95852f6cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4d5d1ec98cf042389ecc293b95852f6cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

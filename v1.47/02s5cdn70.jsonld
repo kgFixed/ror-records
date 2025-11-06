@@ -1,0 +1,173 @@
+[
+  {
+    "@id": "https://ror.org/02s5cdn70",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-30"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gwanda State University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Gwanda_State_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nc8a4fb96a4d347279aabb31d08e336bab1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2012'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc8a4fb96a4d347279aabb31d08e336bab2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.gsu.ac.zw/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gwanda State University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.448948.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000492813083"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8a4fb96a4d347279aabb31d08e336bab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zimbabwe University Libraries Consortium"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04y0q2a96"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8a4fb96a4d347279aabb31d08e336bab2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[29.00698,-20.93622]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/890516"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc8a4fb96a4d347279aabb31d08e336bab3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8a4fb96a4d347279aabb31d08e336bab3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc8a4fb96a4d347279aabb31d08e336bab4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gwanda"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8a4fb96a4d347279aabb31d08e336bab4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc8a4fb96a4d347279aabb31d08e336bab5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Zimbabwe"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8a4fb96a4d347279aabb31d08e336bab5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

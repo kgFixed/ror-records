@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/044g3rq92",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na4c5fd111c0741caa45d07e7a3f1b7cbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.museudodouro.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000464176785"
+      }
+    ]
+  },
+  {
+    "@id": "_:na4c5fd111c0741caa45d07e7a3f1b7cbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-7.78901,41.16318]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2736316"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na4c5fd111c0741caa45d07e7a3f1b7cbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na4c5fd111c0741caa45d07e7a3f1b7cbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na4c5fd111c0741caa45d07e7a3f1b7cbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Peso da Régua Municipality"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Vila Real"
+      }
+    ]
+  },
+  {
+    "@id": "_:na4c5fd111c0741caa45d07e7a3f1b7cbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na4c5fd111c0741caa45d07e7a3f1b7cbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:na4c5fd111c0741caa45d07e7a3f1b7cbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

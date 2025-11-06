@@ -1,0 +1,205 @@
+[
+  {
+    "@id": "https://ror.org/019641589",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Inje University Haeundae Paik Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ko.wikipedia.org/wiki/%25EC%259D%25B8%25EC%25A0%259C%25EB%258C%2580%25ED%2595%2599%25EA%25B5%2590_%25ED%2595%25B4%25EC%259A%25B4%25EB%258C%2580%25EB%25B0%25B1%25EB%25B3%2591%25EC%259B%2590"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "인제 대학교 해운대 백병원"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab1"
+      },
+      {
+        "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2007'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.paik.ac.kr/haeundae"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Inje University Haeundae Paik Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.411631.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404921384"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Inje University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04xqwq985"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Inje University Paik Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/015471y74"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[129.03004,35.10168]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1838524"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab4"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Busan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Busan"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne6fd67b803e94c9dbca65aca48b1fa6ab6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

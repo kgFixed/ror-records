@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/00pft3n23",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-06"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "City of Scientific Research and Technological Applications"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SRTA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SRTA-City"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2000'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3e210effc80a4d93b7566105fa52943bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://srtacity.sci.eg"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "City of Scientific Research and Technological Applications"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.420020.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404832576"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://srtacity.sci.eg"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3e210effc80a4d93b7566105fa52943bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[29.91582,31.20176]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/361058"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3e210effc80a4d93b7566105fa52943bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3e210effc80a4d93b7566105fa52943bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3e210effc80a4d93b7566105fa52943bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Alexandria"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Alexandria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3e210effc80a4d93b7566105fa52943bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3e210effc80a4d93b7566105fa52943bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Egypt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3e210effc80a4d93b7566105fa52943bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

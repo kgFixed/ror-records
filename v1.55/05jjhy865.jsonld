@@ -1,0 +1,203 @@
+[
+  {
+    "@id": "https://ror.org/05jjhy865",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-09-23"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jan Stanislav Institute of Slavistics"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jan Stanislav Institute of Slavistics SAS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jan Stanislav Institute of Slavistics SAV"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Slavistický ústav Jána Stanislava SAV"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Slavistický ústav Jána Stanislava SAV, v. v. i."
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Slavistický ústav Jána Stanislava Slovenská akadémia vied, v. v. i."
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Slavistický ústav Jána Stanislava Slovenská akadémia vied, verejná výskumná inštitúcia"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nae53febd01bc4edbbb4dd6244b5ddc9cb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2004'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nae53febd01bc4edbbb4dd6244b5ddc9cb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.slavu.sav.sk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.511141.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122215684"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://slavu.sav.sk"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae53febd01bc4edbbb4dd6244b5ddc9cb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Slovak Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03h7qq074"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae53febd01bc4edbbb4dd6244b5ddc9cb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[17.10674,48.14816]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3060972"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nae53febd01bc4edbbb4dd6244b5ddc9cb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae53febd01bc4edbbb4dd6244b5ddc9cb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nae53febd01bc4edbbb4dd6244b5ddc9cb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bratislava"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nae53febd01bc4edbbb4dd6244b5ddc9cb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nae53febd01bc4edbbb4dd6244b5ddc9cb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Slovakia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae53febd01bc4edbbb4dd6244b5ddc9cb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

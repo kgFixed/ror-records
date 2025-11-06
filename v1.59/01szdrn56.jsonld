@@ -1,0 +1,190 @@
+[
+  {
+    "@id": "https://ror.org/01szdrn56",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/International_Union_for_Conservation_of_Nature"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IUCN"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IUCN Bangladesh Country Office"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "International Union for Conservation of Nature"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "International Union for Conservation of Nature and Natural Resources"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nfa12da45df2e4cb681b5630c430872a3b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1948'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfa12da45df2e4cb681b5630c430872a3b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.iucn.org/about/union/secretariat/offices/asia/asia_where_work/bangladesh/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.466867.d"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa12da45df2e4cb681b5630c430872a3b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "International Union for Conservation of Nature"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04tehfn33"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa12da45df2e4cb681b5630c430872a3b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[90.40744,23.7104]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1185241"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfa12da45df2e4cb681b5630c430872a3b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa12da45df2e4cb681b5630c430872a3b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfa12da45df2e4cb681b5630c430872a3b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BD"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dhaka"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Dhaka Division"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa12da45df2e4cb681b5630c430872a3b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfa12da45df2e4cb681b5630c430872a3b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bangladesh"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa12da45df2e4cb681b5630c430872a3b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

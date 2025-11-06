@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/03dqw6d47",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Kadoorie_Farm_and_Botanic_Garden"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KFBG"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1956'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n35635cad73344f39882b655198b0704eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.kfbg.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kfbg.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n35635cad73344f39882b655198b0704eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[114.16877,22.45007]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1818673"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n35635cad73344f39882b655198b0704eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n35635cad73344f39882b655198b0704eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n35635cad73344f39882b655198b0704eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tai Po"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tai Po"
+      }
+    ]
+  },
+  {
+    "@id": "_:n35635cad73344f39882b655198b0704eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n35635cad73344f39882b655198b0704eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Hong Kong"
+      }
+    ]
+  },
+  {
+    "@id": "_:n35635cad73344f39882b655198b0704eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/0298pes53",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Korea Institute of Energy Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KIER"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1977'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf0d4d6aa459f4c4686b4b4c207c95115b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.kier.re.kr/eng/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Korea Institute of Energy Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100003702"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.418979.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000106917707"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf0d4d6aa459f4c4686b4b4c207c95115b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[127.38493,36.34913]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1835235"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf0d4d6aa459f4c4686b4b4c207c95115b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf0d4d6aa459f4c4686b4b4c207c95115b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf0d4d6aa459f4c4686b4b4c207c95115b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Daejeon"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Daejeon"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf0d4d6aa459f4c4686b4b4c207c95115b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf0d4d6aa459f4c4686b4b4c207c95115b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf0d4d6aa459f4c4686b4b4c207c95115b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

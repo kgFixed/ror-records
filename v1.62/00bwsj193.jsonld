@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/00bwsj193",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "TIE"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Taasisi ya Elimu Tanzania"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Taasisi ya Elimu Tanzania (TET)"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "anzania Institute of Education"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1975'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n93884a9e024b4d8385878d13024ec86db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.tie.go.tz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://tie.go.tz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93884a9e024b4d8385878d13024ec86db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[39.26951,-6.82349]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/160263"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n93884a9e024b4d8385878d13024ec86db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93884a9e024b4d8385878d13024ec86db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n93884a9e024b4d8385878d13024ec86db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dar es Salaam"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Dar es Salaam Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93884a9e024b4d8385878d13024ec86db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n93884a9e024b4d8385878d13024ec86db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Tanzania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93884a9e024b4d8385878d13024ec86db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

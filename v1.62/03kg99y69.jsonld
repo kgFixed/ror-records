@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/03kg99y69",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Cuban National Bureau of Standards"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfc3cccd8dd34452d84b27219aafea52db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ncnorma.gob.cu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ncnorma.gob.cu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc3cccd8dd34452d84b27219aafea52db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-82.38304,23.13302]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3553478"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfc3cccd8dd34452d84b27219aafea52db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc3cccd8dd34452d84b27219aafea52db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfc3cccd8dd34452d84b27219aafea52db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Havana"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Havana"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc3cccd8dd34452d84b27219aafea52db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfc3cccd8dd34452d84b27219aafea52db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cuba"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc3cccd8dd34452d84b27219aafea52db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

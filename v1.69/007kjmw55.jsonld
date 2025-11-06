@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/007kjmw55",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KIST"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Taasisi ya Sayansi na Teknolojia ya Karume"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2006'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5d16e8acee0d406d920f08b18055ceabb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kist.ac.tz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kist.ac.tz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5d16e8acee0d406d920f08b18055ceabb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[39.19793,-6.16394]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/148730"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5d16e8acee0d406d920f08b18055ceabb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5d16e8acee0d406d920f08b18055ceabb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5d16e8acee0d406d920f08b18055ceabb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Zanzibar"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zanzibar Urban/West"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5d16e8acee0d406d920f08b18055ceabb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5d16e8acee0d406d920f08b18055ceabb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Tanzania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5d16e8acee0d406d920f08b18055ceabb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "@id": "https://ror.org/03a62bv60",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Malta"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/University_of_Malta"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "L-Università ta' Malta"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n0deee7d763294bd8a5127493749e835eb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1769'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0deee7d763294bd8a5127493749e835eb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.um.edu.mt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Malta"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100015774"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.4462.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121769482"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://um.edu.mt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0deee7d763294bd8a5127493749e835eb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mater Dei Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05a01hn31"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0deee7d763294bd8a5127493749e835eb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[14.48278,35.8925]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2562698"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0deee7d763294bd8a5127493749e835eb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0deee7d763294bd8a5127493749e835eb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0deee7d763294bd8a5127493749e835eb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Msida"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "L-Imsida"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0deee7d763294bd8a5127493749e835eb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0deee7d763294bd8a5127493749e835eb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Malta"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0deee7d763294bd8a5127493749e835eb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

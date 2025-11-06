@@ -1,0 +1,166 @@
+[
+  {
+    "@id": "https://ror.org/0310h1546",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/University_of_Economics_in_Bratislava"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EUBA"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UEBA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Economics in Bratislava"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1940'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nca0e69dc68af448eb6deea54470e852db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://euba.sk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.127098.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000123369159"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://euba.sk"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca0e69dc68af448eb6deea54470e852db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[17.10674,48.14816]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3060972"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nca0e69dc68af448eb6deea54470e852db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca0e69dc68af448eb6deea54470e852db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nca0e69dc68af448eb6deea54470e852db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bratislava"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bratislava Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca0e69dc68af448eb6deea54470e852db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nca0e69dc68af448eb6deea54470e852db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Slovakia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca0e69dc68af448eb6deea54470e852db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

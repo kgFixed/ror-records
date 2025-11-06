@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/009g8f974> a org:Organization ;
+    rdfs:label 'Far East Geological Institute'^^xsd:string ;
+    schema:name 'Far East Geological Institute'^^xsd:string ;
+    schema:foundingDate "'1959'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Facility'^^xsd:string ; 
+    dct:modified '2022-10-17'^^xsd:date ;
+    org:abbreviation 'FEGI'^^xsd:string ;
+    org:alternativeName 'Federal State Institution of Science Far East Geological Institute, Far Eastern Branch of the Russian Academy of Sciences'^^xsd:string ;
+    schema:url <http://fegi.ru/institute_eng/> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[131.87353,43.10562]}" ;
+            schema:addressLocality 'Vladivostok'^^xsd:string ;
+            schema:addressCountry "RU" ;
+            owl:sameAs <http://sws.geonames.org/2013348/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000403995488> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

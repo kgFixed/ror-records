@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/04rfh4r06",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Chilean_Navy"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1817'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9901ce28a6e1432d9df56ba17d72d60cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.armada.cl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000106568076"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://armada.cl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9901ce28a6e1432d9df56ba17d72d60cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-71.55183,-33.02457]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3868121"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9901ce28a6e1432d9df56ba17d72d60cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9901ce28a6e1432d9df56ba17d72d60cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9901ce28a6e1432d9df56ba17d72d60cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Viña del Mar"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Valparaíso"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9901ce28a6e1432d9df56ba17d72d60cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9901ce28a6e1432d9df56ba17d72d60cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Chile"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9901ce28a6e1432d9df56ba17d72d60cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

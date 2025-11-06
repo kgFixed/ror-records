@@ -1,0 +1,185 @@
+[
+  {
+    "@id": "https://ror.org/052bnvt46",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut National des Postes et Télécommunications"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INPT"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Morocco Graduate Communications Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n21a580331c594eaba6495c3c3f4a86ecb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1961'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n21a580331c594eaba6495c3c3f4a86ecb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.inpt.ac.ma"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut National des Postes et Télécommunications"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.442300.1"
+      },
+      {
+        "@id": "http://isni.org/isni/000000011955575X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://inpt.ac.ma"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21a580331c594eaba6495c3c3f4a86ecb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Telecommunications Regulatory Agency"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05mktfw05"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21a580331c594eaba6495c3c3f4a86ecb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-6.83255,34.01325]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2538475"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n21a580331c594eaba6495c3c3f4a86ecb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21a580331c594eaba6495c3c3f4a86ecb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n21a580331c594eaba6495c3c3f4a86ecb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rabat"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Rabat-Salé-Kénitra"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21a580331c594eaba6495c3c3f4a86ecb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n21a580331c594eaba6495c3c3f4a86ecb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Morocco"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21a580331c594eaba6495c3c3f4a86ecb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

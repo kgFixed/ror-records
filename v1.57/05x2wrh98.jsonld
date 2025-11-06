@@ -1,0 +1,186 @@
+[
+  {
+    "@id": "https://ror.org/05x2wrh98",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-09"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-10"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://vi.wikipedia.org/wiki/Vi%25E1%25BB%2587n_%25C4%2590%25E1%25BB%258Ba_ch%25E1%25BA%25A5t_(Vi%25E1%25BB%2587t_Nam)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IGS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Geological Sciences of the Vietnam Academy of Science and Technology"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Viện Địa chất"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n6ee09a1f45094c51bc9fe045556774c1b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1976'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6ee09a1f45094c51bc9fe045556774c1b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://igsvn.vast.vn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://igsvn.vast.vn"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ee09a1f45094c51bc9fe045556774c1b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vietnam Academy of Science and Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02wsd5p50"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ee09a1f45094c51bc9fe045556774c1b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[105.84117,21.0245]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1581130"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6ee09a1f45094c51bc9fe045556774c1b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ee09a1f45094c51bc9fe045556774c1b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6ee09a1f45094c51bc9fe045556774c1b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "VN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hanoi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ee09a1f45094c51bc9fe045556774c1b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6ee09a1f45094c51bc9fe045556774c1b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Vietnam"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ee09a1f45094c51bc9fe045556774c1b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

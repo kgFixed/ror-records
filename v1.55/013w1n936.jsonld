@@ -1,0 +1,182 @@
+[
+  {
+    "@id": "https://ror.org/013w1n936",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-11-08"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Velux Fonden"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Velux Foundation"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Velux Foundation"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n7ad137012b464e7ea88e1a3c1b121dc2b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7ad137012b464e7ea88e1a3c1b121dc2b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://veluxfonden.dk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Velux Fonden"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100008397"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000463579179"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://veluxfonden.dk"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7ad137012b464e7ea88e1a3c1b121dc2b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Velux Foundations"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/007ww2d15"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7ad137012b464e7ea88e1a3c1b121dc2b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[12.31803,56.08481]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2613204"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7ad137012b464e7ea88e1a3c1b121dc2b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7ad137012b464e7ea88e1a3c1b121dc2b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7ad137012b464e7ea88e1a3c1b121dc2b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Søborg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n7ad137012b464e7ea88e1a3c1b121dc2b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7ad137012b464e7ea88e1a3c1b121dc2b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Denmark"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7ad137012b464e7ea88e1a3c1b121dc2b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

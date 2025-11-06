@@ -1,0 +1,168 @@
+[
+  {
+    "@id": "https://ror.org/012gfrj24",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-21"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Intercollege"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n579a21dfb1f440ea98d796c60df1639eb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n579a21dfb1f440ea98d796c60df1639eb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://intercollege.ac.cy"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Intercollege"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.466006.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406356024"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://intercollege.ac.cy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n579a21dfb1f440ea98d796c60df1639eb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Nicosia"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04v18t651"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n579a21dfb1f440ea98d796c60df1639eb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[33.3642,35.17531]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/146268"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n579a21dfb1f440ea98d796c60df1639eb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n579a21dfb1f440ea98d796c60df1639eb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n579a21dfb1f440ea98d796c60df1639eb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nicosia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n579a21dfb1f440ea98d796c60df1639eb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n579a21dfb1f440ea98d796c60df1639eb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cyprus"
+      }
+    ]
+  },
+  {
+    "@id": "_:n579a21dfb1f440ea98d796c60df1639eb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

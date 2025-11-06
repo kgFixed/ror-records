@@ -1,0 +1,176 @@
+[
+  {
+    "@id": "https://ror.org/05y381977",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Pfizer (Ireland)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Pfizer"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n632eebbbd4c94938aaece9d346e6b6bdb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1849'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n632eebbbd4c94938aaece9d346e6b6bdb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.pfizer.ie/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Pfizer (Ireland)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100015278"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.482367.c"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404014901"
+      }
+    ]
+  },
+  {
+    "@id": "_:n632eebbbd4c94938aaece9d346e6b6bdb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Pfizer (United States)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01xdqrp08"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n632eebbbd4c94938aaece9d346e6b6bdb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.47061,51.89797]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2965140"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n632eebbbd4c94938aaece9d346e6b6bdb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n632eebbbd4c94938aaece9d346e6b6bdb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n632eebbbd4c94938aaece9d346e6b6bdb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cork"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Munster"
+      }
+    ]
+  },
+  {
+    "@id": "_:n632eebbbd4c94938aaece9d346e6b6bdb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n632eebbbd4c94938aaece9d346e6b6bdb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ireland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n632eebbbd4c94938aaece9d346e6b6bdb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

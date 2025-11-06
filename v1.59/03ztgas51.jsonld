@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/03ztgas51",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ACCB"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Colombian Association of Biological Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1966'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n26355b00a7e149cfaf2f948f4c507166b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.asociacioncolombianadecienciasbiologicas.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://asociacioncolombianadecienciasbiologicas.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n26355b00a7e149cfaf2f948f4c507166b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-75.68111,4.53389]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3689560"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n26355b00a7e149cfaf2f948f4c507166b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n26355b00a7e149cfaf2f948f4c507166b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n26355b00a7e149cfaf2f948f4c507166b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Armenia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Quindío Department"
+      }
+    ]
+  },
+  {
+    "@id": "_:n26355b00a7e149cfaf2f948f4c507166b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n26355b00a7e149cfaf2f948f4c507166b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Colombia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n26355b00a7e149cfaf2f948f4c507166b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

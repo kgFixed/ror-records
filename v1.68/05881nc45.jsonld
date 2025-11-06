@@ -1,0 +1,181 @@
+[
+  {
+    "@id": "https://ror.org/05881nc45",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ko.wikipedia.org/wiki/%25ED%2595%259C%25EA%25B5%25AD%25EC%25A1%25B0%25EC%2584%25A0%25ED%2595%25B4%25EC%2596%2591%25EA%25B8%25B0%25EC%259E%2590%25EC%259E%25AC%25EC%2597%25B0%25EA%25B5%25AC%25EC%259B%2590"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KOMERI"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nfa9226e9bfdd444c94528e7ac9068b57b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1994'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfa9226e9bfdd444c94528e7ac9068b57b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.komeri.re.kr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000517549769"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://komeri.re.kr"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa9226e9bfdd444c94528e7ac9068b57b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Oceans and Fisheries"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00c5s4a53"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa9226e9bfdd444c94528e7ac9068b57b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[129.03004,35.10168]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1838524"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfa9226e9bfdd444c94528e7ac9068b57b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa9226e9bfdd444c94528e7ac9068b57b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfa9226e9bfdd444c94528e7ac9068b57b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Busan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Busan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa9226e9bfdd444c94528e7ac9068b57b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfa9226e9bfdd444c94528e7ac9068b57b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa9226e9bfdd444c94528e7ac9068b57b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "@id": "https://ror.org/04asck240",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Inonu University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/%25C4%25B0n%25C3%25B6n%25C3%25BC_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:na1018d27700b4579a4616b7eb518974eb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1975'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na1018d27700b4579a4616b7eb518974eb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.inonu.edu.tr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Inonu University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100011576"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.411650.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000100241937"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://inonu.edu.tr"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1018d27700b4579a4616b7eb518974eb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Turgut Özal Tıp Merkezi"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0449k9183"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1018d27700b4579a4616b7eb518974eb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[38.31667,38.35018]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/304922"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na1018d27700b4579a4616b7eb518974eb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1018d27700b4579a4616b7eb518974eb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na1018d27700b4579a4616b7eb518974eb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Malatya"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Malatya"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1018d27700b4579a4616b7eb518974eb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na1018d27700b4579a4616b7eb518974eb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Türkiye"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1018d27700b4579a4616b7eb518974eb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

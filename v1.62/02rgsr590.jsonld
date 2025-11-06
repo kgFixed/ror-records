@@ -1,0 +1,181 @@
+[
+  {
+    "@id": "https://ror.org/02rgsr590",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LEO Foundation"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LEO Pharma Research Foundation"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n28784822c1374227ab04cb7241518f13b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1984'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n28784822c1374227ab04cb7241518f13b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://leo-foundation.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LEO Foundation"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100012331"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.500522.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000478665248"
+      }
+    ]
+  },
+  {
+    "@id": "_:n28784822c1374227ab04cb7241518f13b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Leo Pharma (Denmark)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05tzrdd39"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n28784822c1374227ab04cb7241518f13b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[12.56553,55.67594]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2618425"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n28784822c1374227ab04cb7241518f13b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n28784822c1374227ab04cb7241518f13b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n28784822c1374227ab04cb7241518f13b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Copenhagen"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Capital Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n28784822c1374227ab04cb7241518f13b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n28784822c1374227ab04cb7241518f13b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Denmark"
+      }
+    ]
+  },
+  {
+    "@id": "_:n28784822c1374227ab04cb7241518f13b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

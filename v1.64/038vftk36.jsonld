@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/038vftk36",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf790940cdeb842e9b43fb6a2ac6aae84b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://nonagon.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000511234379"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nonagon.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf790940cdeb842e9b43fb6a2ac6aae84b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-25.57184,37.74486]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3372965"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf790940cdeb842e9b43fb6a2ac6aae84b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf790940cdeb842e9b43fb6a2ac6aae84b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf790940cdeb842e9b43fb6a2ac6aae84b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lagoa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Azores"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf790940cdeb842e9b43fb6a2ac6aae84b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf790940cdeb842e9b43fb6a2ac6aae84b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf790940cdeb842e9b43fb6a2ac6aae84b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "@id": "https://ror.org/029w34q36",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ningxia Seismological Bureau"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://zh.wikipedia.org/wiki/%25E5%25AE%2581%25E5%25A4%258F%25E5%259B%259E%25E6%2597%258F%25E8%2587%25AA%25E6%25B2%25BB%25E5%258C%25BA%25E5%259C%25B0%25E9%259C%2587%25E5%25B1%2580"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "宁夏地震局"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n6efd16fb7bc94d26b99a8dc215685f66b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6efd16fb7bc94d26b99a8dc215685f66b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.nxdzj.gov.cn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ningxia Seismological Bureau"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.488166.5"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nxdzj.gov.cn"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6efd16fb7bc94d26b99a8dc215685f66b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "China Earthquake Administration"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/045sza929"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6efd16fb7bc94d26b99a8dc215685f66b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[106.27306,38.46806]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1786657"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6efd16fb7bc94d26b99a8dc215685f66b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6efd16fb7bc94d26b99a8dc215685f66b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6efd16fb7bc94d26b99a8dc215685f66b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Yinchuan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ningxia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6efd16fb7bc94d26b99a8dc215685f66b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6efd16fb7bc94d26b99a8dc215685f66b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6efd16fb7bc94d26b99a8dc215685f66b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

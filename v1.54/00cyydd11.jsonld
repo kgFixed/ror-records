@@ -1,0 +1,197 @@
+[
+  {
+    "@id": "https://ror.org/00cyydd11",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-21"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Eastern Finland"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/University_of_Eastern_Finland"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UEF"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Itä-Suomen Yliopisto"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nbd0653229b8c4fc09bf8dc52e341162cb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2010'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbd0653229b8c4fc09bf8dc52e341162cb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.uef.fi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Eastern Finland"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100007753"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.9668.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000107262490"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uef.fi"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd0653229b8c4fc09bf8dc52e341162cb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kuopio University Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00fqdfs68"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd0653229b8c4fc09bf8dc52e341162cb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[27.67703,62.89238]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/650224"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbd0653229b8c4fc09bf8dc52e341162cb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd0653229b8c4fc09bf8dc52e341162cb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbd0653229b8c4fc09bf8dc52e341162cb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FI"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kuopio"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd0653229b8c4fc09bf8dc52e341162cb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbd0653229b8c4fc09bf8dc52e341162cb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Finland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd0653229b8c4fc09bf8dc52e341162cb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

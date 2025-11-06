@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/05pa8nx74",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CEA-PCMT"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n5bc3a33ff3cb4022bd4455b5a0c94563b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2018'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5bc3a33ff3cb4022bd4455b5a0c94563b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cea-pcmt.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cea-pcmt.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5bc3a33ff3cb4022bd4455b5a0c94563b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gamal Abdel Nasser University of Conakry"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/002g4yr42"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5bc3a33ff3cb4022bd4455b5a0c94563b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-13.67729,9.53795]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2422465"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5bc3a33ff3cb4022bd4455b5a0c94563b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5bc3a33ff3cb4022bd4455b5a0c94563b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5bc3a33ff3cb4022bd4455b5a0c94563b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Conakry"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Conakry"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5bc3a33ff3cb4022bd4455b5a0c94563b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5bc3a33ff3cb4022bd4455b5a0c94563b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Guinea"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5bc3a33ff3cb4022bd4455b5a0c94563b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/03sqmjr39",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ITU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "International Taraz Innovative Institute named after Sherkhan Murtaza"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sherkhan Murtaza University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2008'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n582c1a82ba244f36947129a695288e53b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.htii.edu.kz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://htii.edu.kz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n582c1a82ba244f36947129a695288e53b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[71.36667,42.9]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1516905"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n582c1a82ba244f36947129a695288e53b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n582c1a82ba244f36947129a695288e53b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n582c1a82ba244f36947129a695288e53b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Taraz"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zhambyl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n582c1a82ba244f36947129a695288e53b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n582c1a82ba244f36947129a695288e53b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kazakhstan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n582c1a82ba244f36947129a695288e53b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

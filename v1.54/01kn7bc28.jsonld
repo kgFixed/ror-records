@@ -1,0 +1,156 @@
+[
+  {
+    "@id": "https://ror.org/01kn7bc28",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-21"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sol Plaatje University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Sol_Plaatje_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SPU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2014'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb36b1e73afe144748d2d4d0d4c1114deb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.spu.ac.za/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sol Plaatje University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.449297.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000459870051"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://spu.ac.za"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb36b1e73afe144748d2d4d0d4c1114deb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[24.76232,-28.73226]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/990930"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb36b1e73afe144748d2d4d0d4c1114deb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb36b1e73afe144748d2d4d0d4c1114deb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb36b1e73afe144748d2d4d0d4c1114deb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kimberley"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nb36b1e73afe144748d2d4d0d4c1114deb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb36b1e73afe144748d2d4d0d4c1114deb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Africa"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb36b1e73afe144748d2d4d0d4c1114deb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

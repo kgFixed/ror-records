@@ -1,0 +1,202 @@
+[
+  {
+    "@id": "https://ror.org/00ee8az96",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "TKH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b1"
+      },
+      {
+        "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2019'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://tkh.edu.eg"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000502660560"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://tkh.edu.eg"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Coventry University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01tgmhj36"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidade Nova de Lisboa"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02xankh89"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[31.765,30.0275]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/12188760"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Wudyan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Cairo"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Egypt"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0c19203aefa48e39daf3e4df1fe3f83b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

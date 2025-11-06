@@ -1,0 +1,181 @@
+[
+  {
+    "@id": "https://ror.org/043jfav91",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Surigao_del_Sur_State_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NEMSU"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SDSSU"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SSPSC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Surigao del Sur Polytechnic College"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Surigao del Sur Polytechnic State College"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Surigao del Sur State University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1982'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n860fad9e9e1f4f94be44b92d0fb9ba94b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.nemsu.edu.ph"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.449510.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405098000"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nemsu.edu.ph"
+      },
+      {
+        "@id": "http://sdssu.edu.ph"
+      }
+    ]
+  },
+  {
+    "@id": "_:n860fad9e9e1f4f94be44b92d0fb9ba94b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[126.19861,9.07833]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1683302"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n860fad9e9e1f4f94be44b92d0fb9ba94b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n860fad9e9e1f4f94be44b92d0fb9ba94b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n860fad9e9e1f4f94be44b92d0fb9ba94b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tandag"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Caraga"
+      }
+    ]
+  },
+  {
+    "@id": "_:n860fad9e9e1f4f94be44b92d0fb9ba94b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n860fad9e9e1f4f94be44b92d0fb9ba94b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Philippines"
+      }
+    ]
+  },
+  {
+    "@id": "_:n860fad9e9e1f4f94be44b92d0fb9ba94b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

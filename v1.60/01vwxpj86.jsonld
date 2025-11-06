@@ -1,0 +1,164 @@
+[
+  {
+    "@id": "https://ror.org/01vwxpj86",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ARARI"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Amhara Regional Agricultural Research Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2000'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1013dd5837784de0a46e8485c527df7fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://arari.gov.et"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100022767"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.464522.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404564858"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://arari.gov.et"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1013dd5837784de0a46e8485c527df7fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[37.39077,11.59364]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/342884"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1013dd5837784de0a46e8485c527df7fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1013dd5837784de0a46e8485c527df7fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1013dd5837784de0a46e8485c527df7fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ET"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bahir Dar"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Amhara"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1013dd5837784de0a46e8485c527df7fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1013dd5837784de0a46e8485c527df7fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ethiopia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1013dd5837784de0a46e8485c527df7fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

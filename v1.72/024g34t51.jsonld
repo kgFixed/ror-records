@@ -1,0 +1,174 @@
+[
+  {
+    "@id": "https://ror.org/024g34t51",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-05"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-06"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://fr.wikipedia.org/wiki/%25C3%2589cole_nationale_d%2527administration_(r%25C3%25A9publique_d%25C3%25A9mocratique_du_Congo)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENA"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENA DRC"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENA RDC"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENAP"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ecole Nationale d'Administration de la République Démocratique du Congo"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ecole Nationale d'Administration, Kinshasa, RDC"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "École Nationale d’Administration Publique"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1960'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nac0eaafe034b43d3944925128322109ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ena.cd"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ena.cd"
+      }
+    ]
+  },
+  {
+    "@id": "_:nac0eaafe034b43d3944925128322109ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.31357,-4.32758]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2314302"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nac0eaafe034b43d3944925128322109ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nac0eaafe034b43d3944925128322109ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nac0eaafe034b43d3944925128322109ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CD"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kinshasa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kinshasa"
+      }
+    ]
+  },
+  {
+    "@id": "_:nac0eaafe034b43d3944925128322109ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nac0eaafe034b43d3944925128322109ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "DR Congo"
+      }
+    ]
+  },
+  {
+    "@id": "_:nac0eaafe034b43d3944925128322109ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

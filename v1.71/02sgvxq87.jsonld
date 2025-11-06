@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/02sgvxq87",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Admas University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Admas_University_College%25E2%2580%2593Hargeisa"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1998'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf630c0ea9f8040f7abe867cf849a5963b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://admasuniversity.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Admas University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.461154.3"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://admasuniversity.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf630c0ea9f8040f7abe867cf849a5963b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[44.065,9.56]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/57289"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf630c0ea9f8040f7abe867cf849a5963b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf630c0ea9f8040f7abe867cf849a5963b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf630c0ea9f8040f7abe867cf849a5963b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hargeisa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Woqooyi Galbeed"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf630c0ea9f8040f7abe867cf849a5963b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf630c0ea9f8040f7abe867cf849a5963b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Somalia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf630c0ea9f8040f7abe867cf849a5963b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

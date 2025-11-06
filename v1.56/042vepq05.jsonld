@@ -1,0 +1,191 @@
+[
+  {
+    "@id": "https://ror.org/042vepq05",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gulu University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Gulu_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nf1c4e443d0c2483986c5bed193f117afb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2001'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf1c4e443d0c2483986c5bed193f117afb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://gu.ac.ug/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gulu University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100012839"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.442626.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000107500866"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://gu.ac.ug"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf1c4e443d0c2483986c5bed193f117afb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gulu Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00tbh0a59"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf1c4e443d0c2483986c5bed193f117afb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[32.29899,2.77457]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/233346"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf1c4e443d0c2483986c5bed193f117afb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf1c4e443d0c2483986c5bed193f117afb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf1c4e443d0c2483986c5bed193f117afb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gulu"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nf1c4e443d0c2483986c5bed193f117afb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf1c4e443d0c2483986c5bed193f117afb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Uganda"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf1c4e443d0c2483986c5bed193f117afb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

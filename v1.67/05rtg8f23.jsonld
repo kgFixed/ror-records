@@ -1,0 +1,188 @@
+[
+  {
+    "@id": "https://ror.org/05rtg8f23",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://az.wikipedia.org/wiki/AMEA_Arxeologiya_v%25C9%2599_Antropologiya_%25C4%25B0nstitutu"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AMEA Arxeologiya və Antropologiya İnstitutu"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ins Arc Anth ANAS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Archaeology and Anthropology of ANAS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Archaeology and Anthropology of the Azerbaijan National Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n89359a722ff24411ab72aa91f07f242cb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1993'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n89359a722ff24411ab72aa91f07f242cb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://arxeologiya.az"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://arxeologiya.az"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89359a722ff24411ab72aa91f07f242cb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Azerbaijan National Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/006m4q736"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89359a722ff24411ab72aa91f07f242cb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[49.89201,40.37767]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/587084"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n89359a722ff24411ab72aa91f07f242cb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89359a722ff24411ab72aa91f07f242cb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n89359a722ff24411ab72aa91f07f242cb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Baku"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Baki"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89359a722ff24411ab72aa91f07f242cb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n89359a722ff24411ab72aa91f07f242cb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Azerbaijan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89359a722ff24411ab72aa91f07f242cb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "@id": "https://ror.org/01t466c14",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Nacional"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/National_University_of_Costa_Rica"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UNA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Nacional de Costa Rica"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Nacional, Costa Rica"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1973'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n14cfb2299e8840d9b433c204b00ad172b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.una.ac.cr/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Nacional"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100018951"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.10729.3d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121663813"
+      }
+    ]
+  },
+  {
+    "@id": "_:n14cfb2299e8840d9b433c204b00ad172b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-84.11651,10.00236]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3623486"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n14cfb2299e8840d9b433c204b00ad172b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n14cfb2299e8840d9b433c204b00ad172b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n14cfb2299e8840d9b433c204b00ad172b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Heredia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Heredia Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:n14cfb2299e8840d9b433c204b00ad172b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n14cfb2299e8840d9b433c204b00ad172b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Costa Rica"
+      }
+    ]
+  },
+  {
+    "@id": "_:n14cfb2299e8840d9b433c204b00ad172b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

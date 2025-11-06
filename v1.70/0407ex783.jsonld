@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/0407ex783",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Organization for Drug Control and Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NODCAR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n2eabce59be1d4c8c8e5f82ab3de5c2dbb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1976'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2eabce59be1d4c8c8e5f82ab3de5c2dbb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.nodcar.eg.net/main/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Organization for Drug Control and Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.419698.b"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2eabce59be1d4c8c8e5f82ab3de5c2dbb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health and Population"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04f90ax67"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2eabce59be1d4c8c8e5f82ab3de5c2dbb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[31.24967,30.06263]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/360630"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2eabce59be1d4c8c8e5f82ab3de5c2dbb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2eabce59be1d4c8c8e5f82ab3de5c2dbb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2eabce59be1d4c8c8e5f82ab3de5c2dbb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cairo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Cairo"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2eabce59be1d4c8c8e5f82ab3de5c2dbb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2eabce59be1d4c8c8e5f82ab3de5c2dbb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Egypt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2eabce59be1d4c8c8e5f82ab3de5c2dbb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

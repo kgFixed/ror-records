@@ -1,0 +1,217 @@
+[
+  {
+    "@id": "https://ror.org/008stv805",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of the South Pacific"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/University_of_the_South_Pacific"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "USP"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b1"
+      },
+      {
+        "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1968'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.usp.ac.fj/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of the South Pacific"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100018226"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.33998.38"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121714027"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://usp.ac.fj"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of the South Pacific - Samoa Campus"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03be9n013"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of the South Pacific - Solomon Islands Campus"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/001vq2a15"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[178.42531,-18.13683]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2198148"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FJ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Suva"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Fiji"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec96f58de1374a5cb6bc1bdebebcd799b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

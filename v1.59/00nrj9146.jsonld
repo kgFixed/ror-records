@@ -1,0 +1,142 @@
+[
+  {
+    "@id": "https://ror.org/00nrj9146",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kobe Tokiwa Daigaku Tanki Daigakubu"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "コウベ トキワ ダイガク タンキ ダイガクブ"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne38e259ce6464f4a8a6e8d22d7a8571cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.kobe-tokiwa.ac.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kobe-tokiwa.ac.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne38e259ce6464f4a8a6e8d22d7a8571cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[135.183,34.6913]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1859171"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne38e259ce6464f4a8a6e8d22d7a8571cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne38e259ce6464f4a8a6e8d22d7a8571cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne38e259ce6464f4a8a6e8d22d7a8571cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kobe"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Hyōgo"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne38e259ce6464f4a8a6e8d22d7a8571cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne38e259ce6464f4a8a6e8d22d7a8571cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne38e259ce6464f4a8a6e8d22d7a8571cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

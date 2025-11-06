@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/036h5fs56",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IMPE-QN"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IMPE Quy Nhon"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd7313eb0134f446e97183492c8353931b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.impe-qn.org.vn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://impe-qn.org.vn"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd7313eb0134f446e97183492c8353931b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[109.22367,13.77648]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1568574"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd7313eb0134f446e97183492c8353931b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd7313eb0134f446e97183492c8353931b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd7313eb0134f446e97183492c8353931b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "VN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Qui Nhon"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bình Định Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd7313eb0134f446e97183492c8353931b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd7313eb0134f446e97183492c8353931b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Vietnam"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd7313eb0134f446e97183492c8353931b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

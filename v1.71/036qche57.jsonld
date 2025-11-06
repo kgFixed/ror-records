@@ -1,0 +1,185 @@
+[
+  {
+    "@id": "https://ror.org/036qche57",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CISA"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INIS CISA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Nacional de Investigação em Saúde, Centro de Investigação em Saúde de Angola"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Health Research Institute, Health Research Centre of Angola"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nea98e9c2b2f040bcb52a373f07c58357b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nea98e9c2b2f040bcb52a373f07c58357b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cisacaxito.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000505991832"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cisacaxito.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:nea98e9c2b2f040bcb52a373f07c58357b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Nacional de Investigação em Saúde"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00x3p4252"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nea98e9c2b2f040bcb52a373f07c58357b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[13.66425,-8.57848]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2242001"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nea98e9c2b2f040bcb52a373f07c58357b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nea98e9c2b2f040bcb52a373f07c58357b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nea98e9c2b2f040bcb52a373f07c58357b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Caxito"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bengo"
+      }
+    ]
+  },
+  {
+    "@id": "_:nea98e9c2b2f040bcb52a373f07c58357b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nea98e9c2b2f040bcb52a373f07c58357b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Angola"
+      }
+    ]
+  },
+  {
+    "@id": "_:nea98e9c2b2f040bcb52a373f07c58357b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

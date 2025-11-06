@@ -1,0 +1,186 @@
+[
+  {
+    "@id": "https://ror.org/003mz1d41",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://hu.wikipedia.org/wiki/Fiatal_Kutat%25C3%25B3k_Akad%25C3%25A9mi%25C3%25A1ja"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FKA"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HYA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fiatal Kutatók Akadémiája"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:na313e8c63b9c4003892eb734ad96277fb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2019'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na313e8c63b9c4003892eb734ad96277fb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://fka.mta.hu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fka.mta.hu"
+      }
+    ]
+  },
+  {
+    "@id": "_:na313e8c63b9c4003892eb734ad96277fb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hungarian Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02ks8qq67"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:na313e8c63b9c4003892eb734ad96277fb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[19.04045,47.49835]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3054643"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na313e8c63b9c4003892eb734ad96277fb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:na313e8c63b9c4003892eb734ad96277fb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na313e8c63b9c4003892eb734ad96277fb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Budapest"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Budapest"
+      }
+    ]
+  },
+  {
+    "@id": "_:na313e8c63b9c4003892eb734ad96277fb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na313e8c63b9c4003892eb734ad96277fb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Hungary"
+      }
+    ]
+  },
+  {
+    "@id": "_:na313e8c63b9c4003892eb734ad96277fb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

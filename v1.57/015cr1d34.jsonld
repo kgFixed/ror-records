@@ -1,0 +1,170 @@
+[
+  {
+    "@id": "https://ror.org/015cr1d34",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-09"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-10"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MSD Pharma Hungary Kft."
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Merck Sharp & Dohme Hungary"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nfc566c9fe64a4a958d551a9bb272fa2bb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfc566c9fe64a4a958d551a9bb272fa2bb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://msd.hu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://msd.hu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc566c9fe64a4a958d551a9bb272fa2bb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Merck & Co., Inc., Rahway, NJ, USA (United States)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02891sr49"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc566c9fe64a4a958d551a9bb272fa2bb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[19.04045,47.49835]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3054643"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfc566c9fe64a4a958d551a9bb272fa2bb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc566c9fe64a4a958d551a9bb272fa2bb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfc566c9fe64a4a958d551a9bb272fa2bb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Budapest"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc566c9fe64a4a958d551a9bb272fa2bb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfc566c9fe64a4a958d551a9bb272fa2bb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Hungary"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc566c9fe64a4a958d551a9bb272fa2bb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "@id": "https://ror.org/01q8rrk81",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-11"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Stephan Angeloff Institute of Microbiology"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb1"
+      },
+      {
+        "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1947'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.microbio.bas.bg/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Stephan Angeloff Institute of Microbiology"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.419850.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404865685"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bulgarian Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01x8hew03"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut Pasteur"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0495fxg12"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.32415,42.69751]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/727011"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sofia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bulgaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc050d66730624ff7b4c49c42f23d69fcb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

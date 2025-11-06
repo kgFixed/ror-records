@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/02zv7ne49",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "South Australian Museum"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/South_Australian_Museum"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1856'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9591d2710cab4a4bb2fd57a39325ab2eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.samuseum.sa.gov.au/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "South Australian Museum"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100009375"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.437963.c"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000113495098"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9591d2710cab4a4bb2fd57a39325ab2eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[138.59863,-34.92866]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2078025"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9591d2710cab4a4bb2fd57a39325ab2eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9591d2710cab4a4bb2fd57a39325ab2eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9591d2710cab4a4bb2fd57a39325ab2eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Adelaide"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "South Australia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9591d2710cab4a4bb2fd57a39325ab2eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9591d2710cab4a4bb2fd57a39325ab2eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Australia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9591d2710cab4a4bb2fd57a39325ab2eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

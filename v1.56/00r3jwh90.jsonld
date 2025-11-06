@@ -1,0 +1,166 @@
+[
+  {
+    "@id": "https://ror.org/00r3jwh90",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Budapest_Business_School"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BBS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BGE"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Budapest Business School"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1857'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb912ab966f754511b96031b022ff6f2eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://uni-bge.hu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.445651.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000087656846"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uni-bge.hu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb912ab966f754511b96031b022ff6f2eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[19.04045,47.49835]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3054643"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb912ab966f754511b96031b022ff6f2eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb912ab966f754511b96031b022ff6f2eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb912ab966f754511b96031b022ff6f2eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Budapest"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nb912ab966f754511b96031b022ff6f2eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb912ab966f754511b96031b022ff6f2eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Hungary"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb912ab966f754511b96031b022ff6f2eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/02ayn5869",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-11-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southern Centre For Inequality Studies"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SCIS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n89fea6522c914a488cd3a79995b1b481b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2018'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n89fea6522c914a488cd3a79995b1b481b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.wits.ac.za/scis"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southern Centre For Inequality Studies"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100020148"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89fea6522c914a488cd3a79995b1b481b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of the Witwatersrand"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03rp50x72"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89fea6522c914a488cd3a79995b1b481b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[28.04363,-26.20227]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/993800"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n89fea6522c914a488cd3a79995b1b481b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89fea6522c914a488cd3a79995b1b481b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n89fea6522c914a488cd3a79995b1b481b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Johannesburg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gauteng"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89fea6522c914a488cd3a79995b1b481b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n89fea6522c914a488cd3a79995b1b481b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Africa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89fea6522c914a488cd3a79995b1b481b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

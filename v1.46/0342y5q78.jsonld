@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/0342y5q78",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-02"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Grønlands Naturinstitut"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1998'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc7b0351f9c0c45f89d491426c199c056b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://natur.gl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Grønlands Naturinstitut"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100008075"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.424543.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000107415039"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc7b0351f9c0c45f89d491426c199c056b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-51.72157,64.18347]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3421319"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc7b0351f9c0c45f89d491426c199c056b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc7b0351f9c0c45f89d491426c199c056b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc7b0351f9c0c45f89d491426c199c056b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nuuk"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nc7b0351f9c0c45f89d491426c199c056b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc7b0351f9c0c45f89d491426c199c056b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Greenland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc7b0351f9c0c45f89d491426c199c056b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

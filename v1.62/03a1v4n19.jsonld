@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/03a1v4n19",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ko.wikipedia.org/wiki/%25ED%2595%259C%25EA%25B5%25AD%25EC%259B%2590%25EC%259E%2590%25EB%25A0%25A5%25ED%2599%2598%25EA%25B2%25BD%25EA%25B3%25B5%25EB%258B%25A8"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KORAD"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "한국원자력환경공단"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2009'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndcba30cfdc2f4f7fa55fe2a8ad93a722b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.korad.or.kr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://korad.or.kr"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndcba30cfdc2f4f7fa55fe2a8ad93a722b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[129.21167,35.84278]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1841603"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndcba30cfdc2f4f7fa55fe2a8ad93a722b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndcba30cfdc2f4f7fa55fe2a8ad93a722b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndcba30cfdc2f4f7fa55fe2a8ad93a722b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gyeongju"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gyeongsangbuk-do"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndcba30cfdc2f4f7fa55fe2a8ad93a722b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndcba30cfdc2f4f7fa55fe2a8ad93a722b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndcba30cfdc2f4f7fa55fe2a8ad93a722b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

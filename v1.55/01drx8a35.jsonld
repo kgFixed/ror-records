@@ -1,0 +1,198 @@
+[
+  {
+    "@id": "https://ror.org/01drx8a35",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-29"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/VNU-HCM_High_School_for_the_Gifted"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PTNK"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "High School for the Gifted, VNUHCM"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Trường PTNK"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Trường Phổ thông Năng khiếu, ĐHQG-HCM"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Trường Phổ thông Năng khiếu, Đại học Quốc gia Thành phố Hồ Chí Minh"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Viet Nam National University Ho Chi Minh City - High School for the Gifted"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nceb12f1b88b34c9fb3718a4f3f3c3c43b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1996'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nceb12f1b88b34c9fb3718a4f3f3c3c43b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ptnk.edu.vn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ptnk.edu.vn"
+      }
+    ]
+  },
+  {
+    "@id": "_:nceb12f1b88b34c9fb3718a4f3f3c3c43b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vietnam National University Ho Chi Minh City"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00waaqh38"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nceb12f1b88b34c9fb3718a4f3f3c3c43b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[106.62965,10.82302]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1566083"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nceb12f1b88b34c9fb3718a4f3f3c3c43b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nceb12f1b88b34c9fb3718a4f3f3c3c43b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nceb12f1b88b34c9fb3718a4f3f3c3c43b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "VN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ho Chi Minh City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nceb12f1b88b34c9fb3718a4f3f3c3c43b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nceb12f1b88b34c9fb3718a4f3f3c3c43b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Vietnam"
+      }
+    ]
+  },
+  {
+    "@id": "_:nceb12f1b88b34c9fb3718a4f3f3c3c43b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

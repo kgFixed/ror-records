@@ -1,0 +1,166 @@
+[
+  {
+    "@id": "https://ror.org/02w95hf30",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Croatian_Meteorological_and_Hydrological_Service"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DHMZ"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MHS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Meteorological and Hydrological Service"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1947'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7f9e9b1b8e9f44b1b0936c4a22d742a7b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://meteo.hr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.433746.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404523984"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://meteo.hr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7f9e9b1b8e9f44b1b0936c4a22d742a7b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.97798,45.81444]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3186886"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7f9e9b1b8e9f44b1b0936c4a22d742a7b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7f9e9b1b8e9f44b1b0936c4a22d742a7b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7f9e9b1b8e9f44b1b0936c4a22d742a7b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Zagreb"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zagreb"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7f9e9b1b8e9f44b1b0936c4a22d742a7b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7f9e9b1b8e9f44b1b0936c4a22d742a7b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Croatia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7f9e9b1b8e9f44b1b0936c4a22d742a7b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "@id": "https://ror.org/01jpzd518",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Center for High-Performance Computing"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/National_Center_for_High-Performance_Computing"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NCHC"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nbe25c4b2a02f4032be0f5d98276a0169b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1991'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbe25c4b2a02f4032be0f5d98276a0169b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.nchc.org.tw/en/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Center for High-Performance Computing"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.462649.b"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbe25c4b2a02f4032be0f5d98276a0169b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Institutes of Applied Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05wcstg80"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbe25c4b2a02f4032be0f5d98276a0169b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[120.96861,24.80361]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1675151"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbe25c4b2a02f4032be0f5d98276a0169b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbe25c4b2a02f4032be0f5d98276a0169b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbe25c4b2a02f4032be0f5d98276a0169b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hsinchu"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Taiwan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbe25c4b2a02f4032be0f5d98276a0169b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbe25c4b2a02f4032be0f5d98276a0169b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Taiwan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbe25c4b2a02f4032be0f5d98276a0169b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

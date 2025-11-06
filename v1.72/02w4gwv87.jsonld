@@ -1,0 +1,199 @@
+[
+  {
+    "@id": "https://ror.org/02w4gwv87",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-06"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Antananarivo"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Antananarivo"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ndac1ed7f55aa41689b8d45288706b933b1"
+      },
+      {
+        "@id": "_:ndac1ed7f55aa41689b8d45288706b933b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1955'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndac1ed7f55aa41689b8d45288706b933b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.univ-antananarivo.mg/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Antananarivo"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.440419.c"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121655629"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndac1ed7f55aa41689b8d45288706b933b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Unité de Recherche en Génie des Procédés et en Génie de l’Environnement"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00kpjh567"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndac1ed7f55aa41689b8d45288706b933b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute and Observatory of Geophysics of Antananarivo"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02cc2hs63"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndac1ed7f55aa41689b8d45288706b933b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[47.53613,-18.91368]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1070940"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndac1ed7f55aa41689b8d45288706b933b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndac1ed7f55aa41689b8d45288706b933b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndac1ed7f55aa41689b8d45288706b933b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Antananarivo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Analamanga"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndac1ed7f55aa41689b8d45288706b933b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndac1ed7f55aa41689b8d45288706b933b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Madagascar"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndac1ed7f55aa41689b8d45288706b933b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

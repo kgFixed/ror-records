@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/02a9x5m28",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-16"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CIM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfd22f103761c44fc8718f83be598a62db1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nfd22f103761c44fc8718f83be598a62db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[125.75432,39.03385]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1871859"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfd22f103761c44fc8718f83be598a62db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfd22f103761c44fc8718f83be598a62db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfd22f103761c44fc8718f83be598a62db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Pyongyang"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nfd22f103761c44fc8718f83be598a62db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfd22f103761c44fc8718f83be598a62db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfd22f103761c44fc8718f83be598a62db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

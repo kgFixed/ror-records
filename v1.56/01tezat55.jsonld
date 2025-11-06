@@ -1,0 +1,205 @@
+[
+  {
+    "@id": "https://ror.org/01tezat55",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-02-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Université Mohammed VI des Sciences de la Santé"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UM6SS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b1"
+      },
+      {
+        "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2014'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://um6ss.ma"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Université Mohammed VI des Sciences de la Santé"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.501379.9"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000460226378"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://um6ss.ma"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laboratoire National de Référence"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/020nbej04"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hôpital Universitaire International Cheikh Khalifa"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03g26ah87"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-7.61138,33.58831]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2553604"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Casablanca"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Morocco"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d191cd45eb54d84b3b710f6d2157b78b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

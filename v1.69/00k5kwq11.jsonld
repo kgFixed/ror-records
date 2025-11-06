@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/00k5kwq11",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-04"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NJF (Nordic Association of Agricultural Scientists) Finland"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NJF Finland"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1918'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n197a2e6d2a654f5fab8333dd174f0c2fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.njf.nu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://njf.nu"
+      }
+    ]
+  },
+  {
+    "@id": "_:n197a2e6d2a654f5fab8333dd174f0c2fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.48004,60.80162]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/655692"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n197a2e6d2a654f5fab8333dd174f0c2fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n197a2e6d2a654f5fab8333dd174f0c2fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n197a2e6d2a654f5fab8333dd174f0c2fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FI"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Jokioinen"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kanta-Häme"
+      }
+    ]
+  },
+  {
+    "@id": "_:n197a2e6d2a654f5fab8333dd174f0c2fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n197a2e6d2a654f5fab8333dd174f0c2fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Finland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n197a2e6d2a654f5fab8333dd174f0c2fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

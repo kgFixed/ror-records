@@ -1,0 +1,160 @@
+[
+  {
+    "@id": "https://ror.org/04rkgkn20",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:na53d3ee3183d4168b7d2a943ec68be9bb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na53d3ee3183d4168b7d2a943ec68be9bb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.health.gov.sc/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.450284.f"
+      }
+    ]
+  },
+  {
+    "@id": "_:na53d3ee3183d4168b7d2a943ec68be9bb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Seychelles Public Health Authority"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01na3y974"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:na53d3ee3183d4168b7d2a943ec68be9bb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[55.45501,-4.62001]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/241131"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na53d3ee3183d4168b7d2a943ec68be9bb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:na53d3ee3183d4168b7d2a943ec68be9bb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na53d3ee3183d4168b7d2a943ec68be9bb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SC"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Victoria"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "La Rivière Anglaise"
+      }
+    ]
+  },
+  {
+    "@id": "_:na53d3ee3183d4168b7d2a943ec68be9bb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na53d3ee3183d4168b7d2a943ec68be9bb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Seychelles"
+      }
+    ]
+  },
+  {
+    "@id": "_:na53d3ee3183d4168b7d2a943ec68be9bb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

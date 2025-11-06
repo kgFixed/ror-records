@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/001mse034",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-30"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-02"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Survey_of_Pakistan"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SoP"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1947'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc1162613db424c06b95ee54e17989109b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://surveyofpakistan.gov.pk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000107003544"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1162613db424c06b95ee54e17989109b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[73.0479,33.59733]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1166993"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc1162613db424c06b95ee54e17989109b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1162613db424c06b95ee54e17989109b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc1162613db424c06b95ee54e17989109b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rawalpindi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1162613db424c06b95ee54e17989109b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc1162613db424c06b95ee54e17989109b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Pakistan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1162613db424c06b95ee54e17989109b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

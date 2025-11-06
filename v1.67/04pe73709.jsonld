@@ -1,0 +1,178 @@
+[
+  {
+    "@id": "https://ror.org/04pe73709",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministerio de Salud de El Salvador"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health of El Salvador"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n4692ae7200e34cf4a05857e0d38a44fbb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4692ae7200e34cf4a05857e0d38a44fbb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.salud.gob.sv"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.490695.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405210269"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://salud.gob.sv"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4692ae7200e34cf4a05857e0d38a44fbb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital El Salvador"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03m8e6y67"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4692ae7200e34cf4a05857e0d38a44fbb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-89.18718,13.68935]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3583361"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4692ae7200e34cf4a05857e0d38a44fbb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4692ae7200e34cf4a05857e0d38a44fbb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4692ae7200e34cf4a05857e0d38a44fbb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SV"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "San Salvador"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "San Salvador Department"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4692ae7200e34cf4a05857e0d38a44fbb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4692ae7200e34cf4a05857e0d38a44fbb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "El Salvador"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4692ae7200e34cf4a05857e0d38a44fbb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

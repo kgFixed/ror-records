@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/000tpgs13",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Muthesius University in Kiel"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2005'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne82ef6dd8c9e4a81aaa781de9f07f2deb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://muthesius-kunsthochschule.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.466111.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000097360037"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://muthesius-kunsthochschule.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne82ef6dd8c9e4a81aaa781de9f07f2deb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.13489,54.32133]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2891122"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne82ef6dd8c9e4a81aaa781de9f07f2deb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne82ef6dd8c9e4a81aaa781de9f07f2deb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne82ef6dd8c9e4a81aaa781de9f07f2deb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kiel"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Schleswig-Holstein"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne82ef6dd8c9e4a81aaa781de9f07f2deb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne82ef6dd8c9e4a81aaa781de9f07f2deb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne82ef6dd8c9e4a81aaa781de9f07f2deb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

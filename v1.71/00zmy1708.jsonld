@@ -1,0 +1,166 @@
+[
+  {
+    "@id": "https://ror.org/00zmy1708",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Maryhill School of Theology"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Maryhill_School_of_Theology"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MST"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CICM Maryhill School of Theology"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Congregation of the Immaculate Heart of Mary Maryhill School of Theology"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1972'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nec3d2ec9916c4310b86f2c8d3127c8e5b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://cicmmst.edu.ph"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Maryhill School of Theology"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.469008.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406396552"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cicmmst.edu.ph"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec3d2ec9916c4310b86f2c8d3127c8e5b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[121.0509,14.6488]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1692192"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nec3d2ec9916c4310b86f2c8d3127c8e5b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec3d2ec9916c4310b86f2c8d3127c8e5b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nec3d2ec9916c4310b86f2c8d3127c8e5b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Quezon City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "National Capital Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec3d2ec9916c4310b86f2c8d3127c8e5b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nec3d2ec9916c4310b86f2c8d3127c8e5b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Philippines"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec3d2ec9916c4310b86f2c8d3127c8e5b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/020yaek67",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ko.wikipedia.org/wiki/%25EC%25A0%2584%25EB%259D%25BC%25EB%2582%25A8%25EB%258F%2584%25EA%25B0%2595%25EC%25A7%2584%25EC%259D%2598%25EB%25A3%258C%25EC%259B%2590"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "전라남도 강진의료원"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1947'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0ca29161e03241508dc446045fc59efeb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.gjmed.or.kr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000479332226"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://gjmed.or.kr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0ca29161e03241508dc446045fc59efeb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[126.76758,34.61787]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1843154"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0ca29161e03241508dc446045fc59efeb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0ca29161e03241508dc446045fc59efeb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0ca29161e03241508dc446045fc59efeb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gangjin-gun"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Jeollanam-do"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0ca29161e03241508dc446045fc59efeb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0ca29161e03241508dc446045fc59efeb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0ca29161e03241508dc446045fc59efeb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

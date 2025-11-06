@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/024n8kn26",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LOGS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2024'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n12c1f5a0a231431494fc3f3fd297ab25b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://island.is/s/land-og-skogur"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://island.is"
+      },
+      {
+        "@id": "http://landogskogur.is"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12c1f5a0a231431494fc3f3fd297ab25b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-20.20792,63.8614]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3416795"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n12c1f5a0a231431494fc3f3fd297ab25b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12c1f5a0a231431494fc3f3fd297ab25b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n12c1f5a0a231431494fc3f3fd297ab25b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IS"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gunnarsholt"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "South"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12c1f5a0a231431494fc3f3fd297ab25b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n12c1f5a0a231431494fc3f3fd297ab25b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iceland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12c1f5a0a231431494fc3f3fd297ab25b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

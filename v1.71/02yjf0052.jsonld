@@ -1,0 +1,177 @@
+[
+  {
+    "@id": "https://ror.org/02yjf0052",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UPE CDE"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UPE filial Ciudad del Este"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n33d2c0efd69e4c6c82c8ce7fe892ae3db1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1991'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n33d2c0efd69e4c6c82c8ce7fe892ae3db2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.upecde.edu.py"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://upecde.edu.py"
+      }
+    ]
+  },
+  {
+    "@id": "_:n33d2c0efd69e4c6c82c8ce7fe892ae3db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Privada del Este"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05azpw996"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n33d2c0efd69e4c6c82c8ce7fe892ae3db2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-54.67974,-25.49796]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/11840124"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n33d2c0efd69e4c6c82c8ce7fe892ae3db3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n33d2c0efd69e4c6c82c8ce7fe892ae3db3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n33d2c0efd69e4c6c82c8ce7fe892ae3db4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ciudad Del Este"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Alto Paraná Department"
+      }
+    ]
+  },
+  {
+    "@id": "_:n33d2c0efd69e4c6c82c8ce7fe892ae3db4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n33d2c0efd69e4c6c82c8ce7fe892ae3db5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Paraguay"
+      }
+    ]
+  },
+  {
+    "@id": "_:n33d2c0efd69e4c6c82c8ce7fe892ae3db5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

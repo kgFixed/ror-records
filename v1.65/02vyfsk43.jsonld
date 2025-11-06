@@ -1,0 +1,158 @@
+[
+  {
+    "@id": "https://ror.org/02vyfsk43",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SmithKline Beecham (United States)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n7856ee79808445efb2ce2cadf3f9754ab1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "withdrawn"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7856ee79808445efb2ce2cadf3f9754ab2"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SmithKline Beecham (United States)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100011420"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.417456.5"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7856ee79808445efb2ce2cadf3f9754ab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GlaxoSmithKline (United States)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/025vn3989"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "successor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7856ee79808445efb2ce2cadf3f9754ab2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-75.60804,39.96097]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4562144"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7856ee79808445efb2ce2cadf3f9754ab3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7856ee79808445efb2ce2cadf3f9754ab3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7856ee79808445efb2ce2cadf3f9754ab4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "West Chester"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Pennsylvania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7856ee79808445efb2ce2cadf3f9754ab4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7856ee79808445efb2ce2cadf3f9754ab5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7856ee79808445efb2ce2cadf3f9754ab5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "@id": "https://ror.org/05ra1x588",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ÚNPF"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Normal and Pathological Physiology"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Normal and Pathological Physiology SAS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Normal and Pathological Physiology SAV"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ústav normálnej a patologickej fyziológie SAV"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ústav normálnej a patologickej fyziológie Slovenská akadémia vied, v. v. i."
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ústav normálnej a patologickej fyziológie Slovenská akadémia vied, verejná výskumná inštitúcia"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ústav normálnej a patologickej fyziológie, v. v. i."
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n35069d9b47eb41f083b306dcbaa4567db1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n35069d9b47eb41f083b306dcbaa4567db2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://unpf.sav.sk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.482680.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121829932"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unpf.sav.sk"
+      }
+    ]
+  },
+  {
+    "@id": "_:n35069d9b47eb41f083b306dcbaa4567db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre of Experimental Medicine of the Slovak Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0380mmw63"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n35069d9b47eb41f083b306dcbaa4567db2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[17.10674,48.14816]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3060972"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n35069d9b47eb41f083b306dcbaa4567db3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n35069d9b47eb41f083b306dcbaa4567db3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n35069d9b47eb41f083b306dcbaa4567db4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bratislava"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n35069d9b47eb41f083b306dcbaa4567db4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n35069d9b47eb41f083b306dcbaa4567db5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Slovakia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n35069d9b47eb41f083b306dcbaa4567db5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

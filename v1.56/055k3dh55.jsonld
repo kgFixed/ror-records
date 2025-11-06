@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/055k3dh55",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitatea Din Petrosani"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/University_of_Petro%25C8%2599ani"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1948'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0e8b93d4bf93429982db12084ab157fcb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.upet.ro"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitatea Din Petrosani"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.31082.38"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000110152057"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://upet.ro"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0e8b93d4bf93429982db12084ab157fcb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.36667,45.41667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/670938"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0e8b93d4bf93429982db12084ab157fcb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0e8b93d4bf93429982db12084ab157fcb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0e8b93d4bf93429982db12084ab157fcb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Petroşani"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n0e8b93d4bf93429982db12084ab157fcb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0e8b93d4bf93429982db12084ab157fcb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Romania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0e8b93d4bf93429982db12084ab157fcb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

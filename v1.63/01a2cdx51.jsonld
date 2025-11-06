@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/01a2cdx51",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-02"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ja.wikipedia.org/wiki/%25E5%259B%25BD%25E7%25AB%258B%25E7%2597%2585%25E9%2599%25A2%25E6%25A9%259F%25E6%25A7%258B%25E7%2586%258A%25E6%259C%25AC%25E5%2586%258D%25E6%2598%25A5%25E5%258C%25BB%25E7%2599%2582%25E3%2582%25BB%25E3%2583%25B3%25E3%2582%25BF%25E3%2583%25BC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NHO Kumamoto Saishun Medical Center"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "どくりつぎょうせいほうじんこくりつびょういんきこう くまもとさいしゅんいりょうせんたー"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ned52ea1404c24248936e7fe52d530d7eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://saishun.hosp.go.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://saishun.hosp.go.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:ned52ea1404c24248936e7fe52d530d7eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[138.93333,37.33333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1858726"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ned52ea1404c24248936e7fe52d530d7eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ned52ea1404c24248936e7fe52d530d7eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ned52ea1404c24248936e7fe52d530d7eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Koshi-gun"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "None"
+      }
+    ]
+  },
+  {
+    "@id": "_:ned52ea1404c24248936e7fe52d530d7eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ned52ea1404c24248936e7fe52d530d7eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:ned52ea1404c24248936e7fe52d530d7eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "@id": "https://ror.org/04nrv3s86",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-03-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Hortofruticultura Subtropical y Mediterránea \"La Mayora\""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IHSM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ndad21f499ded41d7b718915be307e4cbb1"
+      },
+      {
+        "@id": "_:ndad21f499ded41d7b718915be307e4cbb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2010'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndad21f499ded41d7b718915be307e4cbb3"
+      },
+      {
+        "@id": "_:ndad21f499ded41d7b718915be307e4cbb7"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ihsm.uma-csic.es"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Hortofruticultura Subtropical y Mediterránea \"La Mayora\""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.507634.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000464788028"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndad21f499ded41d7b718915be307e4cbb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Consejo Superior de Investigaciones Científicas"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02gfc7t72"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndad21f499ded41d7b718915be307e4cbb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad de Málaga"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/036b2ww28"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndad21f499ded41d7b718915be307e4cbb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-4.42034,36.72016]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2514256"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndad21f499ded41d7b718915be307e4cbb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndad21f499ded41d7b718915be307e4cbb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndad21f499ded41d7b718915be307e4cbb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Málaga"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Andalusia"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndad21f499ded41d7b718915be307e4cbb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndad21f499ded41d7b718915be307e4cbb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndad21f499ded41d7b718915be307e4cbb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndad21f499ded41d7b718915be307e4cbb7",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-4.03952,36.77388]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2522019"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndad21f499ded41d7b718915be307e4cbb8"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndad21f499ded41d7b718915be307e4cbb8",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndad21f499ded41d7b718915be307e4cbb9"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Algarrobo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Andalusia"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndad21f499ded41d7b718915be307e4cbb9",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndad21f499ded41d7b718915be307e4cbb10"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndad21f499ded41d7b718915be307e4cbb10",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "@id": "https://ror.org/024242h31",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-14"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Public Authority for Applied Education and Training"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/The_Public_Authority_for_Applied_Education_and_Training"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PAAET"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n4163d9dcf05841759dc776a793d8bd70b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1982'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4163d9dcf05841759dc776a793d8bd70b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.paaet.edu.kw/mysite/Default.aspx?tabid=4269&language=ar-KW"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Public Authority for Applied Education and Training"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100013393"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.459471.a"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4163d9dcf05841759dc776a793d8bd70b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Basic Education College"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05ka4wq25"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4163d9dcf05841759dc776a793d8bd70b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[47.97833,29.36972]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/285787"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4163d9dcf05841759dc776a793d8bd70b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4163d9dcf05841759dc776a793d8bd70b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4163d9dcf05841759dc776a793d8bd70b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kuwait City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n4163d9dcf05841759dc776a793d8bd70b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4163d9dcf05841759dc776a793d8bd70b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kuwait"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4163d9dcf05841759dc776a793d8bd70b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

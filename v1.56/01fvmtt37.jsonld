@@ -1,0 +1,202 @@
+[
+  {
+    "@id": "https://ror.org/01fvmtt37",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tallaght University Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Tallaght_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AMNCH"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Adelaide and Meath Hospital, Dublin, incorporating the National Children's Hospital"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ospidéal Adelaide agus na Mí, Baile Átha Cliath, ina gcorpraítear Ospidéal Náisiúnta na Leanaí"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ospidéal Thamhlachta"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tallaght Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n4320b76e1641473cb35368cb3dfe4f08b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1996'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4320b76e1641473cb35368cb3dfe4f08b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.tuh.ie"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tallaght University Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.413305.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406175936"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://tuh.ie"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4320b76e1641473cb35368cb3dfe4f08b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Trinity College Dublin"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02tyrky19"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4320b76e1641473cb35368cb3dfe4f08b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-6.24889,53.33306]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2964574"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4320b76e1641473cb35368cb3dfe4f08b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4320b76e1641473cb35368cb3dfe4f08b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4320b76e1641473cb35368cb3dfe4f08b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dublin"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n4320b76e1641473cb35368cb3dfe4f08b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4320b76e1641473cb35368cb3dfe4f08b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ireland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4320b76e1641473cb35368cb3dfe4f08b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

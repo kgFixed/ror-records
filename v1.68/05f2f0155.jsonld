@@ -1,0 +1,142 @@
+[
+  {
+    "@id": "https://ror.org/05f2f0155",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1997'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na88e2273628f4a8381162685029a31bab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ryi.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000404689490"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ryi.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:na88e2273628f4a8381162685029a31bab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[85.3206,27.70169]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1283240"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na88e2273628f4a8381162685029a31bab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na88e2273628f4a8381162685029a31bab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na88e2273628f4a8381162685029a31bab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kathmandu"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bagmati Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:na88e2273628f4a8381162685029a31bab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na88e2273628f4a8381162685029a31bab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nepal"
+      }
+    ]
+  },
+  {
+    "@id": "_:na88e2273628f4a8381162685029a31bab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

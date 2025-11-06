@@ -1,0 +1,205 @@
+[
+  {
+    "@id": "https://ror.org/0276rjc88",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-16"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Nuclear Research and Nuclear Energy"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Institute_for_Nuclear_Research_and_Nuclear_Energy"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INRNE"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b1"
+      },
+      {
+        "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1946'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.inrne.bas.bg/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Nuclear Research and Nuclear Energy"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.425050.6"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405194756"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bulgarian Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01x8hew03"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MAGIC Telescopes"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02w0r2764"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.32415,42.69751]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/727011"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sofia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bulgaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0d0e504c4c1546b0ae99e2bceb53ff98b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

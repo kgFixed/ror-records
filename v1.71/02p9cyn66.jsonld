@@ -1,0 +1,173 @@
+[
+  {
+    "@id": "https://ror.org/02p9cyn66",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Manaaki Whenua – Landcare Research"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Landcare_Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n267dd5f71c684f2589397bb60d343641b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1992'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n267dd5f71c684f2589397bb60d343641b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.landcareresearch.co.nz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Manaaki Whenua – Landcare Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.419186.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000107475306"
+      }
+    ]
+  },
+  {
+    "@id": "_:n267dd5f71c684f2589397bb60d343641b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bioeconomy Science Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03j13xx78"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n267dd5f71c684f2589397bb60d343641b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[172.48333,-43.65]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2188371"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n267dd5f71c684f2589397bb60d343641b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n267dd5f71c684f2589397bb60d343641b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n267dd5f71c684f2589397bb60d343641b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lincoln"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Canterbury"
+      }
+    ]
+  },
+  {
+    "@id": "_:n267dd5f71c684f2589397bb60d343641b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n267dd5f71c684f2589397bb60d343641b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Zealand"
+      }
+    ]
+  },
+  {
+    "@id": "_:n267dd5f71c684f2589397bb60d343641b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

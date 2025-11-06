@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/01nd4jr17",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "USR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2016'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd9c505bc69a14ecdb71f249af14b6f02b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://usr.ac"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://usr.ac"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd9c505bc69a14ecdb71f249af14b6f02b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[45.32534,15.4591]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/72966"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd9c505bc69a14ecdb71f249af14b6f02b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd9c505bc69a14ecdb71f249af14b6f02b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd9c505bc69a14ecdb71f249af14b6f02b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "YE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ma’rib"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ma’rib"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd9c505bc69a14ecdb71f249af14b6f02b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd9c505bc69a14ecdb71f249af14b6f02b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Yemen"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd9c505bc69a14ecdb71f249af14b6f02b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

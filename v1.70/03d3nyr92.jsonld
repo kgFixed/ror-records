@@ -1,0 +1,252 @@
+[
+  {
+    "@id": "https://ror.org/03d3nyr92",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-05-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Bureau of Animal Genetic Resources"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NBAGR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1995'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb2"
+      },
+      {
+        "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb6"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://nbagr.res.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Bureau of Animal Genetic Resources"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.506029.8"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nbagr.res.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Indian Council of Agricultural Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04fw54a43"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[76.7884,30.73629]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1274746"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Chandigarh"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Chandigarh"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb6",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[76.83333,29.66667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1267709"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb7"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb7",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb8"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Karnal"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Haryana"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb8",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb9"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfc310e26eb5d474faa374a1f49f094dfb9",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

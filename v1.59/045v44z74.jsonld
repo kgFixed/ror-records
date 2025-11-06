@@ -1,0 +1,142 @@
+[
+  {
+    "@id": "https://ror.org/045v44z74",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ibaraki Kenritsu Kokoro No Iryo Senta"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "イバラキ ケンリツ ココロ ノ イリョウ センター"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3eee17c9f65e46c38a907c6555e0eb5db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.mc-kokoro.pref.ibaraki.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mc-kokoro.pref.ibaraki.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3eee17c9f65e46c38a907c6555e0eb5db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[31.18084,-10.21289]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/912764"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3eee17c9f65e46c38a907c6555e0eb5db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3eee17c9f65e46c38a907c6555e0eb5db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3eee17c9f65e46c38a907c6555e0eb5db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZM"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kasama"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Northern Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3eee17c9f65e46c38a907c6555e0eb5db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3eee17c9f65e46c38a907c6555e0eb5db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Zambia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3eee17c9f65e46c38a907c6555e0eb5db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

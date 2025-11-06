@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/0535vdw70",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NIE Sri Lanka"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1985'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n80ace924bcbc4b0fbf774628a958ac16b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://nie.ac.lk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nie.ac.lk"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80ace924bcbc4b0fbf774628a958ac16b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[79.9265,6.848]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1236854"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n80ace924bcbc4b0fbf774628a958ac16b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80ace924bcbc4b0fbf774628a958ac16b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n80ace924bcbc4b0fbf774628a958ac16b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Maharagama"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Western Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80ace924bcbc4b0fbf774628a958ac16b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n80ace924bcbc4b0fbf774628a958ac16b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sri Lanka"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80ace924bcbc4b0fbf774628a958ac16b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

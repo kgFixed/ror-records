@@ -1,0 +1,340 @@
+[
+  {
+    "@id": "https://ror.org/02vvvm705",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jade University of Applied Sciences"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Jade_University_of_Applied_Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jade UAS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2009'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b2"
+      },
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b6"
+      },
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b10"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.jade-hs.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jade University of Applied Sciences"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.449343.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000108289468"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://jade-hs.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fachhochschule Oldenburg/Ostfriesland/Wilhelmshaven"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/032n3b254"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.11253,53.52998]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2808720"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Wilhelmshaven"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b6",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.21467,53.14118]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2857458"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b7"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b7",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b8"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Oldenburg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b8",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b9"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b9",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b10",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.45664,53.23748]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2930726"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b11"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b11",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b12"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Elsfleth"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b12",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0924bb9c944244219008feb0b0ea6f66b13"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0924bb9c944244219008feb0b0ea6f66b13",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

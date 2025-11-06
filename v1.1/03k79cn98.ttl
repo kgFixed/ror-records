@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/03k79cn98> a org:Organization ;
+    rdfs:label 'Employment and Social Development Canada'^^xsd:string ;
+    schema:name 'Employment and Social Development Canada'^^xsd:string ;
+    schema:foundingDate "'2003'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Government'^^xsd:string ; 
+    dct:modified '2022-06-16'^^xsd:date ;
+    org:abbreviation 'ESDC'^^xsd:string ;
+    org:alternativeName 'Human Resources and Social Development Canada'^^xsd:string ;
+    schema:url <http://www.esdc.gc.ca/eng/home.shtml> ; 
+    owl:sameAs <https://en.wikipedia.org/wiki/Employment_and_Social_Development_Canada> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-64.7965,46.09454]}" ;
+            schema:addressLocality 'Moncton'^^xsd:string ;
+            schema:addressCountry "CA" ;
+            owl:sameAs <http://sws.geonames.org/6076211/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000089219375> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

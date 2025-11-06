@@ -1,0 +1,142 @@
+[
+  {
+    "@id": "https://ror.org/019nshe08",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Soares_dos_Reis_National_Museum"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8804b54fcd554dfa9ef801a07b77d7d6b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://museusoaresdosreis.gov.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000121524709"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://museusoaresdosreis.gov.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8804b54fcd554dfa9ef801a07b77d7d6b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.61099,41.14961]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2735943"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8804b54fcd554dfa9ef801a07b77d7d6b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8804b54fcd554dfa9ef801a07b77d7d6b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8804b54fcd554dfa9ef801a07b77d7d6b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Porto"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Porto"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8804b54fcd554dfa9ef801a07b77d7d6b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8804b54fcd554dfa9ef801a07b77d7d6b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8804b54fcd554dfa9ef801a07b77d7d6b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

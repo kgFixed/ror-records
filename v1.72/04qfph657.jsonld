@@ -1,0 +1,191 @@
+[
+  {
+    "@id": "https://ror.org/04qfph657",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-06"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Korea Institute of Industrial Technology"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ko.wikipedia.org/wiki/%25ED%2595%259C%25EA%25B5%25AD%25EC%2583%259D%25EC%2582%25B0%25EA%25B8%25B0%25EC%2588%25A0%25EC%2597%25B0%25EA%25B5%25AC%25EC%259B%2590"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KITECH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne42ebaa43be244f09ae6b15d5d14b3aab1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1989'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne42ebaa43be244f09ae6b15d5d14b3aab2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.kitech.re.kr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Korea Institute of Industrial Technology"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100003695"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.454135.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000093531134"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kitech.re.kr"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne42ebaa43be244f09ae6b15d5d14b3aab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Research Council of Science and Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/058rymf81"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne42ebaa43be244f09ae6b15d5d14b3aab2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[127.1522,36.8065]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1845759"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne42ebaa43be244f09ae6b15d5d14b3aab3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne42ebaa43be244f09ae6b15d5d14b3aab3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne42ebaa43be244f09ae6b15d5d14b3aab4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cheonan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Chungcheongnam-do"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne42ebaa43be244f09ae6b15d5d14b3aab4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne42ebaa43be244f09ae6b15d5d14b3aab5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne42ebaa43be244f09ae6b15d5d14b3aab5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

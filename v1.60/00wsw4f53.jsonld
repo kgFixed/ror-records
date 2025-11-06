@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/00wsw4f53",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://uk.wikipedia.org/wiki/%25D0%25A6%25D0%25B5%25D0%25BD%25D1%2582%25D1%2580%25D0%25B0%25D0%25BB%25D1%258C%25D0%25BD%25D0%25B8%25D0%25B9_%25D0%25B4%25D0%25B5%25D1%2580%25D0%25B6%25D0%25B0%25D0%25B2%25D0%25BD%25D0%25B8%25D0%25B9_%25D0%25BD%25D0%25B0%25D1%2583%25D0%25BA%25D0%25BE%25D0%25B2%25D0%25BE-%25D1%2582%25D0%25B5%25D1%2585%25D0%25BD%25D1%2596%25D1%2587%25D0%25BD%25D0%25B8%25D0%25B9_%25D0%25B0%25D1%2580%25D1%2585%25D1%2596%25D0%25B2_%25D0%25A3%25D0%25BA%25D1%2580%25D0%25B0%25D1%2597%25D0%25BD%25D0%25B8"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CSSTA of Ukraine"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ЦДНТА України"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1969'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndc2ddf68bb2847438bc8af1460867c26b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://cdnta.archives.gov.ua"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cdnta.archives.gov.ua"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc2ddf68bb2847438bc8af1460867c26b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[36.25272,49.98081]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/706483"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndc2ddf68bb2847438bc8af1460867c26b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc2ddf68bb2847438bc8af1460867c26b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndc2ddf68bb2847438bc8af1460867c26b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kharkiv"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kharkivs’ka Oblast’"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc2ddf68bb2847438bc8af1460867c26b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndc2ddf68bb2847438bc8af1460867c26b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ukraine"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc2ddf68bb2847438bc8af1460867c26b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

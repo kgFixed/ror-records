@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/03jqqba05",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Ouagadougou"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Dedougou University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2012'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9eb1ae72fb824a3ab40bb5ae82c3e640b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.univ-dedougou.gov.bf"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://univ-dedougou.gov.bf"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9eb1ae72fb824a3ab40bb5ae82c3e640b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-3.46075,12.46338]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2361477"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9eb1ae72fb824a3ab40bb5ae82c3e640b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9eb1ae72fb824a3ab40bb5ae82c3e640b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9eb1ae72fb824a3ab40bb5ae82c3e640b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BF"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dédougou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Boucle du Mouhoun"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9eb1ae72fb824a3ab40bb5ae82c3e640b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9eb1ae72fb824a3ab40bb5ae82c3e640b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Burkina Faso"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9eb1ae72fb824a3ab40bb5ae82c3e640b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

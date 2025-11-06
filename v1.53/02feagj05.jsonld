@@ -1,0 +1,325 @@
+[
+  {
+    "@id": "https://ror.org/02feagj05",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-02-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-14"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Upper Midwest Water Science Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "U.S. Geological Survey Upper Midwest Water Science Center"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "USGS Upper Midwest Water Science Center"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "United States Geological Survey Upper Midwest Water Science Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb2"
+      },
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb6"
+      },
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb10"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.usgs.gov/centers/upper-midwest-water-science-center"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Upper Midwest Water Science Center"
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "United States Geological Survey"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/035a68863"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-84.55553,42.73253]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4998830"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lansing"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb6",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-93.09327,44.94441]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5045360"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb7"
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb7",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb8"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Saint Paul"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb8",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb9"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb9",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb10",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-89.40123,43.07305]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5261457"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb11"
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb11",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb12"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Madison"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb12",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb13"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n305b8fb37f9d43efa2549b53db27e3fbb13",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

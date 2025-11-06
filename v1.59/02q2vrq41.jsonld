@@ -1,0 +1,198 @@
+[
+  {
+    "@id": "https://ror.org/02q2vrq41",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://lv.wikipedia.org/wiki/Latvijas_Universit%25C4%2581tes_Matem%25C4%2581tikas_un_inform%25C4%2581tikas_instit%25C5%25ABts"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IMCS UL"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LU MII"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Mathematics and Computer Science"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Mathematics and Computer Science of the University of Latvia"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Latvijas Universitātes Matemātikas un informātikas institūts"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Matemātikas un informātikas institūts"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n84bca98f6155489d93635eab5cb5798ab1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1959'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n84bca98f6155489d93635eab5cb5798ab2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.lumii.lv"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://lumii.lv"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84bca98f6155489d93635eab5cb5798ab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Latvia"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05g3mes96"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84bca98f6155489d93635eab5cb5798ab2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[24.10589,56.946]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/456172"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n84bca98f6155489d93635eab5cb5798ab3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84bca98f6155489d93635eab5cb5798ab3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n84bca98f6155489d93635eab5cb5798ab4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LV"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Riga"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Riga"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84bca98f6155489d93635eab5cb5798ab4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n84bca98f6155489d93635eab5cb5798ab5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Latvia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84bca98f6155489d93635eab5cb5798ab5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

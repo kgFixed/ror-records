@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/02rc1q381",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SCDCB-Dancu"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1981'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndc0a80e546e046d29e10f6b6946bd59cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://scdb-dancu.ro"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://scdb-dancu.ro"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc0a80e546e046d29e10f6b6946bd59cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[27.6,47.16667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/675810"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndc0a80e546e046d29e10f6b6946bd59cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc0a80e546e046d29e10f6b6946bd59cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndc0a80e546e046d29e10f6b6946bd59cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Iași"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Iași County"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc0a80e546e046d29e10f6b6946bd59cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndc0a80e546e046d29e10f6b6946bd59cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Romania"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc0a80e546e046d29e10f6b6946bd59cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

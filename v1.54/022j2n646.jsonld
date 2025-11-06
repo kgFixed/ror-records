@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/022j2n646",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-11-07"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-21"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "South African Radio Astronomy Observatory"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SARAO"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:na75d8ccd3a874bd092b0cdb833741121b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na75d8ccd3a874bd092b0cdb833741121b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.sarao.ac.za/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "South African Radio Astronomy Observatory"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.507324.7"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sarao.ac.za"
+      }
+    ]
+  },
+  {
+    "@id": "_:na75d8ccd3a874bd092b0cdb833741121b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Research Foundation"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05s0g1g46"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:na75d8ccd3a874bd092b0cdb833741121b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[18.42322,-33.92584]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3369157"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na75d8ccd3a874bd092b0cdb833741121b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:na75d8ccd3a874bd092b0cdb833741121b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na75d8ccd3a874bd092b0cdb833741121b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cape Town"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:na75d8ccd3a874bd092b0cdb833741121b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na75d8ccd3a874bd092b0cdb833741121b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Africa"
+      }
+    ]
+  },
+  {
+    "@id": "_:na75d8ccd3a874bd092b0cdb833741121b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

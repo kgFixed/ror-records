@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/04a5x0a43",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "くらて病院"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n046111d9fa09439995b9f3bdfe0e50dab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kurate-hp.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kurate-hp.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n046111d9fa09439995b9f3bdfe0e50dab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[20.37667,40.7875]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/782633"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n046111d9fa09439995b9f3bdfe0e50dab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n046111d9fa09439995b9f3bdfe0e50dab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n046111d9fa09439995b9f3bdfe0e50dab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kuratë"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Elbasan County"
+      }
+    ]
+  },
+  {
+    "@id": "_:n046111d9fa09439995b9f3bdfe0e50dab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n046111d9fa09439995b9f3bdfe0e50dab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Albania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n046111d9fa09439995b9f3bdfe0e50dab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

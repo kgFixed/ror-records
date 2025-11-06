@@ -1,0 +1,198 @@
+[
+  {
+    "@id": "https://ror.org/05s2fqz02",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Puerto Rico at Utuado"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Puerto_Rico_at_Utuado"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CORMO"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UPR-Utuado"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UPRU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Colegio Regional de la Montaña"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nc59116f6e80244afb8aa748dd56a8cefb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1979'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc59116f6e80244afb8aa748dd56a8cefb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.uprutuado.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Puerto Rico at Utuado"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.449858.c"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404185970"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uprutuado.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc59116f6e80244afb8aa748dd56a8cefb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Puerto Rico System"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02yg0nm07"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc59116f6e80244afb8aa748dd56a8cefb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-66.70045,18.26551]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4568490"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc59116f6e80244afb8aa748dd56a8cefb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc59116f6e80244afb8aa748dd56a8cefb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc59116f6e80244afb8aa748dd56a8cefb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Utuado"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Utuado"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc59116f6e80244afb8aa748dd56a8cefb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc59116f6e80244afb8aa748dd56a8cefb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Puerto Rico"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc59116f6e80244afb8aa748dd56a8cefb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

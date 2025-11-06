@@ -1,0 +1,163 @@
+[
+  {
+    "@id": "https://ror.org/05rrfpt58",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ahi Evran University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Ahi_Evran_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kırşehir Ahi Evran Üniversitesi"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2006'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:naf5ccd6a903c4618b8114bdc8717a5bab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ahievran.edu.tr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ahi Evran University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100002711"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.411224.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000403995752"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ahievran.edu.tr"
+      }
+    ]
+  },
+  {
+    "@id": "_:naf5ccd6a903c4618b8114bdc8717a5bab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[34.16389,39.14583]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/307515"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:naf5ccd6a903c4618b8114bdc8717a5bab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:naf5ccd6a903c4618b8114bdc8717a5bab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:naf5ccd6a903c4618b8114bdc8717a5bab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kırşehir"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kırşehir"
+      }
+    ]
+  },
+  {
+    "@id": "_:naf5ccd6a903c4618b8114bdc8717a5bab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:naf5ccd6a903c4618b8114bdc8717a5bab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Türkiye"
+      }
+    ]
+  },
+  {
+    "@id": "_:naf5ccd6a903c4618b8114bdc8717a5bab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "@id": "https://ror.org/04k9nv771",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "RCWH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n00811f385f8b45548f14035baef94d87b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n00811f385f8b45548f14035baef94d87b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://unesco-rcwh.sd"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n00811f385f8b45548f14035baef94d87b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UNESCO"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04h4z8k05"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n00811f385f8b45548f14035baef94d87b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[32.53241,15.55177]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/379252"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n00811f385f8b45548f14035baef94d87b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n00811f385f8b45548f14035baef94d87b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n00811f385f8b45548f14035baef94d87b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SD"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Khartoum"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Khartoum"
+      }
+    ]
+  },
+  {
+    "@id": "_:n00811f385f8b45548f14035baef94d87b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n00811f385f8b45548f14035baef94d87b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sudan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n00811f385f8b45548f14035baef94d87b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

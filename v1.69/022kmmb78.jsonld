@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/022kmmb78",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad San Marcos"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://es.wikipedia.org/wiki/Universidad_San_Marcos_%2528Costa_Rica%2529"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "U San Marcos"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1922'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7d48b707c5cf4a38b4811c544c9645c9b1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad San Marcos"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.441166.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404858629"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://usam.ac.cr"
+      },
+      {
+        "@id": "http://usanmarcos.ac.cr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d48b707c5cf4a38b4811c544c9645c9b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-84.08489,9.93388]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3621849"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7d48b707c5cf4a38b4811c544c9645c9b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d48b707c5cf4a38b4811c544c9645c9b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7d48b707c5cf4a38b4811c544c9645c9b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "San José"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "San José"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d48b707c5cf4a38b4811c544c9645c9b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7d48b707c5cf4a38b4811c544c9645c9b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Costa Rica"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d48b707c5cf4a38b4811c544c9645c9b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/018bzp792",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of the Arts Utrecht"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Utrecht_School_of_the_Arts"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HKU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4d66d16666804bad90ca3a730bf77091b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.hku.nl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of the Arts Utrecht"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.426569.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000103396803"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hku.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4d66d16666804bad90ca3a730bf77091b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.12222,52.09083]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2745912"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4d66d16666804bad90ca3a730bf77091b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4d66d16666804bad90ca3a730bf77091b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4d66d16666804bad90ca3a730bf77091b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Utrecht"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Utrecht"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4d66d16666804bad90ca3a730bf77091b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4d66d16666804bad90ca3a730bf77091b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4d66d16666804bad90ca3a730bf77091b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

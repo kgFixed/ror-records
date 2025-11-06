@@ -1,0 +1,173 @@
+[
+  {
+    "@id": "https://ror.org/02nf7r014",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Abu_Dhabi_Department_of_Culture_and_Tourism"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DCT"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Abu Dhabi Department of Culture and Tourism"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DCT Abu Dhabi"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Department of Culture and Tourism"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Département de la Culture et du Tourisme d'Abu Dhabi"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "دائرة الثقافة والسياحة"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2016'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6b75d274f53d4f18aac8161d11d0a946b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://dct.gov.ae/en/default.aspx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dct.gov.ae"
+      },
+      {
+        "@id": "http://dctabudhabi.ae"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b75d274f53d4f18aac8161d11d0a946b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[54.39696,24.45118]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/292968"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6b75d274f53d4f18aac8161d11d0a946b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b75d274f53d4f18aac8161d11d0a946b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6b75d274f53d4f18aac8161d11d0a946b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Abu Dhabi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Abu Dhabi"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b75d274f53d4f18aac8161d11d0a946b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6b75d274f53d4f18aac8161d11d0a946b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Arab Emirates"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b75d274f53d4f18aac8161d11d0a946b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

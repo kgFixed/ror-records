@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/0474m4e38",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Department of National Museums of Sri Lanka"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Department of National Museums, Sri Lanka"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1877'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nac9f427065f54fa3821afbc7fe31645db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.museum.gov.lk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://museum.gov.lk"
+      }
+    ]
+  },
+  {
+    "@id": "_:nac9f427065f54fa3821afbc7fe31645db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[79.84868,6.93548]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1248991"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nac9f427065f54fa3821afbc7fe31645db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nac9f427065f54fa3821afbc7fe31645db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nac9f427065f54fa3821afbc7fe31645db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Colombo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Western Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:nac9f427065f54fa3821afbc7fe31645db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nac9f427065f54fa3821afbc7fe31645db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sri Lanka"
+      }
+    ]
+  },
+  {
+    "@id": "_:nac9f427065f54fa3821afbc7fe31645db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

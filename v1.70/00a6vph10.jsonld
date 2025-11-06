@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/00a6vph10",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Research and Production Center for Microbiology and Virology"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scientific Production Center for Microbiology and Virology"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1956'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1e902687d7e54b2faa52dfd10cb986d5b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://imv-kaz.kz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000406060856"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://imv-kaz.kz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1e902687d7e54b2faa52dfd10cb986d5b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[76.91667,43.25]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1526384"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1e902687d7e54b2faa52dfd10cb986d5b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1e902687d7e54b2faa52dfd10cb986d5b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1e902687d7e54b2faa52dfd10cb986d5b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Almaty"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Almaty"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1e902687d7e54b2faa52dfd10cb986d5b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1e902687d7e54b2faa52dfd10cb986d5b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kazakhstan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1e902687d7e54b2faa52dfd10cb986d5b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

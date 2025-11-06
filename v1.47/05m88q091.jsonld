@@ -1,0 +1,174 @@
+[
+  {
+    "@id": "https://ror.org/05m88q091",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-30"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de Recherche en Sciences de la Santé"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IRSS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n902b0656a29d4afd91d1aa6e0e188f12b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n902b0656a29d4afd91d1aa6e0e188f12b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.irss.bf"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de Recherche en Sciences de la Santé"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.457337.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405640509"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://irss.bf"
+      }
+    ]
+  },
+  {
+    "@id": "_:n902b0656a29d4afd91d1aa6e0e188f12b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre National de la Recherche Scientifique et Technologique"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01tytrg27"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n902b0656a29d4afd91d1aa6e0e188f12b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-1.53388,12.36566]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2357048"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n902b0656a29d4afd91d1aa6e0e188f12b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n902b0656a29d4afd91d1aa6e0e188f12b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n902b0656a29d4afd91d1aa6e0e188f12b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BF"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ouagadougou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n902b0656a29d4afd91d1aa6e0e188f12b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n902b0656a29d4afd91d1aa6e0e188f12b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Burkina Faso"
+      }
+    ]
+  },
+  {
+    "@id": "_:n902b0656a29d4afd91d1aa6e0e188f12b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

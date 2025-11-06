@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/03zp9tj36",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://es.wikipedia.org/wiki/Universidad_de_Ciencias_M%25C3%25A9dicas_de_Santiago_de_Cuba"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UCM SC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Facultad de Medicina de Santiago de Cuba"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad de Ciencias Médicas Santiago de Cuba"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1962'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7eea697f8d374bb8abfa3a1399d426eeb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://instituciones.sld.cu/feumed/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n7eea697f8d374bb8abfa3a1399d426eeb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-75.82171,20.02287]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3536729"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7eea697f8d374bb8abfa3a1399d426eeb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7eea697f8d374bb8abfa3a1399d426eeb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7eea697f8d374bb8abfa3a1399d426eeb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Santiago de Cuba"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Santiago de Cuba Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7eea697f8d374bb8abfa3a1399d426eeb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7eea697f8d374bb8abfa3a1399d426eeb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cuba"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7eea697f8d374bb8abfa3a1399d426eeb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

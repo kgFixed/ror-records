@@ -1,0 +1,186 @@
+[
+  {
+    "@id": "https://ror.org/00jmtdy57",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Atomic Energy Council"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Atomic_Energy_Council"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AEC"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nae36207351fc4b219b4eeac7d26977e0b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1955'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nae36207351fc4b219b4eeac7d26977e0b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.aec.gov.tw/english/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Atomic Energy Council"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100005181"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.418857.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404379118"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae36207351fc4b219b4eeac7d26977e0b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Nuclear Energy Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/052jx3443"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae36207351fc4b219b4eeac7d26977e0b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[121.52639,25.05306]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1668341"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nae36207351fc4b219b4eeac7d26977e0b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae36207351fc4b219b4eeac7d26977e0b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nae36207351fc4b219b4eeac7d26977e0b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Taipei"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Taiwan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae36207351fc4b219b4eeac7d26977e0b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nae36207351fc4b219b4eeac7d26977e0b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Taiwan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae36207351fc4b219b4eeac7d26977e0b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

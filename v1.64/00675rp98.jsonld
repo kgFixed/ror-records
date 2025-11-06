@@ -1,0 +1,164 @@
+[
+  {
+    "@id": "https://ror.org/00675rp98",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre National pour la Recherche Scientifique et Technique (CNRST)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CNRST"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre National pour la Recherche Scientifique et Technique"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1975'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n396b4fa4be1247df9e7d733a3a5a6371b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cnrst.ma"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre National pour la Recherche Scientifique et Technique (CNRST)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100006319"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.423788.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404416417"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cnrst.ma"
+      }
+    ]
+  },
+  {
+    "@id": "_:n396b4fa4be1247df9e7d733a3a5a6371b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-6.83255,34.01325]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2538475"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n396b4fa4be1247df9e7d733a3a5a6371b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n396b4fa4be1247df9e7d733a3a5a6371b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n396b4fa4be1247df9e7d733a3a5a6371b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rabat"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Rabat-Salé-Kénitra"
+      }
+    ]
+  },
+  {
+    "@id": "_:n396b4fa4be1247df9e7d733a3a5a6371b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n396b4fa4be1247df9e7d733a3a5a6371b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Morocco"
+      }
+    ]
+  },
+  {
+    "@id": "_:n396b4fa4be1247df9e7d733a3a5a6371b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

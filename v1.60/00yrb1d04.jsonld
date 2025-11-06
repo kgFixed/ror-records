@@ -1,0 +1,172 @@
+[
+  {
+    "@id": "https://ror.org/00yrb1d04",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NBU SAV"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Neurobiologický ústav SAV"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n276244a144084f9f8fdf3491eee6b9d7b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n276244a144084f9f8fdf3491eee6b9d7b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.neurobiology.sk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://neurobiology.sk"
+      }
+    ]
+  },
+  {
+    "@id": "_:n276244a144084f9f8fdf3491eee6b9d7b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biomedical Research Center of the Slovak Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02s3ds748"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n276244a144084f9f8fdf3491eee6b9d7b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[21.25808,48.71395]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/724443"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n276244a144084f9f8fdf3491eee6b9d7b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n276244a144084f9f8fdf3491eee6b9d7b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n276244a144084f9f8fdf3491eee6b9d7b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Košice"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Košice Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n276244a144084f9f8fdf3491eee6b9d7b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n276244a144084f9f8fdf3491eee6b9d7b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Slovakia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n276244a144084f9f8fdf3491eee6b9d7b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

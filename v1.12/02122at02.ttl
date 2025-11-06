@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/02122at02> a org:Organization ;
+    rdfs:label 'Univerzitetski Klinički Centar Srbije'^^xsd:string ;
+    schema:name 'Univerzitetski Klinički Centar Srbije'^^xsd:string ;
+    schema:foundingDate "'1983'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Healthcare'^^xsd:string ; 
+    dct:modified '2022-10-27'^^xsd:date ;
+    org:abbreviation 'KCS'^^xsd:string ;
+    org:alternativeName 'Klinički centar Srbije'^^xsd:string ;
+    schema:url <http://www.kcs.ac.rs/> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[20.46513,44.80401]}" ;
+            schema:addressLocality 'Belgrade'^^xsd:string ;
+            schema:addressCountry "RS" ;
+            owl:sameAs <http://sws.geonames.org/792680/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000087431110> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q12752817> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

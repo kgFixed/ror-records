@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/03jnxq519",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://fr.wikipedia.org/wiki/Universit%25C3%25A9_Denis_Sassou_Nguesso"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Université Denis Sassou Nguesso"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5e985adb0de84a91ab872e20d8fd563db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.udsn.cg"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://udsn.cg"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5e985adb0de84a91ab872e20d8fd563db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.34222,-4.15]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2258930"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5e985adb0de84a91ab872e20d8fd563db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5e985adb0de84a91ab872e20d8fd563db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5e985adb0de84a91ab872e20d8fd563db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kintélé"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Brazzaville"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5e985adb0de84a91ab872e20d8fd563db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5e985adb0de84a91ab872e20d8fd563db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Congo Republic"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5e985adb0de84a91ab872e20d8fd563db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

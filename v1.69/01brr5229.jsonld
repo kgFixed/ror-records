@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/01brr5229",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Brazilian Radiation Protection Society"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SBPR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1986'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbea4fc61911f4cd6ab91dcb4ed3d81ddb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.sbpr.org.br"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Brazilian Radiation Protection Society"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.456835.9"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sbpr.org.br"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbea4fc61911f4cd6ab91dcb4ed3d81ddb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-43.33069,-22.92008]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6322060"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbea4fc61911f4cd6ab91dcb4ed3d81ddb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbea4fc61911f4cd6ab91dcb4ed3d81ddb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbea4fc61911f4cd6ab91dcb4ed3d81ddb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rio de Janeiro"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Rio de Janeiro"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbea4fc61911f4cd6ab91dcb4ed3d81ddb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbea4fc61911f4cd6ab91dcb4ed3d81ddb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbea4fc61911f4cd6ab91dcb4ed3d81ddb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

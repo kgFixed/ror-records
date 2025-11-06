@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/03w4czv65",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Departamento de Salud"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n58ad0132febf404eaae25ece92e8e98fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.navarra.es/es/gobierno-de-navarra/departamento-de-salud"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Departamento de Salud"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100016120"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.484601.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121928551"
+      }
+    ]
+  },
+  {
+    "@id": "_:n58ad0132febf404eaae25ece92e8e98fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-1.64323,42.81687]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3114472"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n58ad0132febf404eaae25ece92e8e98fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n58ad0132febf404eaae25ece92e8e98fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n58ad0132febf404eaae25ece92e8e98fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Pamplona"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Navarre"
+      }
+    ]
+  },
+  {
+    "@id": "_:n58ad0132febf404eaae25ece92e8e98fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n58ad0132febf404eaae25ece92e8e98fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:n58ad0132febf404eaae25ece92e8e98fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

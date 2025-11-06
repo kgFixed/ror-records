@@ -1,0 +1,181 @@
+[
+  {
+    "@id": "https://ror.org/00b9t6d21",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SIHE"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spinghar Institute of Higher Education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spinghar University (Kabul Campus)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n1822ca2f35774786b0893ebfc93a9c97b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2019'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1822ca2f35774786b0893ebfc93a9c97b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://spingharkabul.edu.af"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://spingharkabul.edu.af"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1822ca2f35774786b0893ebfc93a9c97b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spinghar Institute of Higher Education, Nangarhar"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03d7d9103"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1822ca2f35774786b0893ebfc93a9c97b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[69.17233,34.52813]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1138958"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1822ca2f35774786b0893ebfc93a9c97b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1822ca2f35774786b0893ebfc93a9c97b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1822ca2f35774786b0893ebfc93a9c97b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kabul"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kabul"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1822ca2f35774786b0893ebfc93a9c97b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1822ca2f35774786b0893ebfc93a9c97b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Afghanistan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1822ca2f35774786b0893ebfc93a9c97b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

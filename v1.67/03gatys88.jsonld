@@ -1,0 +1,194 @@
+[
+  {
+    "@id": "https://ror.org/03gatys88",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-07-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministerio de Salud Pública y Bienestar Social"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n05fcf36858104027bd54b685be48d253b1"
+      },
+      {
+        "@id": "_:n05fcf36858104027bd54b685be48d253b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1936'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n05fcf36858104027bd54b685be48d253b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.mspbs.gov.py/index.php"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministerio de Salud Pública y Bienestar Social"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.508033.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404536902"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05fcf36858104027bd54b685be48d253b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Medicina Tropical"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01d540m14"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05fcf36858104027bd54b685be48d253b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Medico Nacional - Hospital Nacional"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03rggar28"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05fcf36858104027bd54b685be48d253b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-57.647,-25.28646]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3439389"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n05fcf36858104027bd54b685be48d253b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05fcf36858104027bd54b685be48d253b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n05fcf36858104027bd54b685be48d253b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Asunción"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Asunción"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05fcf36858104027bd54b685be48d253b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n05fcf36858104027bd54b685be48d253b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Paraguay"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05fcf36858104027bd54b685be48d253b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

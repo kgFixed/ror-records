@@ -1,0 +1,282 @@
+[
+  {
+    "@id": "https://ror.org/02zww1c82",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Earth_Sciences_New_Zealand"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Earth Sciences NZ"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "New Zealand Institute for Earth Science"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db1"
+      },
+      {
+        "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2025'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db3"
+      },
+      {
+        "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db7"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://earthsciences.nz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://earthsciences.nz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GNS Science"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03vaqfv64"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Institute of Water and Atmospheric Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04hxcaz34"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[174.91667,-41.21667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2188164"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lower Hutt"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Wellington Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Zealand"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db7",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[174.76349,-36.84853]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2193733"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db8"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db8",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db9"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Auckland"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Auckland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db9",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db10"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Zealand"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07e93d3bb7eb43a5b409c932ba0b555db10",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

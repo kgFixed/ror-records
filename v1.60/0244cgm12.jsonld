@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/0244cgm12",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vinh University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Vinh_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1959'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncc38f997009244a4abb9643b002fbdd0b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://vinhuni.edu.vn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vinh University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.444889.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404988941"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://vinhuni.edu.vn"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncc38f997009244a4abb9643b002fbdd0b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[105.69232,18.67337]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1562798"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncc38f997009244a4abb9643b002fbdd0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncc38f997009244a4abb9643b002fbdd0b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncc38f997009244a4abb9643b002fbdd0b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "VN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Vinh"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nghệ An Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncc38f997009244a4abb9643b002fbdd0b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncc38f997009244a4abb9643b002fbdd0b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Vietnam"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncc38f997009244a4abb9643b002fbdd0b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

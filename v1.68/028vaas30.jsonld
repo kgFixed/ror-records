@@ -1,0 +1,181 @@
+[
+  {
+    "@id": "https://ror.org/028vaas30",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DBR"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Science and Technology Department of Biotechnology Research"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Myanmar Ministry of Science and Technology Department of Biotechnology Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n1b2401b988e045479cb35a825a277056b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2015'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1b2401b988e045479cb35a825a277056b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.dbr.gov.mm"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dbr.gov.mm"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1b2401b988e045479cb35a825a277056b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Science and Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03vch0r71"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1b2401b988e045479cb35a825a277056b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[96.13508,21.6056]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1316703"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1b2401b988e045479cb35a825a277056b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1b2401b988e045479cb35a825a277056b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1b2401b988e045479cb35a825a277056b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MM"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kyaukse"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Mandalay Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1b2401b988e045479cb35a825a277056b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1b2401b988e045479cb35a825a277056b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Myanmar"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1b2401b988e045479cb35a825a277056b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

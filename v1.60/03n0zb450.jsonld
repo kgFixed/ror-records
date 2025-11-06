@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/03n0zb450",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Institut_National_de_Recherches_en_Sante_Publique"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INRSP"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2005'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n18ba5c988dae420299a62a4da364201bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://inrsp.mr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000502780319"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://inrsp.mr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n18ba5c988dae420299a62a4da364201bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-15.9785,18.08581]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2377450"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n18ba5c988dae420299a62a4da364201bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n18ba5c988dae420299a62a4da364201bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n18ba5c988dae420299a62a4da364201bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nouakchott"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "None"
+      }
+    ]
+  },
+  {
+    "@id": "_:n18ba5c988dae420299a62a4da364201bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n18ba5c988dae420299a62a4da364201bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mauritania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n18ba5c988dae420299a62a4da364201bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

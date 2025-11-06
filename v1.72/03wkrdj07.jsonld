@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/03wkrdj07",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-06"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Anandaban Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Anandaban_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Anandaban Leprosy Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ncb03cf7171224aaaaeb10a64704ec825b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncb03cf7171224aaaaeb10a64704ec825b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://tlmnepal.org/anandaban-hospital/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Anandaban Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.413718.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncb03cf7171224aaaaeb10a64704ec825b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Leprosy Mission Nepal"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02yhess13"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncb03cf7171224aaaaeb10a64704ec825b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[85.3206,27.70169]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1283240"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncb03cf7171224aaaaeb10a64704ec825b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncb03cf7171224aaaaeb10a64704ec825b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncb03cf7171224aaaaeb10a64704ec825b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kathmandu"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bagmati Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncb03cf7171224aaaaeb10a64704ec825b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncb03cf7171224aaaaeb10a64704ec825b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nepal"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncb03cf7171224aaaaeb10a64704ec825b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

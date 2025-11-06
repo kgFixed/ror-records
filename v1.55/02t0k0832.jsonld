@@ -1,0 +1,162 @@
+[
+  {
+    "@id": "https://ror.org/02t0k0832",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-29"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://fr.wikipedia.org/wiki/Universit%25C3%25A9_de_Mayotte"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UMAY"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre universitaire de Mayotte"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre universitaire de formation et de recherche de Mayotte"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre universitaire de formation et de recherche de Mayotte - CUFR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2011'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfa005e4ac4694aa1be220ec2525150a5b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.univ-mayotte.fr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://univ-mayotte.fr"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa005e4ac4694aa1be220ec2525150a5b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[45.18436,-12.8436]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/921917"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfa005e4ac4694aa1be220ec2525150a5b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa005e4ac4694aa1be220ec2525150a5b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfa005e4ac4694aa1be220ec2525150a5b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "YT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dembeni"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa005e4ac4694aa1be220ec2525150a5b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfa005e4ac4694aa1be220ec2525150a5b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mayotte"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa005e4ac4694aa1be220ec2525150a5b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

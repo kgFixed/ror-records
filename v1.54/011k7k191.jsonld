@@ -1,0 +1,211 @@
+[
+  {
+    "@id": "https://ror.org/011k7k191",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-21"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National University Hospital of Iceland"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Landsp%25C3%25ADtali"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb1"
+      },
+      {
+        "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2000'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://landspitali.is"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National University Hospital of Iceland"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100004103"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.410540.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000098940842"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://landspitali.is"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Agricultural University of Iceland"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/035s3f323"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Iceland"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01db6h964"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-21.89541,64.13548]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3413829"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IS"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Reykjavik"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iceland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd721ec5f016b4e7b80c3440726d798fcb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

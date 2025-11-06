@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/04gwnkw13",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CNTQ"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Center of Chemical Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2005'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndd5cdb90ea7347039d5cbc9d5f8b3a54b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://cntq.gob.ve"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000417626181"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cntq.gob.ve"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndd5cdb90ea7347039d5cbc9d5f8b3a54b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-66.87919,10.48801]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3646738"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndd5cdb90ea7347039d5cbc9d5f8b3a54b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndd5cdb90ea7347039d5cbc9d5f8b3a54b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndd5cdb90ea7347039d5cbc9d5f8b3a54b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "VE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Caracas"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Distrito Federal"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndd5cdb90ea7347039d5cbc9d5f8b3a54b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndd5cdb90ea7347039d5cbc9d5f8b3a54b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Venezuela"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndd5cdb90ea7347039d5cbc9d5f8b3a54b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

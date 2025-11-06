@@ -1,0 +1,161 @@
+[
+  {
+    "@id": "https://ror.org/040qyzk67",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Camagüey"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Camag%25C3%25BCey"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad de Camagüey \"Ignacio Agramonte Loynaz\""
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Camagüey \"Ignacio Agramonte Loynaz\""
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1967'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9c0bcbfe9eba44f0b160dafe161c89e5b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.reduc.edu.cu/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Camagüey"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.441252.4"
+      },
+      {
+        "@id": "http://isni.org/isni/000000009526034X"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9c0bcbfe9eba44f0b160dafe161c89e5b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-77.91694,21.38083]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3566067"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9c0bcbfe9eba44f0b160dafe161c89e5b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9c0bcbfe9eba44f0b160dafe161c89e5b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9c0bcbfe9eba44f0b160dafe161c89e5b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Camagüey"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Camagüey"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9c0bcbfe9eba44f0b160dafe161c89e5b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9c0bcbfe9eba44f0b160dafe161c89e5b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cuba"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9c0bcbfe9eba44f0b160dafe161c89e5b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

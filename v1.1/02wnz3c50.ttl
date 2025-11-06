@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/02wnz3c50> a org:Organization ;
+    rdfs:label 'International Academy of Business and New Technologies'^^xsd:string ;
+    schema:name 'International Academy of Business and New Technologies'^^xsd:string ;
+    schema:foundingDate "'1992'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Education'^^xsd:string ; 
+    dct:modified '2022-06-16'^^xsd:date ;
+    org:abbreviation 'MUBiNT'^^xsd:string ;
+    org:alternativeName 'Академия МУБиНТ'^^xsd:string ;
+    schema:url <https://www.mubint.ru/> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[39.87368,57.62987]}" ;
+            schema:addressLocality 'Yaroslavl'^^xsd:string ;
+            schema:addressCountry "RU" ;
+            owl:sameAs <http://sws.geonames.org/468902/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/000000040638333X> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q4288141> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

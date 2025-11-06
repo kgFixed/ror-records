@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/05qjm4845",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-30"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Botswana_University_of_Agriculture_and_Natural_Resources"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1991'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nace3333a55f94dcdac89c7e03f01254db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.bca.bw"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000105668307"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://bca.bw"
+      }
+    ]
+  },
+  {
+    "@id": "_:nace3333a55f94dcdac89c7e03f01254db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[25.90859,-24.65451]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/933773"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nace3333a55f94dcdac89c7e03f01254db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nace3333a55f94dcdac89c7e03f01254db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nace3333a55f94dcdac89c7e03f01254db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gaborone"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nace3333a55f94dcdac89c7e03f01254db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nace3333a55f94dcdac89c7e03f01254db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Botswana"
+      }
+    ]
+  },
+  {
+    "@id": "_:nace3333a55f94dcdac89c7e03f01254db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

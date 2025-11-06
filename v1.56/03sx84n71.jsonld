@@ -1,0 +1,191 @@
+[
+  {
+    "@id": "https://ror.org/03sx84n71",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Teagasc - The Irish Agriculture and Food Development Authority"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Teagasc"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Teagasc"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n9ffa2589111a4053becc08714f820b0bb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1988'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9ffa2589111a4053becc08714f820b0bb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.teagasc.ie"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Teagasc - The Irish Agriculture and Food Development Authority"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100001604"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.6435.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000115129569"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://teagasc.ie"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9ffa2589111a4053becc08714f820b0bb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Irish Research eLibrary"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05c347015"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9ffa2589111a4053becc08714f820b0bb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-6.92611,52.84083]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2965768"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9ffa2589111a4053becc08714f820b0bb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9ffa2589111a4053becc08714f820b0bb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9ffa2589111a4053becc08714f820b0bb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Carlow"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n9ffa2589111a4053becc08714f820b0bb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9ffa2589111a4053becc08714f820b0bb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ireland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9ffa2589111a4053becc08714f820b0bb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

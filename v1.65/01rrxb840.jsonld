@@ -1,0 +1,189 @@
+[
+  {
+    "@id": "https://ror.org/01rrxb840",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-04-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Guam Sea Grant"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb1"
+      },
+      {
+        "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.uog.edu/seagrant/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Guam Sea Grant"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100009909"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.510279.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Oceanic and Atmospheric Administration"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02z5nhe81"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Guam"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00376bg92"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[144.80109,13.44761]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/7268049"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mangilao Village"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Mangilao"
+      }
+    ]
+  },
+  {
+    "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Guam"
+      }
+    ]
+  },
+  {
+    "@id": "_:n483908d4ba074d6190a0d3b00af0fbcdb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

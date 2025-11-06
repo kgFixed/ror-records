@@ -1,0 +1,195 @@
+[
+  {
+    "@id": "https://ror.org/03d7d9103",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Spinghar_Higher_Education_Centre"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SIHE"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spinghar Higher Education Centre"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spinghar Institute of Higher Education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spinghar University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n114ebb6335a94cb79232ee6388033c60b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2009'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n114ebb6335a94cb79232ee6388033c60b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.spingharuniversity.edu.af"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000459282030"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://spingharuniversity.edu.af"
+      }
+    ]
+  },
+  {
+    "@id": "_:n114ebb6335a94cb79232ee6388033c60b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spinghar Institute of Higher Education, Kabul"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00b9t6d21"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n114ebb6335a94cb79232ee6388033c60b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[70.45153,34.42647]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1139715"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n114ebb6335a94cb79232ee6388033c60b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n114ebb6335a94cb79232ee6388033c60b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n114ebb6335a94cb79232ee6388033c60b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Jalalabad"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nangarhar"
+      }
+    ]
+  },
+  {
+    "@id": "_:n114ebb6335a94cb79232ee6388033c60b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n114ebb6335a94cb79232ee6388033c60b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Afghanistan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n114ebb6335a94cb79232ee6388033c60b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

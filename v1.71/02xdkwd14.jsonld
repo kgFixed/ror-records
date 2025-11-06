@@ -1,0 +1,166 @@
+[
+  {
+    "@id": "https://ror.org/02xdkwd14",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Universiti_Sultan_Azlan_Shah"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KISDAR"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "USAS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kolej Islam Darul Ridzuan"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kolej Universiti Islam Sultan Azlan Shah"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universiti Sultan Azlan Shah Malaysia"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1999'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n80672bf36a9c4646a49c8e0f4652c1f5b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.usas.edu.my"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://usas.edu.my"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80672bf36a9c4646a49c8e0f4652c1f5b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[100.93333,4.76667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1734599"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n80672bf36a9c4646a49c8e0f4652c1f5b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80672bf36a9c4646a49c8e0f4652c1f5b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n80672bf36a9c4646a49c8e0f4652c1f5b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kuala Kangsar"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Perak"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80672bf36a9c4646a49c8e0f4652c1f5b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n80672bf36a9c4646a49c8e0f4652c1f5b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Malaysia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80672bf36a9c4646a49c8e0f4652c1f5b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

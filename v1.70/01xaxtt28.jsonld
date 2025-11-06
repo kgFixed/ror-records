@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/01xaxtt28",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Varna University of Management"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "VUM"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "International University College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1992'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4e24ddea09a74db4aec8324d4c54538fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.vumk.eu/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Varna University of Management"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.465937.a"
+      },
+      {
+        "@id": "http://isni.org/isni/000000045345943X"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4e24ddea09a74db4aec8324d4c54538fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[27.83333,43.56667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/726418"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4e24ddea09a74db4aec8324d4c54538fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4e24ddea09a74db4aec8324d4c54538fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4e24ddea09a74db4aec8324d4c54538fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dobrich"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Dobrich"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4e24ddea09a74db4aec8324d4c54538fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4e24ddea09a74db4aec8324d4c54538fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bulgaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4e24ddea09a74db4aec8324d4c54538fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

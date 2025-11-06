@@ -1,0 +1,186 @@
+[
+  {
+    "@id": "https://ror.org/04me94w47",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SingHealth"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/SingHealth"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Singapore Health Services"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n220329ed9293471bb46881ca3b7d39dcb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2000'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n220329ed9293471bb46881ca3b7d39dcb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.singhealth.com.sg/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SingHealth"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100004327"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.453420.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404699402"
+      }
+    ]
+  },
+  {
+    "@id": "_:n220329ed9293471bb46881ca3b7d39dcb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SingHealth Duke-NUS Academic Medical Centre"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00xcwps97"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n220329ed9293471bb46881ca3b7d39dcb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[103.85007,1.28967]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1880252"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n220329ed9293471bb46881ca3b7d39dcb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n220329ed9293471bb46881ca3b7d39dcb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n220329ed9293471bb46881ca3b7d39dcb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Singapore"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "SG.01"
+      }
+    ]
+  },
+  {
+    "@id": "_:n220329ed9293471bb46881ca3b7d39dcb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n220329ed9293471bb46881ca3b7d39dcb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Singapore"
+      }
+    ]
+  },
+  {
+    "@id": "_:n220329ed9293471bb46881ca3b7d39dcb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

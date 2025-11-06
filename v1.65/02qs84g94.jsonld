@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/02qs84g94",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Piraeus"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/University_of_Piraeus"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1938'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6004bbfd53be4230a1f5c0806ff3a8cfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://unipi.gr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Piraeus"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100021534"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.4463.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000105588585"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unipi.gr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6004bbfd53be4230a1f5c0806ff3a8cfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.64619,37.94203]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/255274"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6004bbfd53be4230a1f5c0806ff3a8cfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6004bbfd53be4230a1f5c0806ff3a8cfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6004bbfd53be4230a1f5c0806ff3a8cfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Piraeus"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Attica"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6004bbfd53be4230a1f5c0806ff3a8cfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6004bbfd53be4230a1f5c0806ff3a8cfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Greece"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6004bbfd53be4230a1f5c0806ff3a8cfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

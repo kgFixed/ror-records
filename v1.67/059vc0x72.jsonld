@@ -1,0 +1,172 @@
+[
+  {
+    "@id": "https://ror.org/059vc0x72",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HARC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Holeta Agricultural Research Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n13e665d0aa4a4efe805d3132f1a615b9b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1966'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n13e665d0aa4a4efe805d3132f1a615b9b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.eiar.gov.et/main-center-holeta/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n13e665d0aa4a4efe805d3132f1a615b9b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ethiopian Institute of Agricultural Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01mhm6x57"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n13e665d0aa4a4efe805d3132f1a615b9b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[38.5,9.06667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/336931"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n13e665d0aa4a4efe805d3132f1a615b9b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n13e665d0aa4a4efe805d3132f1a615b9b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n13e665d0aa4a4efe805d3132f1a615b9b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ET"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Genet"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Oromiya"
+      }
+    ]
+  },
+  {
+    "@id": "_:n13e665d0aa4a4efe805d3132f1a615b9b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n13e665d0aa4a4efe805d3132f1a615b9b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ethiopia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n13e665d0aa4a4efe805d3132f1a615b9b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

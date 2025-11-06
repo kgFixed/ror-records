@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/053nnef06",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n488d0bef4a5e47b3bc16094bf05f746db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.ansinh.com.vn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/000000052722145X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ansinh.com.vn"
+      }
+    ]
+  },
+  {
+    "@id": "_:n488d0bef4a5e47b3bc16094bf05f746db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[106.62965,10.82302]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1566083"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n488d0bef4a5e47b3bc16094bf05f746db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n488d0bef4a5e47b3bc16094bf05f746db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n488d0bef4a5e47b3bc16094bf05f746db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "VN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ho Chi Minh City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ho Chi Minh"
+      }
+    ]
+  },
+  {
+    "@id": "_:n488d0bef4a5e47b3bc16094bf05f746db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n488d0bef4a5e47b3bc16094bf05f746db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Vietnam"
+      }
+    ]
+  },
+  {
+    "@id": "_:n488d0bef4a5e47b3bc16094bf05f746db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

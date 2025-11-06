@@ -1,0 +1,193 @@
+[
+  {
+    "@id": "https://ror.org/032nfpx77",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Griffith College Cork"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Griffith_College_Cork"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GCC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Skerry's Business College"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Skerry's College Cork"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Skerry's Cork Business School"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n053a8056e7b24019a3588e0f03e80f07b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2000'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n053a8056e7b24019a3588e0f03e80f07b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.griffith.ie/locations/cork"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Griffith College Cork"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.462269.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406440218"
+      }
+    ]
+  },
+  {
+    "@id": "_:n053a8056e7b24019a3588e0f03e80f07b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Griffith College"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0006cvt76"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n053a8056e7b24019a3588e0f03e80f07b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.47061,51.89797]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2965140"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n053a8056e7b24019a3588e0f03e80f07b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n053a8056e7b24019a3588e0f03e80f07b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n053a8056e7b24019a3588e0f03e80f07b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cork"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Munster"
+      }
+    ]
+  },
+  {
+    "@id": "_:n053a8056e7b24019a3588e0f03e80f07b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n053a8056e7b24019a3588e0f03e80f07b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ireland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n053a8056e7b24019a3588e0f03e80f07b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

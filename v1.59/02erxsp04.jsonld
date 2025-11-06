@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/02erxsp04",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Animal Production Research Centre"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centrum výskumu živočíšnej výroby Nitra"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2009'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2d59853beb55448b98dbbb0e9d497db9b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.cvzv.sk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Animal Production Research Centre"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.419122.d"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2d59853beb55448b98dbbb0e9d497db9b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[18.08453,48.30763]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3058531"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2d59853beb55448b98dbbb0e9d497db9b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2d59853beb55448b98dbbb0e9d497db9b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2d59853beb55448b98dbbb0e9d497db9b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nitra"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nitra Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2d59853beb55448b98dbbb0e9d497db9b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2d59853beb55448b98dbbb0e9d497db9b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Slovakia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2d59853beb55448b98dbbb0e9d497db9b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

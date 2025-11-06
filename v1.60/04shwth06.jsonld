@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/04shwth06",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-03-13"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University Centre of Maghnia"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CU Maghnia"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Maghnia University Center"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UC Maghnia"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2006'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n84f6b4b75777458b8599e5e6be694c9fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cu-maghnia.dz/us/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University Centre of Maghnia"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000514237292"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84f6b4b75777458b8599e5e6be694c9fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-1.72753,34.84969]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2490584"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n84f6b4b75777458b8599e5e6be694c9fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84f6b4b75777458b8599e5e6be694c9fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n84f6b4b75777458b8599e5e6be694c9fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Maghnia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tlemcen"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84f6b4b75777458b8599e5e6be694c9fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n84f6b4b75777458b8599e5e6be694c9fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Algeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84f6b4b75777458b8599e5e6be694c9fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

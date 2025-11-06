@@ -1,0 +1,189 @@
+[
+  {
+    "@id": "https://ror.org/02zdnfn05",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut National Agronomique de Tunisie"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INAT"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NAIT"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Agronomic Institute of Tunisia"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ncd3620d27dc64a08a07ac3ed4cf333fbb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1898'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncd3620d27dc64a08a07ac3ed4cf333fbb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.inat.tn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut National Agronomique de Tunisie"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.424653.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121562481"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://inat.tn"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncd3620d27dc64a08a07ac3ed4cf333fbb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Carthage"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/057x6za15"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncd3620d27dc64a08a07ac3ed4cf333fbb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.16579,36.81897]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2464470"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncd3620d27dc64a08a07ac3ed4cf333fbb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncd3620d27dc64a08a07ac3ed4cf333fbb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncd3620d27dc64a08a07ac3ed4cf333fbb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tunis"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tunis Governorate"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncd3620d27dc64a08a07ac3ed4cf333fbb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncd3620d27dc64a08a07ac3ed4cf333fbb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Tunisia"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncd3620d27dc64a08a07ac3ed4cf333fbb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

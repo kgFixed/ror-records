@@ -1,0 +1,169 @@
+[
+  {
+    "@id": "https://ror.org/04gmmfj60",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-20"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Cyprus_International_Institute_of_Management"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CIIM"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UoL"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Cyprus International Institute of Management"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1990'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n66c85320a72f4d409ac780c0c35bef9bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.uol.ac.cy"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.445453.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406199380"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ciim.ac.cy"
+      },
+      {
+        "@id": "http://uol.ac.cy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n66c85320a72f4d409ac780c0c35bef9bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[33.3642,35.17531]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/146268"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n66c85320a72f4d409ac780c0c35bef9bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n66c85320a72f4d409ac780c0c35bef9bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n66c85320a72f4d409ac780c0c35bef9bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nicosia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nicosia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n66c85320a72f4d409ac780c0c35bef9bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n66c85320a72f4d409ac780c0c35bef9bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cyprus"
+      }
+    ]
+  },
+  {
+    "@id": "_:n66c85320a72f4d409ac780c0c35bef9bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

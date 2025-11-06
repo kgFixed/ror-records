@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/03z835e49",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ar.wikipedia.org/wiki/%25D8%25AC%25D8%25A7%25D9%2585%25D8%25B9%25D8%25A9_%25D8%25A7%25D9%2584%25D9%2585%25D9%2586%25D8%25B5%25D9%2588%25D8%25B1%25D8%25A9_%25D8%25A7%25D9%2584%25D8%25A3%25D9%2587%25D9%2584%25D9%258A%25D8%25A9"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MNU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2022'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:naddcf8b5d50142f1962e514d172b4adbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.mansnu.edu.eg"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mansnu.edu.eg"
+      }
+    ]
+  },
+  {
+    "@id": "_:naddcf8b5d50142f1962e514d172b4adbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[31.53675,31.44112]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/11054353"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:naddcf8b5d50142f1962e514d172b4adbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:naddcf8b5d50142f1962e514d172b4adbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:naddcf8b5d50142f1962e514d172b4adbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gamasa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Dakahlia"
+      }
+    ]
+  },
+  {
+    "@id": "_:naddcf8b5d50142f1962e514d172b4adbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:naddcf8b5d50142f1962e514d172b4adbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Egypt"
+      }
+    ]
+  },
+  {
+    "@id": "_:naddcf8b5d50142f1962e514d172b4adbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

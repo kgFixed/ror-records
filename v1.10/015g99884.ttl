@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/015g99884> a org:Organization ;
+    rdfs:label 'Instituto Tecnológico y de Energías Renovables'^^xsd:string ;
+    schema:name 'Instituto Tecnológico y de Energías Renovables'^^xsd:string ;
+    schema:foundingDate "'1990'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Facility'^^xsd:string ; 
+    dct:modified '2022-10-17'^^xsd:date ;
+    org:abbreviation 'ITER'^^xsd:string ;
+    schema:url <https://www.iter.es/> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-16.25462,28.46824]}" ;
+            schema:addressLocality 'Tenerife'^^xsd:string ;
+            schema:addressCountry "ES" ;
+            owl:sameAs <http://sws.geonames.org/2511174/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://www.wikidata.org/entity/Q6448726> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

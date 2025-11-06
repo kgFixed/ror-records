@@ -1,0 +1,170 @@
+[
+  {
+    "@id": "https://ror.org/0126v6t20",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Geology and Geophysics"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nef07a3a3beb742adad98e0de5f0d98d8b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1926'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nef07a3a3beb742adad98e0de5f0d98d8b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://gia.az"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Geology and Geophysics"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.435243.7"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://gia.az"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef07a3a3beb742adad98e0de5f0d98d8b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Education of Azerbaijan Republic"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/022arna15"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef07a3a3beb742adad98e0de5f0d98d8b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[49.89201,40.37767]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/587084"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nef07a3a3beb742adad98e0de5f0d98d8b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef07a3a3beb742adad98e0de5f0d98d8b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nef07a3a3beb742adad98e0de5f0d98d8b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Baku"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Baki"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef07a3a3beb742adad98e0de5f0d98d8b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nef07a3a3beb742adad98e0de5f0d98d8b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Azerbaijan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef07a3a3beb742adad98e0de5f0d98d8b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

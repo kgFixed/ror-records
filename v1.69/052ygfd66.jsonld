@@ -1,0 +1,205 @@
+[
+  {
+    "@id": "https://ror.org/052ygfd66",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zimbabwe Ezekiel Guti University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Zimbabwe_Ezekiel_Guti_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ZEGU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb1"
+      },
+      {
+        "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2012'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.zegu.ac.zw/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zimbabwe Ezekiel Guti University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.472471.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417821059"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zimbabwe University Libraries Consortium"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04y0q2a96"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zimbabwe Ezekiel Guti University Press"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01bvkzq91"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[31.33056,-17.30192]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/895061"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bindura"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Mashonaland Central"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Zimbabwe"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7eb4a8e48d5d4c5284cd3898a5b21c8fb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

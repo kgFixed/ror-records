@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/03w2cyv53> a org:Organization ;
+    rdfs:label 'Johnson & Wales University'^^xsd:string ;
+    schema:name 'Johnson & Wales University'^^xsd:string ;
+    schema:foundingDate "'1914'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Education'^^xsd:string ; 
+    dct:modified '2022-06-16'^^xsd:date ;
+    org:abbreviation 'JWU'^^xsd:string ;
+    schema:url <https://www.jwu.edu/campuses/providence/life-on-campus/index.html> ; 
+    owl:sameAs <https://en.wikipedia.org/wiki/Johnson_%2526_Wales_University> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-71.41283,41.82399]}" ;
+            schema:addressLocality 'Providence'^^xsd:string ;
+            schema:addressCountry "US" ;
+            owl:sameAs <http://sws.geonames.org/5224151/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000102304620> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q1798494> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

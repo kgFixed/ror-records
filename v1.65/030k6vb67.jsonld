@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/030k6vb67",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hualien Tzu Chi Medical Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb8ef37bd713b4dcdacd1b4363cd27679b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://hlm.tzuchi.com.tw/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hualien Tzu Chi Medical Center"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100022298"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.464578.c"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404046612"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb8ef37bd713b4dcdacd1b4363cd27679b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[121.60444,23.97694]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1674504"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb8ef37bd713b4dcdacd1b4363cd27679b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb8ef37bd713b4dcdacd1b4363cd27679b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb8ef37bd713b4dcdacd1b4363cd27679b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hualien City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Taiwan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb8ef37bd713b4dcdacd1b4363cd27679b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb8ef37bd713b4dcdacd1b4363cd27679b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Taiwan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb8ef37bd713b4dcdacd1b4363cd27679b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

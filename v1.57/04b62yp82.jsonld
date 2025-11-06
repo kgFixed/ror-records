@@ -1,0 +1,205 @@
+[
+  {
+    "@id": "https://ror.org/04b62yp82",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-10"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lithuanian University of Educational Sciences"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Lithuanian_University_of_Educational_Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LEU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb1"
+      },
+      {
+        "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1935'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://leu.lt/en/home_leu.html"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lithuanian University of Educational Sciences"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.440412.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000109416262"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vilnius University Hospital Santariskiu Klinikos"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0590pq693"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vytautas Magnus University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04y7eh037"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "successor"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[25.2798,54.68916]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/593116"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Vilnius"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Lithuania"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd970f7c0c3a4f0a9823ed53e37b95fdb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/00ew3x319",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "An-Nan Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2010'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n532aeafccba6419dbb71c5623a204b5eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.tmanh.org.tw/ch/index.php"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "An-Nan Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100020872"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.459446.e"
+      }
+    ]
+  },
+  {
+    "@id": "_:n532aeafccba6419dbb71c5623a204b5eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[120.21333,22.99083]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1668355"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n532aeafccba6419dbb71c5623a204b5eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n532aeafccba6419dbb71c5623a204b5eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n532aeafccba6419dbb71c5623a204b5eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tainan City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Taiwan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n532aeafccba6419dbb71c5623a204b5eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n532aeafccba6419dbb71c5623a204b5eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Taiwan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n532aeafccba6419dbb71c5623a204b5eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

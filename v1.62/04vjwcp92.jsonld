@@ -1,0 +1,185 @@
+[
+  {
+    "@id": "https://ror.org/04vjwcp92",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jan Evangelista Purkyně University in Ústí nad Labem"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Jan_Evangelista_Purkyn%25C4%259B_University_in_%25C3%259Ast%25C3%25AD_nad_Labem"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n7baaccaf1d914dbb808eefb994dac82cb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1991'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7baaccaf1d914dbb808eefb994dac82cb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ujep.cz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jan Evangelista Purkyně University in Ústí nad Labem"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100004011"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.424917.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000113790994"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ujep.cz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7baaccaf1d914dbb808eefb994dac82cb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nanomaterials and Nanotechnologies for Environment Protection and Sustainable Future"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01j84x757"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7baaccaf1d914dbb808eefb994dac82cb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[14.03227,50.6607]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3063548"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7baaccaf1d914dbb808eefb994dac82cb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7baaccaf1d914dbb808eefb994dac82cb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7baaccaf1d914dbb808eefb994dac82cb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ústí nad Labem"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ústecký kraj"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7baaccaf1d914dbb808eefb994dac82cb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7baaccaf1d914dbb808eefb994dac82cb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Czechia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7baaccaf1d914dbb808eefb994dac82cb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

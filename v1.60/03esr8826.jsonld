@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/03esr8826",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lake Biwa Museum"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LBM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n096085f0fc3a488eb2a0f0d4dc55b344b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.biwahaku.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lake Biwa Museum"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.471739.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122241073"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://biwahaku.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:n096085f0fc3a488eb2a0f0d4dc55b344b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[135.96667,35.01667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1858067"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n096085f0fc3a488eb2a0f0d4dc55b344b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n096085f0fc3a488eb2a0f0d4dc55b344b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n096085f0fc3a488eb2a0f0d4dc55b344b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kusatsu"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Shiga"
+      }
+    ]
+  },
+  {
+    "@id": "_:n096085f0fc3a488eb2a0f0d4dc55b344b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n096085f0fc3a488eb2a0f0d4dc55b344b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n096085f0fc3a488eb2a0f0d4dc55b344b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

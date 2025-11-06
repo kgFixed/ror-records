@@ -1,0 +1,202 @@
+[
+  {
+    "@id": "https://ror.org/03r08g441",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Uganda_Heart_Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UHI"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb1"
+      },
+      {
+        "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1988'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.uhi.go.ug"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uhi.go.ug"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00hy3gq97"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mulago Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02rhp5f96"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[32.58219,0.31628]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/232422"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kampala"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Central Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Uganda"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68f8872f1b6c4d3fa43993151a6cf44fb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "@id": "https://ror.org/050ttrs82",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ko.wikipedia.org/wiki/%25EC%2588%259C%25EC%25B2%259C%25ED%2596%25A5%25EB%258C%2580%25ED%2595%2599%25EA%25B5%2590_%25EB%25B6%2580%25EC%2586%258D_%25EA%25B5%25AC%25EB%25AF%25B8%25EB%25B3%2591%25EC%259B%2590"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nb823a5b254a94bc28f81cab705a4cc66b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb823a5b254a94bc28f81cab705a4cc66b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.schmc.ac.kr/gumi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000507234907"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://schmc.ac.kr"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb823a5b254a94bc28f81cab705a4cc66b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Soonchunhyang University Medical Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01bj3z035"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb823a5b254a94bc28f81cab705a4cc66b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[128.336,36.1136]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1842225"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb823a5b254a94bc28f81cab705a4cc66b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb823a5b254a94bc28f81cab705a4cc66b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb823a5b254a94bc28f81cab705a4cc66b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gumi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gyeongsangbuk-do"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb823a5b254a94bc28f81cab705a4cc66b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb823a5b254a94bc28f81cab705a4cc66b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb823a5b254a94bc28f81cab705a4cc66b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

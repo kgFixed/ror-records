@@ -1,0 +1,272 @@
+[
+  {
+    "@id": "https://ror.org/04x6yts59",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/United_Lutheran_Seminary"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b1"
+      },
+      {
+        "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2017'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b3"
+      },
+      {
+        "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b7"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.unitedlutheranseminary.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unitedlutheranseminary.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lutheran Theological Seminary at Philadelphia"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01qz8fw96"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lutheran Theological Seminary at Gettysburg"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01qvdmc93"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-75.16362,39.95238]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4560349"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Philadelphia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Pennsylvania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b7",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-77.2311,39.83093]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4558183"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b8"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b8",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b9"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gettysburg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Pennsylvania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b9",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b10"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ec3f9e11d4b4004ab45cc03c919a226b10",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

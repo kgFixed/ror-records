@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/03ymhqy66",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hassan II Academy of Science and Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1993'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n39b6fd8cdfd846c6a22784a06957bb8fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.academie.hassan2.sciences.ma/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hassan II Academy of Science and Technology"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100003476"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.454118.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000477658759"
+      }
+    ]
+  },
+  {
+    "@id": "_:n39b6fd8cdfd846c6a22784a06957bb8fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-6.83255,34.01325]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2538475"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n39b6fd8cdfd846c6a22784a06957bb8fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n39b6fd8cdfd846c6a22784a06957bb8fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n39b6fd8cdfd846c6a22784a06957bb8fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rabat"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Rabat-Salé-Kénitra"
+      }
+    ]
+  },
+  {
+    "@id": "_:n39b6fd8cdfd846c6a22784a06957bb8fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n39b6fd8cdfd846c6a22784a06957bb8fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Morocco"
+      }
+    ]
+  },
+  {
+    "@id": "_:n39b6fd8cdfd846c6a22784a06957bb8fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/03pnyy777",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Croatian Natural History Museum"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hrvatski prirodoslovni muzej"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1797'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n47fe57002611415e851ee2d09cddeedcb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.hpm.hr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Croatian Natural History Museum"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.452330.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122309365"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hpm.hr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n47fe57002611415e851ee2d09cddeedcb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.97753,45.81313]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6618983"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n47fe57002611415e851ee2d09cddeedcb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n47fe57002611415e851ee2d09cddeedcb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n47fe57002611415e851ee2d09cddeedcb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Donji grad"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zagreb"
+      }
+    ]
+  },
+  {
+    "@id": "_:n47fe57002611415e851ee2d09cddeedcb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n47fe57002611415e851ee2d09cddeedcb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Croatia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n47fe57002611415e851ee2d09cddeedcb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

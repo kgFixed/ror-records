@@ -1,0 +1,159 @@
+[
+  {
+    "@id": "https://ror.org/03dtebk39",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Observatory of Athens"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/National_Observatory_of_Athens"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NOA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1842'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1967476af3dd4e888af3ccc8af70aa40b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.noa.gr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Observatory of Athens"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100022837"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.8663.b"
+      },
+      {
+        "@id": "http://isni.org/isni/000000040635693X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://noa.gr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1967476af3dd4e888af3ccc8af70aa40b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.72784,37.98376]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/264371"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1967476af3dd4e888af3ccc8af70aa40b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1967476af3dd4e888af3ccc8af70aa40b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1967476af3dd4e888af3ccc8af70aa40b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Athens"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Attica"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1967476af3dd4e888af3ccc8af70aa40b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1967476af3dd4e888af3ccc8af70aa40b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Greece"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1967476af3dd4e888af3ccc8af70aa40b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

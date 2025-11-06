@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/04zvemf87",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf9e98a01ade2423bb9e927ae63dc59f3b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://shi.edu.ly"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://shi.edu.ly"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf9e98a01ade2423bb9e927ae63dc59f3b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[12.48845,32.79335]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2212771"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf9e98a01ade2423bb9e927ae63dc59f3b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf9e98a01ade2423bb9e927ae63dc59f3b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf9e98a01ade2423bb9e927ae63dc59f3b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Şabrātah"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nf9e98a01ade2423bb9e927ae63dc59f3b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf9e98a01ade2423bb9e927ae63dc59f3b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Libya"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf9e98a01ade2423bb9e927ae63dc59f3b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

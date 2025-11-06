@@ -1,0 +1,185 @@
+[
+  {
+    "@id": "https://ror.org/0266vkh91",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Nacional de Ciência e Tecnologia em Nanomateriais de Carbono"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INCT Nanocarbono"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INCT de Nanomateriais de Carbono"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n4f095a0f9cd44e52b5f6ee95f42f8b43b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1980'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4f095a0f9cd44e52b5f6ee95f42f8b43b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://inct.cnpq.br/web/inct-nanocarbono"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Nacional de Ciência e Tecnologia em Nanomateriais de Carbono"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100007392"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.468250.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000459028673"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4f095a0f9cd44e52b5f6ee95f42f8b43b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institutos Nacionais de Ciência e Tecnologia"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/045ydbe97"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4f095a0f9cd44e52b5f6ee95f42f8b43b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-43.93778,-19.92083]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3470127"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4f095a0f9cd44e52b5f6ee95f42f8b43b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4f095a0f9cd44e52b5f6ee95f42f8b43b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4f095a0f9cd44e52b5f6ee95f42f8b43b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Belo Horizonte"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Minas Gerais"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4f095a0f9cd44e52b5f6ee95f42f8b43b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4f095a0f9cd44e52b5f6ee95f42f8b43b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4f095a0f9cd44e52b5f6ee95f42f8b43b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

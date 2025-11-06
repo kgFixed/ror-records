@@ -1,0 +1,155 @@
+[
+  {
+    "@id": "https://ror.org/028y9zc26",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CIAR-Mali"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Center for Artificial Intelligence and Robotics"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre d'Intelligence Artificielle et de Robotique"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre for Artificial Intelligence and Robotics"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2023'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbd121200bb9b4d88b61a8198f82f0070b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ciar-mali.edu.ml"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ciar-mali.edu.ml"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd121200bb9b4d88b61a8198f82f0070b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.07257,12.74409]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2455558"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbd121200bb9b4d88b61a8198f82f0070b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd121200bb9b4d88b61a8198f82f0070b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbd121200bb9b4d88b61a8198f82f0070b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ML"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kati"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Koulikoro"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd121200bb9b4d88b61a8198f82f0070b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbd121200bb9b4d88b61a8198f82f0070b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mali"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd121200bb9b4d88b61a8198f82f0070b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

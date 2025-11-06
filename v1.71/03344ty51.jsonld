@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/03344ty51",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ja.wikipedia.org/wiki/%25E5%259B%259B%25E5%259B%25BD%25E7%25AB%258B%25E7%2597%2585%25E9%2599%25A2%25E6%25A9%259F%25E6%25A7%258B%25E5%25AE%25AE%25E5%259F%258E%25E9%2599%25A2"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "独立行政法人国立病院機構 宮城病院"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1939'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n771f4a178f1e4f3aaba8bd3dff1d7198b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://miyagi.hosp.go.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mail.hosp.go.jp"
+      },
+      {
+        "@id": "http://miyagi.hosp.go.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:n771f4a178f1e4f3aaba8bd3dff1d7198b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[140.85111,38.035]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2110586"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n771f4a178f1e4f3aaba8bd3dff1d7198b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n771f4a178f1e4f3aaba8bd3dff1d7198b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n771f4a178f1e4f3aaba8bd3dff1d7198b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Watari"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Miyagi"
+      }
+    ]
+  },
+  {
+    "@id": "_:n771f4a178f1e4f3aaba8bd3dff1d7198b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n771f4a178f1e4f3aaba8bd3dff1d7198b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n771f4a178f1e4f3aaba8bd3dff1d7198b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

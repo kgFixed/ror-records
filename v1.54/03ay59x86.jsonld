@@ -1,0 +1,184 @@
+[
+  {
+    "@id": "https://ror.org/03ay59x86",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-21"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of French Polynesia"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_French_Polynesia"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "French Pacific University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n28bffaf28f864917bfb692ec4b6fd97fb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1987'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n28bffaf28f864917bfb692ec4b6fd97fb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.upf.pf"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of French Polynesia"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.449688.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406471487"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://upf.pf"
+      }
+    ]
+  },
+  {
+    "@id": "_:n28bffaf28f864917bfb692ec4b6fd97fb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ecosystèmes Insulaires Océaniens"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/001j26r80"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n28bffaf28f864917bfb692ec4b6fd97fb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-149.6,-17.63333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4033779"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n28bffaf28f864917bfb692ec4b6fd97fb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n28bffaf28f864917bfb692ec4b6fd97fb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n28bffaf28f864917bfb692ec4b6fd97fb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PF"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Punaauia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n28bffaf28f864917bfb692ec4b6fd97fb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n28bffaf28f864917bfb692ec4b6fd97fb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "French Polynesia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n28bffaf28f864917bfb692ec4b6fd97fb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

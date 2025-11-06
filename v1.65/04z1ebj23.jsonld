@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/04z1ebj23",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Finnmarkssykehuset"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2001'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n96359726c3374ff9aad4ef9a35a9049fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.finnmarkssykehuset.no/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Finnmarkssykehuset"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100012251"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.457905.a"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96359726c3374ff9aad4ef9a35a9049fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.68092,70.66313]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/779683"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n96359726c3374ff9aad4ef9a35a9049fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96359726c3374ff9aad4ef9a35a9049fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n96359726c3374ff9aad4ef9a35a9049fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hammerfest"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Finnmark"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96359726c3374ff9aad4ef9a35a9049fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n96359726c3374ff9aad4ef9a35a9049fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Norway"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96359726c3374ff9aad4ef9a35a9049fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

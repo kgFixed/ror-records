@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/01zydeq72",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Historia_Natural_Prof._Eugenio_de_Jes%25C3%25BAs_Marcano"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MNHNSD"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museo Nacional de Historia Natural"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1974'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndbbf78d617a5409c9867b2083f06707fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://mnhn.gob.do"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mnhn.gov.do"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndbbf78d617a5409c9867b2083f06707fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-69.89232,18.47186]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3492908"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndbbf78d617a5409c9867b2083f06707fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndbbf78d617a5409c9867b2083f06707fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndbbf78d617a5409c9867b2083f06707fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Santo Domingo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nacional"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndbbf78d617a5409c9867b2083f06707fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndbbf78d617a5409c9867b2083f06707fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Dominican Republic"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndbbf78d617a5409c9867b2083f06707fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

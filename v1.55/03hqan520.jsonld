@@ -1,0 +1,186 @@
+[
+  {
+    "@id": "https://ror.org/03hqan520",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal University of Bhutan"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Royal_University_of_Bhutan"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "brug rgyal-'dzin gtsug-lag-slob-sde"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n068738bd489547ca8f3ecdbd2afa7e3fb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2001'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n068738bd489547ca8f3ecdbd2afa7e3fb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.rub.edu.bt/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal University of Bhutan"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100014156"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.449502.e"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000089584321"
+      }
+    ]
+  },
+  {
+    "@id": "_:n068738bd489547ca8f3ecdbd2afa7e3fb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sherubtse College"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/031ggcd89"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n068738bd489547ca8f3ecdbd2afa7e3fb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[89.64191,27.46609]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1252416"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n068738bd489547ca8f3ecdbd2afa7e3fb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n068738bd489547ca8f3ecdbd2afa7e3fb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n068738bd489547ca8f3ecdbd2afa7e3fb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Thimphu"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n068738bd489547ca8f3ecdbd2afa7e3fb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n068738bd489547ca8f3ecdbd2afa7e3fb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bhutan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n068738bd489547ca8f3ecdbd2afa7e3fb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

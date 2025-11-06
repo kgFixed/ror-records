@@ -1,0 +1,225 @@
+[
+  {
+    "@id": "https://ror.org/01baz5f40",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ARF"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Arctic Focus"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2011'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb1"
+      },
+      {
+        "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb5"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.arcticfocus.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://arcticfocus.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-95.87836,68.62602]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5961560"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gjoa Haven"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nunavut"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb5",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-80.51639,43.4668]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6176823"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb6"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb6",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb7"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Waterloo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ontario"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb7",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb8"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11ec3a54831c43f9b47459b112d6f08eb8",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

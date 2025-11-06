@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/045vwzt11> a org:Organization ;
+    rdfs:label 'Sabaragamuwa University of Sri Lanka'^^xsd:string ;
+    schema:name 'Sabaragamuwa University of Sri Lanka'^^xsd:string ;
+    schema:foundingDate "'1991'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Education'^^xsd:string ; 
+    dct:modified '2022-10-20'^^xsd:date ;
+    schema:url <http://www.sab.ac.lk/> ; 
+    owl:sameAs <https://en.wikipedia.org/wiki/Sabaragamuwa_University_of_Sri_Lanka> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[80.4036,6.6858]}" ;
+            schema:addressLocality 'Ratnapura'^^xsd:string ;
+            schema:addressCountry "LK" ;
+            owl:sameAs <http://sws.geonames.org/1228730/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000107101208> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q1378292> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/04jvdr241",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-05"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-06"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HTU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n56ac3fe3b6aa4c2e8acef8f8b8d42117b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.htu.edu.jo"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://htu.edu.jo"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56ac3fe3b6aa4c2e8acef8f8b8d42117b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[35.94503,31.95522]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/250441"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n56ac3fe3b6aa4c2e8acef8f8b8d42117b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56ac3fe3b6aa4c2e8acef8f8b8d42117b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n56ac3fe3b6aa4c2e8acef8f8b8d42117b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Amman"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Amman"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56ac3fe3b6aa4c2e8acef8f8b8d42117b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n56ac3fe3b6aa4c2e8acef8f8b8d42117b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Jordan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56ac3fe3b6aa4c2e8acef8f8b8d42117b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

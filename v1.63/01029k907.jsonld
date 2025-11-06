@@ -1,0 +1,170 @@
+[
+  {
+    "@id": "https://ror.org/01029k907",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-02"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ar.wikipedia.org/wiki/%25D8%25AC%25D8%25A7%25D9%2585%25D8%25B9%25D8%25A9_%25D8%25AA%25D9%2584%25D8%25B9%25D9%2581%25D8%25B1"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n6ea48f1d1c724fdb8a47f18d7b24e9aab1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2014'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6ea48f1d1c724fdb8a47f18d7b24e9aab2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://uotelafer.edu.iq"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uotelafer.edu.iq"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ea48f1d1c724fdb8a47f18d7b24e9aab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Mosul"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/039cf4q47"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ea48f1d1c724fdb8a47f18d7b24e9aab2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[42.5,36.5]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/90392"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6ea48f1d1c724fdb8a47f18d7b24e9aab3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ea48f1d1c724fdb8a47f18d7b24e9aab3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6ea48f1d1c724fdb8a47f18d7b24e9aab4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IQ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tel Afar District"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nineveh"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ea48f1d1c724fdb8a47f18d7b24e9aab4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6ea48f1d1c724fdb8a47f18d7b24e9aab5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iraq"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ea48f1d1c724fdb8a47f18d7b24e9aab5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

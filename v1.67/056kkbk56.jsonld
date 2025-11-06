@@ -1,0 +1,178 @@
+[
+  {
+    "@id": "https://ror.org/056kkbk56",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SFU Ljubljana"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sigmund Freud University Ljubljana"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sigmund Freud University Vienna – Ljubljana branch"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Univerza Sigmunda Freuda Dunaj - podružnica Ljubljana"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:na3109a94ef1e4650841f88115a7edaccb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na3109a94ef1e4650841f88115a7edaccb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.sfu-ljubljana.si"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sfu-ljubljana.si"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3109a94ef1e4650841f88115a7edaccb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sigmund Freud Privatuniversität Wien"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04hwbg047"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3109a94ef1e4650841f88115a7edaccb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[14.50513,46.05108]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3196359"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na3109a94ef1e4650841f88115a7edaccb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3109a94ef1e4650841f88115a7edaccb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na3109a94ef1e4650841f88115a7edaccb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SI"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ljubljana"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ljubljana"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3109a94ef1e4650841f88115a7edaccb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na3109a94ef1e4650841f88115a7edaccb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Slovenia"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3109a94ef1e4650841f88115a7edaccb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

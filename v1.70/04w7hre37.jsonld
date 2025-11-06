@@ -1,0 +1,198 @@
+[
+  {
+    "@id": "https://ror.org/04w7hre37",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Puerto Rico at Aguadilla"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Puerto_Rico_at_Aguadilla"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UPRAg"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Colegio Regional de Aguadilla"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UPR Aguadilla"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UPR-Aguadilla"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n40a0eec869e444d2a3a0d3913493ac06b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1972'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n40a0eec869e444d2a3a0d3913493ac06b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.uprag.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Puerto Rico at Aguadilla"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.449850.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000460391429"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uprag.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40a0eec869e444d2a3a0d3913493ac06b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Puerto Rico System"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02yg0nm07"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40a0eec869e444d2a3a0d3913493ac06b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-67.15407,18.42745]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4562506"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n40a0eec869e444d2a3a0d3913493ac06b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40a0eec869e444d2a3a0d3913493ac06b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n40a0eec869e444d2a3a0d3913493ac06b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Aguadilla"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Aguadilla"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40a0eec869e444d2a3a0d3913493ac06b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n40a0eec869e444d2a3a0d3913493ac06b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Puerto Rico"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40a0eec869e444d2a3a0d3913493ac06b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

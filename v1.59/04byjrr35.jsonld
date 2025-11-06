@@ -1,0 +1,142 @@
+[
+  {
+    "@id": "https://ror.org/04byjrr35",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Miyagi Prefectural Izunuma-Uchinuma Environmental Foundation"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "宮城県伊豆沼・内沼環境保全財団"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb72cd04d04dd40928cbb4f8d5ab3eb0eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://izunuma.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://izunuma.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb72cd04d04dd40928cbb4f8d5ab3eb0eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[141,38.75]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6822190"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb72cd04d04dd40928cbb4f8d5ab3eb0eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb72cd04d04dd40928cbb4f8d5ab3eb0eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb72cd04d04dd40928cbb4f8d5ab3eb0eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kurihara"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Miyagi"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb72cd04d04dd40928cbb4f8d5ab3eb0eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb72cd04d04dd40928cbb4f8d5ab3eb0eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb72cd04d04dd40928cbb4f8d5ab3eb0eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

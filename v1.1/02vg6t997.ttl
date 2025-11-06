@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/02vg6t997> a org:Organization ;
+    rdfs:label 'Danubius University'^^xsd:string ;
+    schema:name 'Danubius University'^^xsd:string ;
+    schema:foundingDate "'2004'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Education'^^xsd:string ; 
+    dct:modified '2022-06-16'^^xsd:date ;
+    org:abbreviation 'VŠD'^^xsd:string ;
+    schema:url <https://www.vsdanubius.sk> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[17.63852,48.20137]}" ;
+            schema:addressLocality 'Sládkovičovo'^^xsd:string ;
+            schema:addressCountry "SK" ;
+            owl:sameAs <http://sws.geonames.org/3057602/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://www.wikidata.org/entity/Q29054631> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

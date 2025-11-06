@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/05eze5936",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-01-10"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Andijan Machine-building Institute"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://uz.wikipedia.org/wiki/Andijon_mashinasozlik_instituti"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AndMI"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne38e989b4dca4a5e9b2a6170991c4cbfb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1964'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne38e989b4dca4a5e9b2a6170991c4cbfb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://web.andmiedu.uz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Andijan Machine-building Institute"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne38e989b4dca4a5e9b2a6170991c4cbfb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Andijon davlat texnika insituti"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01p08rg37"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "successor"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne38e989b4dca4a5e9b2a6170991c4cbfb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[72.34424,40.78206]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1514588"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne38e989b4dca4a5e9b2a6170991c4cbfb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne38e989b4dca4a5e9b2a6170991c4cbfb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne38e989b4dca4a5e9b2a6170991c4cbfb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Andijan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Andijan Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne38e989b4dca4a5e9b2a6170991c4cbfb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne38e989b4dca4a5e9b2a6170991c4cbfb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Uzbekistan"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne38e989b4dca4a5e9b2a6170991c4cbfb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

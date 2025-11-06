@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/00twhc437",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://vi.wikipedia.org/wiki/B%25E1%25BB%2587nh_vi%25E1%25BB%2587n_An_B%25C3%25ACnh"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n32491a38e44f45ed9728a77f22585dcbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://benhvienanbinh.vn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://benhvienanbinh.vn"
+      }
+    ]
+  },
+  {
+    "@id": "_:n32491a38e44f45ed9728a77f22585dcbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[106.66854,10.75589]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1904877"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n32491a38e44f45ed9728a77f22585dcbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n32491a38e44f45ed9728a77f22585dcbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n32491a38e44f45ed9728a77f22585dcbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "VN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Quận Năm"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ho Chi Minh"
+      }
+    ]
+  },
+  {
+    "@id": "_:n32491a38e44f45ed9728a77f22585dcbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n32491a38e44f45ed9728a77f22585dcbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Vietnam"
+      }
+    ]
+  },
+  {
+    "@id": "_:n32491a38e44f45ed9728a77f22585dcbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

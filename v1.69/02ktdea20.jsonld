@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/02ktdea20",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FLASCO Paraguay"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Latin American Faculty of Social Sciences Paraguay Program"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2005'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1fc619561a3a491e93cc950d43898525b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.flacso.edu.py"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://flacso.edu.py"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1fc619561a3a491e93cc950d43898525b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-57.647,-25.28646]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3439389"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1fc619561a3a491e93cc950d43898525b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1fc619561a3a491e93cc950d43898525b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1fc619561a3a491e93cc950d43898525b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Asunción"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Asunción"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1fc619561a3a491e93cc950d43898525b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1fc619561a3a491e93cc950d43898525b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Paraguay"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1fc619561a3a491e93cc950d43898525b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

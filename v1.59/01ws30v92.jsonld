@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/01ws30v92",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n215c8cfc37fa4a789f19af3cc5e74a0db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://gamagori-hospital.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://gamagori-hospital.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n215c8cfc37fa4a789f19af3cc5e74a0db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[137.23333,34.83333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1863693"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n215c8cfc37fa4a789f19af3cc5e74a0db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n215c8cfc37fa4a789f19af3cc5e74a0db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n215c8cfc37fa4a789f19af3cc5e74a0db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gamagōri"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Aichi"
+      }
+    ]
+  },
+  {
+    "@id": "_:n215c8cfc37fa4a789f19af3cc5e74a0db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n215c8cfc37fa4a789f19af3cc5e74a0db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n215c8cfc37fa4a789f19af3cc5e74a0db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

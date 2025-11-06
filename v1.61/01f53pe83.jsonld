@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/01f53pe83",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MER"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Marine & Environmental Research (MER) Lab"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Marine & Environmental Research (MER) Lab Ltd"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2008'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbd105594ce6a4901b9f013ed70c88d1db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://merresearch.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://merresearch.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd105594ce6a4901b9f013ed70c88d1db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[33.03794,34.68406]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/146384"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbd105594ce6a4901b9f013ed70c88d1db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd105594ce6a4901b9f013ed70c88d1db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbd105594ce6a4901b9f013ed70c88d1db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Limassol"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Limassol"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd105594ce6a4901b9f013ed70c88d1db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbd105594ce6a4901b9f013ed70c88d1db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cyprus"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd105594ce6a4901b9f013ed70c88d1db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

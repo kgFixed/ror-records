@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/04dd86x86> a org:Organization ;
+    rdfs:label 'Rajarata University of Sri Lanka'^^xsd:string ;
+    schema:name 'Rajarata University of Sri Lanka'^^xsd:string ;
+    schema:foundingDate "'1995'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Education'^^xsd:string ; 
+    dct:modified '2022-10-20'^^xsd:date ;
+    org:abbreviation 'RUSL'^^xsd:string ;
+    schema:url <http://www.rjt.ac.lk/> ; 
+    owl:sameAs <https://en.wikipedia.org/wiki/Rajarata_University_of_Sri_Lanka> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[80.41306,8.31223]}" ;
+            schema:addressLocality 'Anuradhapura'^^xsd:string ;
+            schema:addressCountry "LK" ;
+            owl:sameAs <http://sws.geonames.org/1251081/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000404332651> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7285789> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

@@ -1,0 +1,32 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/01bb1zm18> a org:Organization ;
+    rdfs:label 'N. I. Lobachevsky State University of Nizhny Novgorod'^^xsd:string ;
+    schema:name 'N. I. Lobachevsky State University of Nizhny Novgorod'^^xsd:string ;
+    schema:foundingDate "'1916'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Education'^^xsd:string ; 
+    dct:modified '2022-10-17'^^xsd:date ;
+    org:abbreviation 'UNN'^^xsd:string ;
+    org:alternativeName 'Lobachevsky State University of Nizhni Novgorod - National Research University'^^xsd:string ;
+    schema:url <http://www.unn.ru/eng/> ; 
+    owl:sameAs <http://en.wikipedia.org/wiki/N._I._Lobachevsky_State_University_of_Nizhny_Novgorod> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[44.00205,56.32867]}" ;
+            schema:addressLocality 'Nizhny Novgorod'^^xsd:string ;
+            schema:addressCountry "RU" ;
+            owl:sameAs <http://sws.geonames.org/520555/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/000000010344908X> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q492766> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

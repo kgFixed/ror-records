@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/02m1mxe43",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ILVSA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de la Visión - Ecuador"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2009'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8be246400f104ac2a0f082efce12be54b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.institutodelavision.ec"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://institutodelavision.ec"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8be246400f104ac2a0f082efce12be54b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-80.36119,-1.04582]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3652940"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8be246400f104ac2a0f082efce12be54b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8be246400f104ac2a0f082efce12be54b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8be246400f104ac2a0f082efce12be54b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EC"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Portoviejo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Manabí"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8be246400f104ac2a0f082efce12be54b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8be246400f104ac2a0f082efce12be54b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ecuador"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8be246400f104ac2a0f082efce12be54b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "@id": "https://ror.org/04npze968",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ConocoPhillips (Qatar)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne18bdcc21bf245089467b86620324582b1"
+      },
+      {
+        "@id": "_:ne18bdcc21bf245089467b86620324582b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2002'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne18bdcc21bf245089467b86620324582b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.conocophillips.com/Pages/default.aspx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ConocoPhillips (Qatar)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.452340.4"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne18bdcc21bf245089467b86620324582b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ConocoPhillips (United States)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04hadnb81"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne18bdcc21bf245089467b86620324582b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Waha Oil Company"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04dabqh73"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne18bdcc21bf245089467b86620324582b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[51.53096,25.28545]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/290030"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne18bdcc21bf245089467b86620324582b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne18bdcc21bf245089467b86620324582b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne18bdcc21bf245089467b86620324582b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "QA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Doha"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Baladīyat ad Dawḩah"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne18bdcc21bf245089467b86620324582b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne18bdcc21bf245089467b86620324582b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Qatar"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne18bdcc21bf245089467b86620324582b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

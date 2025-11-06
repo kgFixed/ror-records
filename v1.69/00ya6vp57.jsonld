@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/00ya6vp57",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Enieg Oxford"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2022'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:naabd586ea2064920aea7916cc57559f5b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://eniegoxford.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://eniegoxford.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:naabd586ea2064920aea7916cc57559f5b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.14597,5.9597]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2234974"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:naabd586ea2064920aea7916cc57559f5b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:naabd586ea2064920aea7916cc57559f5b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:naabd586ea2064920aea7916cc57559f5b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CM"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bamenda"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "North-West"
+      }
+    ]
+  },
+  {
+    "@id": "_:naabd586ea2064920aea7916cc57559f5b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:naabd586ea2064920aea7916cc57559f5b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cameroon"
+      }
+    ]
+  },
+  {
+    "@id": "_:naabd586ea2064920aea7916cc57559f5b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

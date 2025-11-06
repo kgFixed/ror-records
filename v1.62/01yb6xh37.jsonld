@@ -1,0 +1,170 @@
+[
+  {
+    "@id": "https://ror.org/01yb6xh37",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "WHO Bangladesh"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "World Health Organization Bangladesh"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nb5e73909dbad40e482ab58c386578a2bb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1972'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb5e73909dbad40e482ab58c386578a2bb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.who.int/bangladesh"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nb5e73909dbad40e482ab58c386578a2bb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "World Health Organization Regional Office for South-East Asia"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02wae9s43"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb5e73909dbad40e482ab58c386578a2bb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[90.40744,23.7104]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1185241"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb5e73909dbad40e482ab58c386578a2bb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb5e73909dbad40e482ab58c386578a2bb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb5e73909dbad40e482ab58c386578a2bb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BD"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dhaka"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Dhaka Division"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb5e73909dbad40e482ab58c386578a2bb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb5e73909dbad40e482ab58c386578a2bb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bangladesh"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb5e73909dbad40e482ab58c386578a2bb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

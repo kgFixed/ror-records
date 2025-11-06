@@ -1,0 +1,223 @@
+[
+  {
+    "@id": "https://ror.org/017hnb609",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HMEK"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Healthcare Centre of Hódmezővásárhely-Makó"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb1"
+      },
+      {
+        "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb5"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.hmek.hu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://csmekhm.hu"
+      },
+      {
+        "@id": "http://hmek.hu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[20.33333,46.41667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/719965"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hódmezővásárhely"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Csongrád"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Hungary"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb5",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[20.48333,46.21667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/717902"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb6"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb6",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb7"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Makó"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Csongrád"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb7",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb8"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Hungary"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec40a28ff9dd4b249531d3b410d6c4dbb8",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

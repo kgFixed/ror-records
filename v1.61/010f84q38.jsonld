@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/010f84q38",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IDEA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IDEA Academy"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IDEA College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbea67483bf7440dbbea52d1ab99bb37ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://mt.ideaeducation.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mt.ideaeducation.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbea67483bf7440dbbea52d1ab99bb37ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[14.42556,35.90917]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2562704"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbea67483bf7440dbbea52d1ab99bb37ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbea67483bf7440dbbea52d1ab99bb37ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbea67483bf7440dbbea52d1ab99bb37ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mosta"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Il-Mosta"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbea67483bf7440dbbea52d1ab99bb37ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbea67483bf7440dbbea52d1ab99bb37ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Malta"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbea67483bf7440dbbea52d1ab99bb37ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

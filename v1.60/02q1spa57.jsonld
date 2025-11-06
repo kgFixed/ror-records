@@ -1,0 +1,206 @@
+[
+  {
+    "@id": "https://ror.org/02q1spa57",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tunis University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Tunis_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne9ce735724494eebb834bc420d436098b1"
+      },
+      {
+        "@id": "_:ne9ce735724494eebb834bc420d436098b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1945'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne9ce735724494eebb834bc420d436098b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.utunis.rnu.tn/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tunis University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100007521"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.265234.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121779066"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne9ce735724494eebb834bc420d436098b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut Supérieur de Gestion de Tunis"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04w9mdw91"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne9ce735724494eebb834bc420d436098b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENSIT"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02a6s9190"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne9ce735724494eebb834bc420d436098b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.16579,36.81897]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2464470"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne9ce735724494eebb834bc420d436098b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne9ce735724494eebb834bc420d436098b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne9ce735724494eebb834bc420d436098b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tunis"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tunis Governorate"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne9ce735724494eebb834bc420d436098b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne9ce735724494eebb834bc420d436098b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Tunisia"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne9ce735724494eebb834bc420d436098b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "@id": "https://ror.org/03kgsv495",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bar-Ilan University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Bar-Ilan_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BIU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b1"
+      },
+      {
+        "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1955'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www1.biu.ac.il/indexE.php"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bar-Ilan University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100002744"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.22098.31"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000419370503"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nazareth Hospital EMMS"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02a2hb496"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Western Galilee Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/000ke5995"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[34.81065,32.08227]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/293788"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ramat Gan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tel Aviv"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Israel"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf771db07bec24a40a8f5eea27243e5b2b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/03re99q86",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MIZA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museo del Instituto de Zoología Agrícola \"Francisco Fernandez Yépez\""
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6c3268ed032b4592a3dcc86c6f09e8edb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.miza-ucv.org.ve"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://miza-ucv.org.ve"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6c3268ed032b4592a3dcc86c6f09e8edb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-67.59475,10.24972]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3632998"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6c3268ed032b4592a3dcc86c6f09e8edb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6c3268ed032b4592a3dcc86c6f09e8edb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6c3268ed032b4592a3dcc86c6f09e8edb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "VE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Maracay"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Aragua"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6c3268ed032b4592a3dcc86c6f09e8edb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6c3268ed032b4592a3dcc86c6f09e8edb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Venezuela"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6c3268ed032b4592a3dcc86c6f09e8edb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

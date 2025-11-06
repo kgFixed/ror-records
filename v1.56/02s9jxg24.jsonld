@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/02s9jxg24",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Zenica"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Zenica"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2000'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n12b8e5eb84b94442a8d249219100595eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://unze.ba"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Zenica"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.449830.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000102129594"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unze.ba"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12b8e5eb84b94442a8d249219100595eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[17.90397,44.20169]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3186573"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n12b8e5eb84b94442a8d249219100595eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12b8e5eb84b94442a8d249219100595eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n12b8e5eb84b94442a8d249219100595eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Zenica"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n12b8e5eb84b94442a8d249219100595eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n12b8e5eb84b94442a8d249219100595eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bosnia and Herzegovina"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12b8e5eb84b94442a8d249219100595eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

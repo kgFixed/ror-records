@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/05mx53e97",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Amazonica de Pando"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UAP"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1984'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3219b4b8020d49a79d0b1d87bd4e8e61b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://uap.edu.bo"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Amazonica de Pando"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.441762.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000120915257"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uap.edu.bo"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3219b4b8020d49a79d0b1d87bd4e8e61b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-68.76918,-11.02671]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3919998"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3219b4b8020d49a79d0b1d87bd4e8e61b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3219b4b8020d49a79d0b1d87bd4e8e61b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3219b4b8020d49a79d0b1d87bd4e8e61b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cobija"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Pando"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3219b4b8020d49a79d0b1d87bd4e8e61b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3219b4b8020d49a79d0b1d87bd4e8e61b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bolivia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3219b4b8020d49a79d0b1d87bd4e8e61b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "@id": "https://ror.org/04n0wbr94",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "D.O.O. «HARZ Labs»"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Drustvo Sa Ograncenom Odgovornoscu «HARZ Labs» Podgorica"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1cbd2d00379540a689385c50b35157dbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://harzlabs.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://harzlabs.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1cbd2d00379540a689385c50b35157dbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[19.26361,42.44111]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3193044"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1cbd2d00379540a689385c50b35157dbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1cbd2d00379540a689385c50b35157dbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1cbd2d00379540a689385c50b35157dbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ME"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Podgorica"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Podgorica"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1cbd2d00379540a689385c50b35157dbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1cbd2d00379540a689385c50b35157dbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Montenegro"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1cbd2d00379540a689385c50b35157dbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

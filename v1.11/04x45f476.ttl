@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://ror.org/04x45f476> a org:Organization ;
+    rdfs:label 'Fraunhofer Institute for Cell Therapy and Immunology'^^xsd:string ;
+    schema:name 'Fraunhofer Institute for Cell Therapy and Immunology'^^xsd:string ;
+    schema:foundingDate "'2005'^^xsd:gYear" ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'Facility'^^xsd:string ; 
+    dct:modified '2022-10-20'^^xsd:date ;
+    org:abbreviation 'IZI'^^xsd:string ;
+    org:alternativeName 'Fraunhofer IZI'^^xsd:string ;
+    schema:url <http://www.izi.fraunhofer.de/fraunhofer-izi.html?L=1> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[12.37129,51.33962]}" ;
+            schema:addressLocality 'Leipzig'^^xsd:string ;
+            schema:addressCountry "DE" ;
+            owl:sameAs <http://sws.geonames.org/2879139/> ;
+            dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+            ] ; 
+    schema:sameAs <http://isni.org/isni/0000000404943022> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q1313270> ;
+    schema:sameAs <https://grid.ac/institutions/g> ;
+    .

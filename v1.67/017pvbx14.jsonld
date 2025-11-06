@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/017pvbx14",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CIVE"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2015'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n71a990b165be4582921ca25dfe2a3527b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://cive.ec"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cive.ec"
+      }
+    ]
+  },
+  {
+    "@id": "_:n71a990b165be4582921ca25dfe2a3527b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-79.88621,-2.19616]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3657509"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n71a990b165be4582921ca25dfe2a3527b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n71a990b165be4582921ca25dfe2a3527b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n71a990b165be4582921ca25dfe2a3527b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EC"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Guayaquil"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Guayas"
+      }
+    ]
+  },
+  {
+    "@id": "_:n71a990b165be4582921ca25dfe2a3527b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n71a990b165be4582921ca25dfe2a3527b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ecuador"
+      }
+    ]
+  },
+  {
+    "@id": "_:n71a990b165be4582921ca25dfe2a3527b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

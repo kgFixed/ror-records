@@ -1,0 +1,163 @@
+[
+  {
+    "@id": "https://ror.org/04114az09",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-05"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-06"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://hu.wikipedia.org/wiki/Erd%25C3%25A9lyi_M%25C3%25BAzeum-Egyes%25C3%25BClet"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EME"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Asociația Muzeului Ardelean"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Transylvanian Museum Society"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1859'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n79cf77ed4a474b6cb0152f1cda8d7843b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://eme.ro"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000460049957"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://eme.ro"
+      }
+    ]
+  },
+  {
+    "@id": "_:n79cf77ed4a474b6cb0152f1cda8d7843b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.6,46.76667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/681290"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n79cf77ed4a474b6cb0152f1cda8d7843b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n79cf77ed4a474b6cb0152f1cda8d7843b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n79cf77ed4a474b6cb0152f1cda8d7843b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cluj-Napoca"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Cluj County"
+      }
+    ]
+  },
+  {
+    "@id": "_:n79cf77ed4a474b6cb0152f1cda8d7843b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n79cf77ed4a474b6cb0152f1cda8d7843b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Romania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n79cf77ed4a474b6cb0152f1cda8d7843b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

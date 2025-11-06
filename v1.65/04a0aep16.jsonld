@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/04a0aep16",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sykehuset i Vestfold"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Vestfold_Hospital_Trust"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1870'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n97ccc5f71f90423498a0ed089a28f863b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.siv.no/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sykehuset i Vestfold"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100021697"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.417292.b"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406273659"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97ccc5f71f90423498a0ed089a28f863b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.40762,59.26754]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3134331"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n97ccc5f71f90423498a0ed089a28f863b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97ccc5f71f90423498a0ed089a28f863b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n97ccc5f71f90423498a0ed089a28f863b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tønsberg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Vestfold"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97ccc5f71f90423498a0ed089a28f863b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n97ccc5f71f90423498a0ed089a28f863b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Norway"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97ccc5f71f90423498a0ed089a28f863b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

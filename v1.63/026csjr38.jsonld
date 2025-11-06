@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/026csjr38",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-02"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ASPU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2011'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3b3c1a83982e401ea13c774c101460aeb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.aspu.edu.sy"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://aspu.edu.sy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3b3c1a83982e401ea13c774c101460aeb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[36.32785,33.71795]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/172350"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3b3c1a83982e401ea13c774c101460aeb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3b3c1a83982e401ea13c774c101460aeb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3b3c1a83982e401ea13c774c101460aeb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Al-Tall District"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Rif-dimashq"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3b3c1a83982e401ea13c774c101460aeb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3b3c1a83982e401ea13c774c101460aeb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Syria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3b3c1a83982e401ea13c774c101460aeb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

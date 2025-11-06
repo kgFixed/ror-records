@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/01dm0sk45",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FCA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Andean Condor Foundation"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundación Cóndor Andino Ecuador"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundación Cóndor Andino Perú"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2018'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n31ee4de4caaf448ca3849a00aee16e71b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://fundacioncondor.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fundacioncondor.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n31ee4de4caaf448ca3849a00aee16e71b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-78.52495,-0.22985]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3652462"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n31ee4de4caaf448ca3849a00aee16e71b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n31ee4de4caaf448ca3849a00aee16e71b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n31ee4de4caaf448ca3849a00aee16e71b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EC"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Quito"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Pichincha"
+      }
+    ]
+  },
+  {
+    "@id": "_:n31ee4de4caaf448ca3849a00aee16e71b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n31ee4de4caaf448ca3849a00aee16e71b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ecuador"
+      }
+    ]
+  },
+  {
+    "@id": "_:n31ee4de4caaf448ca3849a00aee16e71b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/04hr99439",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Pfizer-University of Granada-Junta de Andalucía Centre for Genomics and Oncological Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GENYO"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:neeb1f10aa3f247b38f3ebf86620ef73cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.genyo.es"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Pfizer-University of Granada-Junta de Andalucía Centre for Genomics and Oncological Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100007321"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.470860.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000446777069"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://genyo.es"
+      }
+    ]
+  },
+  {
+    "@id": "_:neeb1f10aa3f247b38f3ebf86620ef73cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-3.60667,37.18817]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2517117"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:neeb1f10aa3f247b38f3ebf86620ef73cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:neeb1f10aa3f247b38f3ebf86620ef73cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:neeb1f10aa3f247b38f3ebf86620ef73cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Granada"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:neeb1f10aa3f247b38f3ebf86620ef73cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:neeb1f10aa3f247b38f3ebf86620ef73cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:neeb1f10aa3f247b38f3ebf86620ef73cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

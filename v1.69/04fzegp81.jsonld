@@ -1,0 +1,156 @@
+[
+  {
+    "@id": "https://ror.org/04fzegp81",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ar.wikipedia.org/wiki/%25D9%2585%25D8%25AF%25D8%25B1%25D8%25B3%25D8%25A9_%25D9%2588%25D9%258A%25D8%25B3%25D8%25AA_%25D9%2581%25D9%2588%25D8%25B1%25D8%25AF_%25D9%2584%25D9%2584%25D8%25A5%25D8%25AF%25D8%25A7%25D8%25B1%25D8%25A9_(%25D8%25A7%25D9%2584%25D8%25B4%25D8%25A7%25D8%25B1%25D9%2582%25D8%25A9)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Westford"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2009'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfce36f24c1194cb8ad949602b2d89d2eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.mywestford.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000446908890"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mywestford.com"
+      },
+      {
+        "@id": "http://westford.org.uk"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfce36f24c1194cb8ad949602b2d89d2eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[55.41206,25.33737]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/292672"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfce36f24c1194cb8ad949602b2d89d2eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfce36f24c1194cb8ad949602b2d89d2eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfce36f24c1194cb8ad949602b2d89d2eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sharjah"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Sharjah"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfce36f24c1194cb8ad949602b2d89d2eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfce36f24c1194cb8ad949602b2d89d2eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Arab Emirates"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfce36f24c1194cb8ad949602b2d89d2eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

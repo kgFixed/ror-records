@@ -1,0 +1,181 @@
+[
+  {
+    "@id": "https://ror.org/039v3q173",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-20"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://he.wikipedia.org/wiki/%25D7%2591%25D7%2599%25D7%25AA_%25D7%2594%25D7%2597%25D7%2595%25D7%259C%25D7%2599%25D7%259D_%25D7%25A9%25D7%259E%25D7%2595%25D7%2590%25D7%259C_%25D7%2594%25D7%25A8%25D7%2595%25D7%25A4%25D7%2590"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Shmuel Ha'rofe Medical Geriatric Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n82533863d3534067b0ca48b11ffb9168b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'1951'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n82533863d3534067b0ca48b11ffb9168b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.shmuelh.org.il"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000406360680"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://shmuelh.org.il"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82533863d3534067b0ca48b11ffb9168b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tel Aviv University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04mhzgx49"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82533863d3534067b0ca48b11ffb9168b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[34.83749,31.93864]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/295525"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n82533863d3534067b0ca48b11ffb9168b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82533863d3534067b0ca48b11ffb9168b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n82533863d3534067b0ca48b11ffb9168b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Be’er Ya‘aqov"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Central District"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82533863d3534067b0ca48b11ffb9168b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n82533863d3534067b0ca48b11ffb9168b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Israel"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82533863d3534067b0ca48b11ffb9168b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

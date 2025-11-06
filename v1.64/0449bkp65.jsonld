@@ -1,0 +1,169 @@
+[
+  {
+    "@id": "https://ror.org/0449bkp65",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Karbala"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UoK"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Karbala"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@value": "'2002'^^xsd:gYear"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na5ad0515a5ac4756b2c4a457dc4f1c54b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://uokerbala.edu.iq"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": ""
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100019728"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.442849.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404178367"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uokerbala.edu.iq"
+      }
+    ]
+  },
+  {
+    "@id": "_:na5ad0515a5ac4756b2c4a457dc4f1c54b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[44.02488,32.61603]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/94824"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na5ad0515a5ac4756b2c4a457dc4f1c54b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na5ad0515a5ac4756b2c4a457dc4f1c54b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na5ad0515a5ac4756b2c4a457dc4f1c54b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IQ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Karbala"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Karbalāʼ"
+      }
+    ]
+  },
+  {
+    "@id": "_:na5ad0515a5ac4756b2c4a457dc4f1c54b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na5ad0515a5ac4756b2c4a457dc4f1c54b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iraq"
+      }
+    ]
+  },
+  {
+    "@id": "_:na5ad0515a5ac4756b2c4a457dc4f1c54b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]
